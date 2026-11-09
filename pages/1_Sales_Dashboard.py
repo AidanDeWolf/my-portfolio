@@ -66,73 +66,55 @@ if filtered.empty:
 
 
 # 4. KPI ROW
-st.header("Sales Overview")
+st.header("Colorado Air Quality Dashboard")
 
-monthly = filtered.groupby(
-    "month", as_index=False
-)["sales"].sum()
+k1, k2, k3 = st.columns(3)
 
-last = monthly["sales"].iloc[-1]
-prev = monthly["sales"].iloc[-2] if len(monthly) > 1 else last
+k1.metric("Average AQI", f"{filtered['aqi'].mean():.1f}")
+k2.metric("Maximum AQI", int(filtered['aqi'].max())
+k3.metric("Average Ozone", f"{filtered['ozone_ppb'].mean():.1f} ppb')
 
-k1, k2, k3, k4 = st.columns(4)
 
-k1.metric("Total sales", f"{filtered['sales'].sum():,}")
-k2.metric("Latest month", f"{last:,}", delta=f"{last - prev:,}")
-k3.metric(
-    "Top product",
-    filtered.groupby("product")["sales"].sum().idxmax()
-)
-k4.metric("Average Monthly Sales", f"{filtered['sales'].mean():,}")
+# 5. MAIN CHARTS
+st.subheader("AQI Trend Over Time")
+aqi_trend = (filtered.groupby("date")["aqi"].mean().reset_index())
 
-# 5. MAIN ROW
-left, right = st.columns((3, 1), gap="medium")
+line_chart = alt.Chart(aqi_trend.mark_line().encode(
+    x="date:T",
+    y="aqi:Q",
+    tooltip=["date:T", "aqi:Q"]
+).properties(height=350)
+
+st.altair_chart(line_chart, use_container_width=True)
+
+left, right = st.columns(2)
 
 with left:
-    st.subheader("Monthly trend by region")
+    st.subheader("Ozone vs. Temperature")
 
-    trend = filtered.groupby(
-        ["month", "region"], as_index=False
-    )["sales"].sum()
-
-    line = (
-        alt.Chart(trend)
-        .mark_line(point=True)
-        .encode(
-            x=alt.X("month:T", title="Month"),
-            y=alt.Y("sales:Q", title="Sales"),
-            color=alt.Color(
-                "region:N",
-                scale=alt.Scale(scheme=theme)
-            ),
-            tooltip=["month:T", "region:N", "sales:Q"]
-        )
+    ozone_chart = alt.Chart(filtered).mark_circle().encode(
+        x="temp_f:Q",
+        y="ozone_ppb:Q",
+        tooltip=["city", "temp_f", "ozone_ppb"]
     )
-
-    st.altair_chart(line, width="stretch")
+    st.altair_chart(ozone_chart, use_container_width=True)
 
 with right:
-    st.subheader("Top products")
+    st.subheader("Wildfire Smoke Impact")
 
-    top = (
-        filtered.groupby("product", as_index=False)["sales"].sum()
-        .sort_values("sales", ascending=False)
+    smoke_data = (
+        filtered.groupby("wildfire_smoke")["aqi"]
+        .mean()
+        .reset_index()
     )
 
-    st.dataframe(
-        top,
-        hide_index=True,
-        width="stretch",
-        column_config={
-            "product": st.column_config.TextColumn("Product"),
-            "sales": st.column_config.ProgressColumn(
-                "Sales",
-                format="%d",
-                min_value=0,
-                max_value=int(top["sales"].max())
-            ),
-        },
+    smoke_chart = alt.Chart(smoke_data).mark_bar().encode(
+        x="wildfire_smoke:N",
+        y="aqi:Q",
+        tooltip=["wildfire_smoke", "aqi"]
     )
+
+    st.altair_chart(smoke_chart, use_container_width=True)
 
 # 6. TABS
 tab_heat, tab_data = st.tabs(["🔥 Heatmap", "📄 Raw data"])
