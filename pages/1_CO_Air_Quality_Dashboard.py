@@ -159,7 +159,7 @@ with right:
         y=alt.Y("avg_aqi:Q", title="Average AQI"),
         color=alt.Color(
             "avg_aqi:Q",
-            scale=alt.Scale(scheme="greens"),
+            scale=alt.Scale(scheme="reds"),
             legend=None
         ),
         tooltip=["city", "avg_aqi"]
