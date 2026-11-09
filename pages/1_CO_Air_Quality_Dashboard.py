@@ -83,7 +83,7 @@ line_chart = alt.Chart(aqi_trend.mark_line().encode(
     x="date:T",
     y="aqi:Q",
     tooltip=["date:T", "aqi:Q"]
-).properties(height=350)
+).properties(height=350))
 
 st.altair_chart(line_chart, use_container_width=True)
 
