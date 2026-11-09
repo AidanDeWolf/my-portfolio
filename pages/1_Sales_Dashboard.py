@@ -72,7 +72,7 @@ k1, k2, k3 = st.columns(3)
 
 k1.metric("Average AQI", f"{filtered['aqi'].mean():.1f}")
 k2.metric("Maximum AQI", int(filtered['aqi'].max())
-k3.metric("Average Ozone", f"{filtered['ozone_ppb'].mean():.1f} ppb')
+k3.metric("Average Ozone", f"{filtered['ozone_ppb'].mean():.1f} ppb")
 
 
 # 5. MAIN CHARTS
