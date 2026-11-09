@@ -135,13 +135,11 @@ with left:
 
     st.altair_chart(ozone_chart, use_container_width=True)
     st.caption("Scatterplot showing a generally positive relationship between temperature and ozone concentration. "
-               "Higher temperatures tend to correspond with higher ozone levels."
+               "Higher temperatures tend to correspond with higher ozone levels.")
 
 # WILDFIRE SMOKE BOXPLOT
-
 with middle:
     st.subheader("Wildfire Smoke Impact")
-
     smoke_chart = alt.Chart(filtered).mark_boxplot().encode(
         x=alt.X("wildfire_smoke:N", title="Wildfire Smoke"),
         y=alt.Y("aqi:Q", title="AQI"),
@@ -149,8 +147,8 @@ with middle:
     ).properties(height=300)
 
     st.altair_chart(smoke_chart, use_container_width=True)
-    st. caption("AQI Boxplots for wildfire smoke and non-smoke days are completely separated."
-                "The median AQI is 146 on smoke days compared to 39 on non-smoke days, indicating a substantial difference in air quality."
+    st.caption("AQI Boxplots for wildfire smoke and non-smoke days are completely separated."
+                "The median AQI is 146 on smoke days compared to 39 on non-smoke days, indicating a substantial difference in air quality.")
 
 # AVERAGE AQI BY CITY
 with right:
