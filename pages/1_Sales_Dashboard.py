@@ -45,6 +45,12 @@ with st.sidebar:
         default=sorted(df["region"].unique())
     )
 
+    product_choice = st.multiselect(
+        "Region",
+        options=sorted(df["products"].unique()),
+        default=sorted(df["prodcuts"].unique())
+    )
+
     month_range = st.slider(
         "Months",
         min_value=1,
@@ -59,6 +65,7 @@ with st.sidebar:
 
 mask = (
     df["region"].isin(region_choice)
+    & df["product".isin(product_choice)
     & df["month"].dt.month.between(
         month_range[0], month_range[1]
     )
@@ -80,7 +87,7 @@ monthly = filtered.groupby(
 last = monthly["sales"].iloc[-1]
 prev = monthly["sales"].iloc[-2] if len(monthly) > 1 else last
 
-k1, k2, k3 = st.columns(3)
+k1, k2, k3, k4 = st.columns(4)
 
 k1.metric("Total sales", f"{filtered['sales'].sum():,}")
 k2.metric("Latest month", f"{last:,}", delta=f"{last - prev:,}")
@@ -88,9 +95,10 @@ k3.metric(
     "Top product",
     filtered.groupby("product")["sales"].sum().idxmax()
 )
+k4.metric("Average Monthly Sales", f"{filtered['sales'].mean():,})
 
 # 5. MAIN ROW
-left, right = st.columns((2, 1), gap="medium")
+left, right = st.columns((3, 1), gap="medium")
 
 with left:
     st.subheader("Monthly trend by region")
