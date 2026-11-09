@@ -69,6 +69,7 @@ filtered = df[mask]
 if filtered.empty:
     st.warning("No data matches these filters.")
     st.stop
+st.sidebar.caption("Data: Colorado Air Quality")
 
 
 # ----------------------------------
