@@ -171,23 +171,42 @@ with right:
 # KEY INSIGHTS
 # ----------------------------------
 st.divider()
-
 st.subheader("Key Insights")
 
-city_averages = (
-    filtered.groupby("city")["aqi"].mean()
+# Highest average AQI city
+city_averages = filtered.groupby("city")["aqi"].mean()
+highest_city = city_averages.idxmax()
+highest_city_aqi = city_averages.max()
+
+# Wildfire smoke comparison
+smoke_avg = filtered.groupby("wildfire_smoke")["aqi"].mean()
+
+smoke_yes = smoke_avg.get("yes", float("nan"))
+smoke_no = smoke_avg.get("no", float("nan"))
+
+# Month with highest average AQI
+worst_month = (
+    filtered.groupby("month")["aqi"]
+    .mean()
+    .idxmax()
 )
 
-highest_city = city_averages.idxmax()
-lowest_city = city_averages.idxmin()
+# Temperature and ozone correlation
+correlation = filtered["temp_f"].corr(
+    filtered["ozone_ppb"]
+)
 
 st.markdown(f"""
-- The average AQI across selected observations is
-  **{filtered['aqi'].mean():.1f}**.
+- **Highest AQI by city:** {highest_city} has the highest
+  average AQI at **{highest_city_aqi:.1f}**.
 
-- **{highest_city}** has the highest average AQI,
-  while **{lowest_city}** has the lowest.
+- **Wildfire smoke impact:** Average AQI is
+  **{smoke_yes:.1f}** on smoke days compared to
+  **{smoke_no:.1f}** on non-smoke days.
 
-- Average ozone concentration is
-  **{filtered['ozone_ppb'].mean():.1f} ppb**.
+- **Seasonal pattern:** {worst_month} has the highest
+  average AQI.
+
+- **Ozone and temperature:** The correlation is
+  **{correlation:.2f}**.
 """)
