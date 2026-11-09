@@ -15,7 +15,7 @@ st.set_page_config(
 @st.cache_data
 def load_data():
     df = pd.read_csv("data/colorado_air_quality.csv")
-    df["date"] = pd.to_datetime(df["date"], format="%m/%d/%Y")
+    df["date"] = pd.to_datetime(df["date"])
     return df
 
 df = load_data()
