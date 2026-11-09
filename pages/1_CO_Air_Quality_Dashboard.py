@@ -79,11 +79,11 @@ k3.metric("Average Ozone", f"{filtered['ozone_ppb'].mean():.1f} ppb")
 st.subheader("AQI Trend Over Time")
 aqi_trend = (filtered.groupby("date")["aqi"].mean().reset_index())
 
-line_chart = alt.Chart(aqi_trend.mark_line().encode(
+line_chart = alt.Chart(aqi_trend).mark_line().encode(
     x="date:T",
     y="aqi:Q",
     tooltip=["date:T", "aqi:Q"]
-).properties(height=350))
+).properties(height=350)
 
 st.altair_chart(line_chart, use_container_width=True)
 
