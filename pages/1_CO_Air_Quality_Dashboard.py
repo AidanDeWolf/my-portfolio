@@ -206,13 +206,13 @@ correlation = filtered["temp_f"].corr(
 )
 
 st.markdown(f"""
-- **Highest AQI by city:** {highest_city} has the highest
+- **Highest AQI by city:** *{highest_city}* has the highest
   average AQI at **{highest_city_aqi:.1f}**.
 
 
-- **Seasonal pattern:** {worst_month} has the highest
+- **Seasonal pattern:** *{worst_month}* has the highest
   average AQI at **{worst_month_aqi:.1f}**.
 
-- **Ozone and temperature:** The correlation is
+- **Ozone and temperature:** The correlation within the selected filters is
   **{correlation:.2f}**.
 """)
