@@ -1,0 +1,2191 @@
+date,month,city,pm25_ugm3,ozone_ppb,aqi,aqi_category,temp_f,wildfire_smoke
+2025-01-01,Jan,Denver,10.9,26.0,44,Good,13.0,No
+2025-01-01,Jan,Boulder,5.5,22.0,22,Good,21.0,No
+2025-01-01,Jan,Colorado Springs,7.0,25.0,28,Good,12.0,No
+2025-01-01,Jan,Fort Collins,7.2,37.0,38,Good,10.0,No
+2025-01-01,Jan,Grand Junction,12.2,35.0,49,Good,12.0,No
+2025-01-01,Jan,Pueblo,,34.0,37,Good,24.0,No
+2025-01-02,Jan,Denver,12.1,33.0,49,Good,22.0,No
+2025-01-02,Jan,Boulder,4.0,34.0,35,Good,10.0,No
+2025-01-02,Jan,Colorado Springs,6.0,29.0,30,Good,25.0,No
+2025-01-02,Jan,Fort Collins,7.6,32.0,34,Good,21.0,No
+2025-01-02,Jan,Grand Junction,10.6,35.0,43,Good,22.0,No
+2025-01-02,Jan,Pueblo,8.0,37.0,39,Good,29.0,No
+2025-01-03,Jan,Denver,12.9,45.0,52,Moderate,17.0,No
+2025-01-03,Jan,Boulder,4.8,39.0,40,Good,20.0,No
+2025-01-03,Jan,Colorado Springs,3.0,31.0,32,Good,17.0,No
+2025-01-03,Jan,Fort Collins,3.6,38.0,40,Good,20.0,No
+2025-01-03,Jan,Grand Junction,16.8,28.0,69,Moderate,24.0,No
+2025-01-03,Jan,Pueblo,8.3,30.0,34,Good,25.0,No
+2025-01-04,Jan,Denver,16.3,44.0,66,Moderate,16.0,No
+2025-01-04,Jan,Boulder,4.5,21.0,21,Good,19.0,No
+2025-01-04,Jan,Colorado Springs,5.2,31.0,32,Good,4.0,No
+2025-01-04,Jan,Fort Collins,5.3,20.0,21,Good,14.0,No
+2025-01-04,Jan,Grand Junction,9.5,19.0,39,Good,26.0,No
+2025-01-04,Jan,Pueblo,6.1,30.0,31,Good,33.0,No
+2025-01-05,Jan,Denver,15.1,47.0,61,Moderate,28.0,No
+2025-01-05,Jan,Boulder,2.9,39.0,40,Good,13.0,No
+2025-01-05,Jan,Colorado Springs,6.0,37.0,39,Good,20.0,No
+2025-01-05,Jan,Fort Collins,8.9,29.0,36,Good,11.0,No
+2025-01-05,Jan,Grand Junction,16.3,27.0,66,Moderate,17.0,No
+2025-01-05,Jan,Pueblo,7.8,25.0,31,Good,17.0,No
+2025-01-06,Jan,Denver,13.2,37.0,53,Moderate,18.0,No
+2025-01-06,Jan,Boulder,7.5,32.0,33,Good,17.0,No
+2025-01-06,Jan,Colorado Springs,8.4,16.0,34,Good,20.0,No
+2025-01-06,Jan,Fort Collins,9.4,31.0,38,Good,16.0,No
+2025-01-06,Jan,Grand Junction,14.3,38.0,58,Moderate,21.0,No
+2025-01-06,Jan,Pueblo,6.6,35.0,36,Good,19.0,No
+2025-01-07,Jan,Denver,8.9,34.0,36,Good,28.0,No
+2025-01-07,Jan,Boulder,9.0,32.0,36,Good,16.0,No
+2025-01-07,Jan,Colorado Springs,7.2,32.0,33,Good,21.0,No
+2025-01-07,Jan,Fort Collins,2.8,20.0,21,Good,16.0,No
+2025-01-07,Jan,Grand Junction,13.1,27.0,53,Moderate,9.0,No
+2025-01-07,Jan,Pueblo,9.5,23.0,38,Good,8.0,No
+2025-01-08,Jan,Denver,11.5,34.0,47,Good,17.0,No
+2025-01-08,Jan,Boulder,2.7,32.0,33,Good,11.0,No
+2025-01-08,Jan,Colorado Springs,4.2,30.0,31,Good,11.0,No
+2025-01-08,Jan,Fort Collins,12.5,42.0,51,Moderate,1.0,No
+2025-01-08,Jan,Grand Junction,10.7,33.0,43,Good,24.0,No
+2025-01-08,Jan,Pueblo,4.7,31.0,32,Good,26.0,No
+2025-01-09,Jan,Denver,14.9,23.0,61,Moderate,23.0,No
+2025-01-09,Jan,Boulder,6.3,18.0,25,Good,31.0,No
+2025-01-09,Jan,Colorado Springs,10.8,27.0,44,Good,23.0,No
+2025-01-09,Jan,Fort Collins,6.0,35.0,36,Good,25.0,No
+2025-01-09,Jan,Grand Junction,6.4,37.0,38,Good,20.0,No
+2025-01-09,Jan,Pueblo,8.5,29.0,34,Good,6.0,No
+2025-01-10,Jan,Denver,10.8,47.0,49,Good,11.0,No
+2025-01-10,Jan,Boulder,7.3,29.0,30,Good,26.0,No
+2025-01-10,Jan,Colorado Springs,6.6,24.0,26,Good,27.0,No
+2025-01-10,Jan,Fort Collins,3.6,34.0,35,Good,14.0,No
+2025-01-10,Jan,Grand Junction,10.7,18.0,43,Good,24.0,No
+2025-01-10,Jan,Pueblo,5.8,22.0,23,Good,18.0,No
+2025-01-11,Jan,Denver,12.2,34.0,50,Good,17.0,No
+2025-01-11,Jan,Boulder,16.9,38.0,69,Moderate,8.0,No
+2025-01-11,Jan,Colorado Springs,6.9,49.0,51,Moderate,21.0,No
+2025-01-11,Jan,Fort Collins,5.4,39.0,40,Good,16.0,No
+2025-01-11,Jan,Grand Junction,12.2,34.0,50,Good,18.0,No
+2025-01-11,Jan,Pueblo,10.7,27.0,43,Good,21.0,No
+2025-01-12,Jan,Denver,12.8,33.0,52,Moderate,17.0,No
+2025-01-12,Jan,Boulder,6.9,22.0,28,Good,14.0,No
+2025-01-12,Jan,Colorado Springs,3.6,31.0,32,Good,18.0,No
+2025-01-12,Jan,Fort Collins,2.5,29.0,30,Good,26.0,No
+2025-01-12,Jan,Grand Junction,11.4,34.0,46,Good,12.0,No
+2025-01-12,Jan,Pueblo,9.5,39.0,40,Good,18.0,No
+2025-01-13,Jan,Denver,15.7,40.0,64,Moderate,3.0,No
+2025-01-13,Jan,Boulder,9.7,23.0,39,Good,20.0,No
+2025-01-13,Jan,Colorado Springs,6.6,24.0,26,Good,19.0,No
+2025-01-13,Jan,Fort Collins,12.5,22.0,51,Moderate,10.0,No
+2025-01-13,Jan,Grand Junction,7.9,40.0,42,Good,29.0,No
+2025-01-13,Jan,Pueblo,4.9,29.0,30,Good,30.0,No
+2025-01-14,Jan,Denver,11.3,45.0,47,Good,17.0,No
+2025-01-14,Jan,Boulder,4.7,31.0,32,Good,19.0,No
+2025-01-14,Jan,Colorado Springs,3.7,25.0,26,Good,4.0,No
+2025-01-14,Jan,Fort Collins,5.3,32.0,34,Good,16.0,No
+2025-01-14,Jan,Grand Junction,11.2,41.0,46,Good,31.0,No
+2025-01-14,Jan,Pueblo,9.4,31.0,38,Good,26.0,No
+2025-01-15,Jan,Denver,13.0,45.0,53,Moderate,24.0,No
+2025-01-15,Jan,Boulder,8.6,34.0,36,Good,14.0,No
+2025-01-15,Jan,Colorado Springs,6.7,24.0,27,Good,9.0,No
+2025-01-15,Jan,Fort Collins,6.5,32.0,34,Good,15.0,No
+2025-01-15,Jan,Grand Junction,12.2,22.0,49,Good,14.0,No
+2025-01-15,Jan,Pueblo,5.7,32.0,33,Good,17.0,No
+2025-01-16,Jan,Denver,12.5,43.0,51,Moderate,15.0,No
+2025-01-16,Jan,Boulder,11.5,39.0,46,Good,22.0,No
+2025-01-16,Jan,Colorado Springs,5.1,32.0,33,Good,30.0,No
+2025-01-16,Jan,Fort Collins,6.7,34.0,36,Good,21.0,No
+2025-01-16,Jan,Grand Junction,9.0,23.0,36,Good,28.0,No
+2025-01-16,Jan,Pueblo,9.1,29.0,37,Good,23.0,No
+2025-01-17,Jan,Denver,11.8,28.0,48,Good,10.0,No
+2025-01-17,Jan,Boulder,6.8,49.0,51,Moderate,21.0,No
+2025-01-17,Jan,Colorado Springs,9.9,34.0,40,Good,17.0,No
+2025-01-17,Jan,Fort Collins,,22.0,23,Good,16.0,No
+2025-01-17,Jan,Grand Junction,8.5,30.0,35,Good,12.0,No
+2025-01-17,Jan,Pueblo,5.4,30.0,31,Good,29.0,No
+2025-01-18,Jan,Denver,12.6,38.0,51,Moderate,18.0,No
+2025-01-18,Jan,Boulder,9.9,23.0,40,Good,26.0,No
+2025-01-18,Jan,Colorado Springs,2.5,32.0,33,Good,10.0,No
+2025-01-18,Jan,Fort Collins,9.4,28.0,38,Good,14.0,No
+2025-01-18,Jan,Grand Junction,13.6,22.0,55,Moderate,24.0,No
+2025-01-18,Jan,Pueblo,3.2,34.0,35,Good,14.0,No
+2025-01-19,Jan,Denver,12.0,47.0,49,Good,16.0,No
+2025-01-19,Jan,Boulder,5.8,29.0,30,Good,14.0,No
+2025-01-19,Jan,Colorado Springs,12.0,25.0,49,Good,13.0,No
+2025-01-19,Jan,Fort Collins,4.8,36.0,38,Good,14.0,No
+2025-01-19,Jan,Grand Junction,9.0,24.0,36,Good,18.0,No
+2025-01-19,Jan,Pueblo,5.7,31.0,32,Good,38.0,No
+2025-01-20,Jan,Denver,12.7,35.0,52,Moderate,20.0,No
+2025-01-20,Jan,Boulder,8.0,27.0,32,Good,18.0,No
+2025-01-20,Jan,Colorado Springs,1.0,37.0,39,Good,15.0,No
+2025-01-20,Jan,Fort Collins,11.3,31.0,46,Good,19.0,No
+2025-01-20,Jan,Grand Junction,14.8,21.0,60,Moderate,30.0,No
+2025-01-20,Jan,Pueblo,7.9,31.0,32,Good,25.0,No
+2025-01-21,Jan,Denver,15.4,44.0,63,Moderate,13.0,No
+2025-01-21,Jan,Boulder,9.9,20.0,40,Good,22.0,No
+2025-01-21,Jan,Colorado Springs,8.0,34.0,36,Good,18.0,No
+2025-01-21,Jan,Fort Collins,1.4,30.0,31,Good,20.0,No
+2025-01-21,Jan,Grand Junction,10.4,30.0,42,Good,16.0,No
+2025-01-21,Jan,Pueblo,3.4,31.0,32,Good,16.0,No
+2025-01-22,Jan,Denver,14.5,33.0,59,Moderate,22.0,No
+2025-01-22,Jan,Boulder,7.8,24.0,31,Good,19.0,No
+2025-01-22,Jan,Colorado Springs,8.6,36.0,37,Good,27.0,No
+2025-01-22,Jan,Fort Collins,1.5,41.0,43,Good,7.0,No
+2025-01-22,Jan,Grand Junction,11.6,38.0,47,Good,19.0,No
+2025-01-22,Jan,Pueblo,11.6,22.0,47,Good,15.0,No
+2025-01-23,Jan,Denver,12.7,28.0,52,Moderate,26.0,No
+2025-01-23,Jan,Boulder,4.0,36.0,37,Good,21.0,No
+2025-01-23,Jan,Colorado Springs,4.1,35.0,36,Good,22.0,No
+2025-01-23,Jan,Fort Collins,5.5,27.0,28,Good,7.0,No
+2025-01-23,Jan,Grand Junction,5.1,30.0,31,Good,23.0,No
+2025-01-23,Jan,Pueblo,8.0,23.0,32,Good,12.0,No
+2025-01-24,Jan,Denver,10.8,32.0,44,Good,24.0,No
+2025-01-24,Jan,Boulder,1.3,28.0,29,Good,10.0,No
+2025-01-24,Jan,Colorado Springs,5.3,38.0,39,Good,19.0,No
+2025-01-24,Jan,Fort Collins,3.1,26.0,27,Good,16.0,No
+2025-01-24,Jan,Grand Junction,13.6,32.0,55,Moderate,23.0,No
+2025-01-24,Jan,Pueblo,3.9,31.0,32,Good,20.0,No
+2025-01-25,Jan,Denver,12.5,31.0,51,Moderate,22.0,No
+2025-01-25,Jan,Boulder,8.5,36.0,37,Good,28.0,No
+2025-01-25,Jan,Colorado Springs,5.7,30.0,31,Good,8.0,No
+2025-01-25,Jan,Fort Collins,10.7,31.0,43,Good,21.0,No
+2025-01-25,Jan,Grand Junction,10.8,35.0,44,Good,24.0,No
+2025-01-25,Jan,Pueblo,6.0,24.0,24,Good,23.0,No
+2025-01-26,Jan,Denver,15.3,40.0,62,Moderate,19.0,No
+2025-01-26,Jan,Boulder,7.3,30.0,31,Good,28.0,No
+2025-01-26,Jan,Colorado Springs,5.6,25.0,25,Good,12.0,No
+2025-01-26,Jan,Fort Collins,9.4,41.0,42,Good,24.0,No
+2025-01-26,Jan,Grand Junction,14.4,34.0,59,Moderate,23.0,No
+2025-01-26,Jan,Pueblo,4.9,26.0,27,Good,20.0,No
+2025-01-27,Jan,Denver,10.1,44.0,46,Good,15.0,No
+2025-01-27,Jan,Boulder,1.7,18.0,19,Good,16.0,No
+2025-01-27,Jan,Colorado Springs,5.6,36.0,37,Good,20.0,No
+2025-01-27,Jan,Fort Collins,8.7,33.0,35,Good,21.0,No
+2025-01-27,Jan,Grand Junction,5.6,47.0,49,Good,23.0,No
+2025-01-27,Jan,Pueblo,13.2,32.0,54,Moderate,19.0,No
+2025-01-28,Jan,Denver,13.8,33.0,56,Moderate,21.0,No
+2025-01-28,Jan,Boulder,6.0,25.0,26,Good,25.0,No
+2025-01-28,Jan,Colorado Springs,8.4,32.0,34,Good,13.0,No
+2025-01-28,Jan,Fort Collins,7.6,23.0,31,Good,15.0,No
+2025-01-28,Jan,Grand Junction,18.2,31.0,74,Moderate,29.0,No
+2025-01-28,Jan,Pueblo,12.3,23.0,50,Good,19.0,No
+2025-01-29,Jan,Denver,11.3,47.0,49,Good,12.0,No
+2025-01-29,Jan,Boulder,6.8,30.0,31,Good,10.0,No
+2025-01-29,Jan,Colorado Springs,8.1,29.0,33,Good,21.0,No
+2025-01-29,Jan,Fort Collins,9.1,21.0,37,Good,21.0,No
+2025-01-29,Jan,Grand Junction,12.0,35.0,49,Good,15.0,No
+2025-01-29,Jan,Pueblo,6.3,26.0,26,Good,23.0,No
+2025-01-30,Jan,Denver,12.9,35.0,52,Moderate,18.0,No
+2025-01-30,Jan,Boulder,10.2,37.0,41,Good,25.0,No
+2025-01-30,Jan,Colorado Springs,4.8,26.0,26,Good,27.0,No
+2025-01-30,Jan,Fort Collins,3.6,30.0,31,Good,19.0,No
+2025-01-30,Jan,Grand Junction,9.2,19.0,37,Good,20.0,No
+2025-01-30,Jan,Pueblo,6.8,37.0,39,Good,24.0,No
+2025-01-31,Jan,Denver,14.7,37.0,60,Moderate,8.0,No
+2025-01-31,Jan,Boulder,9.3,31.0,38,Good,21.0,No
+2025-01-31,Jan,Colorado Springs,4.0,25.0,26,Good,17.0,No
+2025-01-31,Jan,Fort Collins,4.7,26.0,27,Good,16.0,No
+2025-01-31,Jan,Grand Junction,15.0,30.0,61,Moderate,27.0,No
+2025-01-31,Jan,Pueblo,5.7,32.0,33,Good,40.0,No
+2025-02-01,Feb,Denver,10.1,51.0,53,Moderate,18.0,No
+2025-02-01,Feb,Boulder,6.2,25.0,26,Good,21.0,No
+2025-02-01,Feb,Colorado Springs,6.0,37.0,38,Good,21.0,No
+2025-02-01,Feb,Fort Collins,9.9,34.0,40,Good,15.0,No
+2025-02-01,Feb,Grand Junction,11.1,30.0,45,Good,40.0,No
+2025-02-01,Feb,Pueblo,9.3,35.0,38,Good,14.0,No
+2025-02-02,Feb,Denver,5.6,42.0,43,Good,22.0,No
+2025-02-02,Feb,Boulder,7.8,28.0,31,Good,16.0,No
+2025-02-02,Feb,Colorado Springs,6.5,25.0,26,Good,17.0,No
+2025-02-02,Feb,Fort Collins,8.8,20.0,36,Good,4.0,No
+2025-02-02,Feb,Grand Junction,7.4,35.0,36,Good,3.0,No
+2025-02-02,Feb,Pueblo,4.5,31.0,32,Good,28.0,No
+2025-02-03,Feb,Denver,4.9,39.0,41,Good,24.0,No
+2025-02-03,Feb,Boulder,8.3,21.0,34,Good,12.0,No
+2025-02-03,Feb,Colorado Springs,3.1,26.0,27,Good,16.0,No
+2025-02-03,Feb,Fort Collins,10.0,32.0,40,Good,28.0,No
+2025-02-03,Feb,Grand Junction,10.8,30.0,44,Good,31.0,No
+2025-02-03,Feb,Pueblo,9.6,29.0,39,Good,20.0,No
+2025-02-04,Feb,Denver,10.1,40.0,42,Good,19.0,No
+2025-02-04,Feb,Boulder,6.2,26.0,27,Good,28.0,No
+2025-02-04,Feb,Colorado Springs,10.4,31.0,42,Good,19.0,No
+2025-02-04,Feb,Fort Collins,6.9,30.0,31,Good,14.0,No
+2025-02-04,Feb,Grand Junction,8.6,22.0,35,Good,28.0,No
+2025-02-04,Feb,Pueblo,5.9,39.0,40,Good,23.0,No
+2025-02-05,Feb,Denver,6.6,31.0,32,Good,40.0,No
+2025-02-05,Feb,Boulder,6.0,33.0,34,Good,13.0,No
+2025-02-05,Feb,Colorado Springs,2.9,28.0,28,Good,29.0,No
+2025-02-05,Feb,Fort Collins,4.3,27.0,28,Good,16.0,No
+2025-02-05,Feb,Grand Junction,4.2,28.0,29,Good,23.0,No
+2025-02-05,Feb,Pueblo,9.3,20.0,38,Good,38.0,No
+2025-02-06,Feb,Denver,7.4,40.0,42,Good,16.0,No
+2025-02-06,Feb,Boulder,4.6,29.0,30,Good,23.0,No
+2025-02-06,Feb,Colorado Springs,4.2,26.0,27,Good,27.0,No
+2025-02-06,Feb,Fort Collins,7.8,32.0,33,Good,20.0,No
+2025-02-06,Feb,Grand Junction,5.9,29.0,30,Good,23.0,No
+2025-02-06,Feb,Pueblo,3.0,36.0,38,Good,32.0,No
+2025-02-07,Feb,Denver,7.7,32.0,33,Good,22.0,No
+2025-02-07,Feb,Boulder,8.8,31.0,36,Good,19.0,No
+2025-02-07,Feb,Colorado Springs,9.4,37.0,38,Good,24.0,No
+2025-02-07,Feb,Fort Collins,9.9,33.0,40,Good,31.0,No
+2025-02-07,Feb,Grand Junction,4.7,34.0,35,Good,26.0,No
+2025-02-07,Feb,Pueblo,6.5,36.0,37,Good,15.0,No
+2025-02-08,Feb,Denver,12.5,31.0,51,Moderate,28.0,No
+2025-02-08,Feb,Boulder,3.4,35.0,36,Good,37.0,No
+2025-02-08,Feb,Colorado Springs,5.3,26.0,27,Good,11.0,No
+2025-02-08,Feb,Fort Collins,6.9,31.0,32,Good,13.0,No
+2025-02-08,Feb,Grand Junction,6.5,36.0,37,Good,33.0,No
+2025-02-08,Feb,Pueblo,13.9,33.0,57,Moderate,22.0,No
+2025-02-09,Feb,Denver,9.5,23.0,39,Good,24.0,No
+2025-02-09,Feb,Boulder,2.9,29.0,30,Good,29.0,No
+2025-02-09,Feb,Colorado Springs,5.2,21.0,22,Good,24.0,No
+2025-02-09,Feb,Fort Collins,12.2,34.0,49,Good,30.0,No
+2025-02-09,Feb,Grand Junction,4.9,24.0,24,Good,41.0,No
+2025-02-09,Feb,Pueblo,7.5,25.0,30,Good,33.0,No
+2025-02-10,Feb,Denver,9.1,57.0,59,Moderate,10.0,No
+2025-02-10,Feb,Boulder,1.0,20.0,20,Good,22.0,No
+2025-02-10,Feb,Colorado Springs,2.5,30.0,31,Good,28.0,No
+2025-02-10,Feb,Fort Collins,8.0,39.0,41,Good,20.0,No
+2025-02-10,Feb,Grand Junction,9.2,21.0,37,Good,25.0,No
+2025-02-10,Feb,Pueblo,2.0,18.0,19,Good,23.0,No
+2025-02-11,Feb,Denver,10.2,46.0,48,Good,22.0,No
+2025-02-11,Feb,Boulder,3.5,42.0,44,Good,19.0,No
+2025-02-11,Feb,Colorado Springs,3.2,23.0,24,Good,16.0,No
+2025-02-11,Feb,Fort Collins,6.8,37.0,39,Good,28.0,No
+2025-02-11,Feb,Grand Junction,10.3,31.0,42,Good,22.0,No
+2025-02-11,Feb,Pueblo,7.7,31.0,32,Good,28.0,No
+2025-02-12,Feb,Denver,7.5,34.0,35,Good,12.0,No
+2025-02-12,Feb,Boulder,4.4,28.0,29,Good,22.0,No
+2025-02-12,Feb,Colorado Springs,5.5,30.0,31,Good,21.0,No
+2025-02-12,Feb,Fort Collins,4.1,30.0,31,Good,11.0,No
+2025-02-12,Feb,Grand Junction,6.7,27.0,28,Good,27.0,No
+2025-02-12,Feb,Pueblo,4.3,32.0,33,Good,31.0,No
+2025-02-13,Feb,Denver,7.4,38.0,39,Good,32.0,No
+2025-02-13,Feb,Boulder,6.5,25.0,26,Good,8.0,No
+2025-02-13,Feb,Colorado Springs,4.9,24.0,25,Good,29.0,No
+2025-02-13,Feb,Fort Collins,5.9,35.0,36,Good,28.0,No
+2025-02-13,Feb,Grand Junction,5.1,37.0,38,Good,18.0,No
+2025-02-13,Feb,Pueblo,4.3,24.0,24,Good,27.0,No
+2025-02-14,Feb,Denver,6.2,41.0,43,Good,20.0,No
+2025-02-14,Feb,Boulder,7.0,37.0,38,Good,21.0,No
+2025-02-14,Feb,Colorado Springs,9.8,30.0,40,Good,35.0,No
+2025-02-14,Feb,Fort Collins,,25.0,31,Good,21.0,No
+2025-02-14,Feb,Grand Junction,3.6,42.0,44,Good,28.0,No
+2025-02-14,Feb,Pueblo,7.3,28.0,29,Good,31.0,No
+2025-02-15,Feb,Denver,14.1,41.0,57,Moderate,28.0,No
+2025-02-15,Feb,Boulder,6.4,25.0,26,Good,27.0,No
+2025-02-15,Feb,Colorado Springs,5.2,34.0,35,Good,15.0,No
+2025-02-15,Feb,Fort Collins,7.3,39.0,40,Good,26.0,No
+2025-02-15,Feb,Grand Junction,9.7,38.0,40,Good,37.0,No
+2025-02-15,Feb,Pueblo,10.5,24.0,42,Good,29.0,No
+2025-02-16,Feb,Denver,8.5,38.0,39,Good,21.0,No
+2025-02-16,Feb,Boulder,3.3,33.0,35,Good,18.0,No
+2025-02-16,Feb,Colorado Springs,9.0,21.0,37,Good,18.0,No
+2025-02-16,Feb,Fort Collins,5.7,34.0,35,Good,26.0,No
+2025-02-16,Feb,Grand Junction,7.7,13.0,31,Good,30.0,No
+2025-02-16,Feb,Pueblo,5.7,36.0,38,Good,33.0,No
+2025-02-17,Feb,Denver,6.7,37.0,38,Good,26.0,No
+2025-02-17,Feb,Boulder,5.8,27.0,28,Good,30.0,No
+2025-02-17,Feb,Colorado Springs,8.6,24.0,35,Good,16.0,No
+2025-02-17,Feb,Fort Collins,9.0,25.0,36,Good,24.0,No
+2025-02-17,Feb,Grand Junction,4.6,30.0,31,Good,27.0,No
+2025-02-17,Feb,Pueblo,5.5,48.0,50,Good,20.0,No
+2025-02-18,Feb,Denver,5.8,37.0,39,Good,11.0,No
+2025-02-18,Feb,Boulder,8.3,25.0,34,Good,17.0,No
+2025-02-18,Feb,Colorado Springs,4.8,38.0,39,Good,25.0,No
+2025-02-18,Feb,Fort Collins,7.3,34.0,35,Good,25.0,No
+2025-02-18,Feb,Grand Junction,6.1,25.0,26,Good,34.0,No
+2025-02-18,Feb,Pueblo,10.7,30.0,44,Good,20.0,No
+2025-02-19,Feb,Denver,6.7,33.0,34,Good,25.0,No
+2025-02-19,Feb,Boulder,4.7,38.0,40,Good,29.0,No
+2025-02-19,Feb,Colorado Springs,11.6,30.0,47,Good,12.0,No
+2025-02-19,Feb,Fort Collins,3.9,33.0,34,Good,24.0,No
+2025-02-19,Feb,Grand Junction,10.8,21.0,44,Good,41.0,No
+2025-02-19,Feb,Pueblo,2.9,30.0,31,Good,29.0,No
+2025-02-20,Feb,Denver,1.1,41.0,43,Good,19.0,No
+2025-02-20,Feb,Boulder,3.7,43.0,45,Good,31.0,No
+2025-02-20,Feb,Colorado Springs,6.0,34.0,35,Good,31.0,No
+2025-02-20,Feb,Fort Collins,4.3,29.0,30,Good,24.0,No
+2025-02-20,Feb,Grand Junction,4.2,30.0,31,Good,21.0,No
+2025-02-20,Feb,Pueblo,5.8,32.0,34,Good,32.0,No
+2025-02-21,Feb,Denver,4.3,50.0,52,Moderate,26.0,No
+2025-02-21,Feb,Boulder,3.5,37.0,38,Good,22.0,No
+2025-02-21,Feb,Colorado Springs,5.6,27.0,28,Good,27.0,No
+2025-02-21,Feb,Fort Collins,4.4,27.0,28,Good,27.0,No
+2025-02-21,Feb,Grand Junction,6.8,29.0,30,Good,19.0,No
+2025-02-21,Feb,Pueblo,2.3,32.0,33,Good,42.0,No
+2025-02-22,Feb,Denver,6.5,48.0,50,Good,14.0,No
+2025-02-22,Feb,Boulder,2.8,33.0,34,Good,20.0,No
+2025-02-22,Feb,Colorado Springs,9.0,34.0,36,Good,24.0,No
+2025-02-22,Feb,Fort Collins,4.0,31.0,33,Good,20.0,No
+2025-02-22,Feb,Grand Junction,8.6,41.0,43,Good,24.0,No
+2025-02-22,Feb,Pueblo,12.9,31.0,52,Moderate,27.0,No
+2025-02-23,Feb,Denver,4.2,43.0,45,Good,30.0,No
+2025-02-23,Feb,Boulder,5.4,39.0,41,Good,24.0,No
+2025-02-23,Feb,Colorado Springs,8.4,19.0,34,Good,15.0,No
+2025-02-23,Feb,Fort Collins,5.8,23.0,23,Good,32.0,No
+2025-02-23,Feb,Grand Junction,10.5,34.0,43,Good,21.0,No
+2025-02-23,Feb,Pueblo,11.6,24.0,47,Good,38.0,No
+2025-02-24,Feb,Denver,3.7,30.0,31,Good,31.0,No
+2025-02-24,Feb,Boulder,7.8,39.0,40,Good,15.0,No
+2025-02-24,Feb,Colorado Springs,3.1,23.0,24,Good,37.0,No
+2025-02-24,Feb,Fort Collins,4.0,28.0,28,Good,34.0,No
+2025-02-24,Feb,Grand Junction,1.0,25.0,26,Good,30.0,No
+2025-02-24,Feb,Pueblo,7.0,29.0,30,Good,27.0,No
+2025-02-25,Feb,Denver,10.7,34.0,43,Good,22.0,No
+2025-02-25,Feb,Boulder,2.8,31.0,32,Good,34.0,No
+2025-02-25,Feb,Colorado Springs,2.4,27.0,28,Good,19.0,No
+2025-02-25,Feb,Fort Collins,10.9,27.0,44,Good,33.0,No
+2025-02-25,Feb,Grand Junction,7.7,36.0,37,Good,21.0,No
+2025-02-25,Feb,Pueblo,1.3,26.0,27,Good,36.0,No
+2025-02-26,Feb,Denver,5.4,44.0,46,Good,28.0,No
+2025-02-26,Feb,Boulder,7.7,30.0,31,Good,25.0,No
+2025-02-26,Feb,Colorado Springs,5.4,28.0,29,Good,26.0,No
+2025-02-26,Feb,Fort Collins,5.9,31.0,32,Good,21.0,No
+2025-02-26,Feb,Grand Junction,13.6,32.0,55,Moderate,16.0,No
+2025-02-26,Feb,Pueblo,7.6,39.0,40,Good,31.0,No
+2025-02-27,Feb,Denver,8.6,29.0,35,Good,26.0,No
+2025-02-27,Feb,Boulder,2.6,37.0,38,Good,16.0,No
+2025-02-27,Feb,Colorado Springs,10.5,26.0,42,Good,28.0,No
+2025-02-27,Feb,Fort Collins,6.6,23.0,26,Good,19.0,No
+2025-02-27,Feb,Grand Junction,8.7,31.0,35,Good,31.0,No
+2025-02-27,Feb,Pueblo,4.5,33.0,34,Good,32.0,No
+2025-02-28,Feb,Denver,13.0,47.0,53,Moderate,22.0,No
+2025-02-28,Feb,Boulder,6.6,24.0,26,Good,32.0,No
+2025-02-28,Feb,Colorado Springs,12.8,32.0,52,Moderate,23.0,No
+2025-02-28,Feb,Fort Collins,4.6,21.0,22,Good,31.0,No
+2025-02-28,Feb,Grand Junction,6.4,35.0,36,Good,37.0,No
+2025-02-28,Feb,Pueblo,7.5,33.0,34,Good,34.0,No
+2025-03-01,Mar,Denver,6.9,39.0,40,Good,40.0,No
+2025-03-01,Mar,Boulder,3.3,34.0,35,Good,29.0,No
+2025-03-01,Mar,Colorado Springs,3.6,17.0,17,Good,23.0,No
+2025-03-01,Mar,Fort Collins,2.5,36.0,37,Good,32.0,No
+2025-03-01,Mar,Grand Junction,9.2,28.0,37,Good,29.0,No
+2025-03-01,Mar,Pueblo,8.2,27.0,33,Good,32.0,No
+2025-03-02,Mar,Denver,11.1,38.0,45,Good,37.0,No
+2025-03-02,Mar,Boulder,8.5,18.0,34,Good,20.0,No
+2025-03-02,Mar,Colorado Springs,9.2,31.0,37,Good,33.0,No
+2025-03-02,Mar,Fort Collins,7.7,37.0,39,Good,31.0,No
+2025-03-02,Mar,Grand Junction,8.3,28.0,33,Good,37.0,No
+2025-03-02,Mar,Pueblo,9.0,22.0,36,Good,34.0,No
+2025-03-03,Mar,Denver,10.2,36.0,41,Good,25.0,No
+2025-03-03,Mar,Boulder,11.8,26.0,48,Good,35.0,No
+2025-03-03,Mar,Colorado Springs,5.7,33.0,34,Good,35.0,No
+2025-03-03,Mar,Fort Collins,8.6,29.0,35,Good,35.0,No
+2025-03-03,Mar,Grand Junction,7.1,31.0,32,Good,34.0,No
+2025-03-03,Mar,Pueblo,3.9,37.0,38,Good,34.0,No
+2025-03-04,Mar,Denver,9.0,28.0,37,Good,25.0,No
+2025-03-04,Mar,Boulder,6.6,28.0,29,Good,29.0,No
+2025-03-04,Mar,Colorado Springs,10.6,36.0,43,Good,32.0,No
+2025-03-04,Mar,Fort Collins,8.3,36.0,37,Good,20.0,No
+2025-03-04,Mar,Grand Junction,10.9,30.0,44,Good,30.0,No
+2025-03-04,Mar,Pueblo,9.6,27.0,39,Good,40.0,No
+2025-03-05,Mar,Denver,11.1,37.0,45,Good,37.0,No
+2025-03-05,Mar,Boulder,7.2,28.0,29,Good,17.0,No
+2025-03-05,Mar,Colorado Springs,3.6,38.0,39,Good,18.0,No
+2025-03-05,Mar,Fort Collins,4.3,40.0,42,Good,24.0,No
+2025-03-05,Mar,Grand Junction,5.7,30.0,31,Good,42.0,No
+2025-03-05,Mar,Pueblo,7.3,34.0,35,Good,29.0,No
+2025-03-06,Mar,Denver,9.3,48.0,50,Good,11.0,No
+2025-03-06,Mar,Boulder,7.2,35.0,36,Good,42.0,No
+2025-03-06,Mar,Colorado Springs,5.2,23.0,23,Good,28.0,No
+2025-03-06,Mar,Fort Collins,5.4,35.0,36,Good,16.0,No
+2025-03-06,Mar,Grand Junction,8.2,36.0,37,Good,26.0,No
+2025-03-06,Mar,Pueblo,7.9,32.0,33,Good,39.0,No
+2025-03-07,Mar,Denver,9.0,41.0,43,Good,27.0,No
+2025-03-07,Mar,Boulder,6.4,22.0,26,Good,33.0,No
+2025-03-07,Mar,Colorado Springs,10.2,29.0,41,Good,28.0,No
+2025-03-07,Mar,Fort Collins,6.4,31.0,32,Good,20.0,No
+2025-03-07,Mar,Grand Junction,11.0,20.0,44,Good,33.0,No
+2025-03-07,Mar,Pueblo,6.6,34.0,35,Good,32.0,No
+2025-03-08,Mar,Denver,1.0,47.0,49,Good,19.0,No
+2025-03-08,Mar,Boulder,5.8,28.0,29,Good,46.0,No
+2025-03-08,Mar,Colorado Springs,6.5,25.0,26,Good,25.0,No
+2025-03-08,Mar,Fort Collins,6.6,32.0,33,Good,37.0,No
+2025-03-08,Mar,Grand Junction,9.8,35.0,40,Good,28.0,No
+2025-03-08,Mar,Pueblo,3.6,33.0,34,Good,33.0,No
+2025-03-09,Mar,Denver,5.2,33.0,34,Good,39.0,No
+2025-03-09,Mar,Boulder,9.9,25.0,40,Good,23.0,No
+2025-03-09,Mar,Colorado Springs,4.5,27.0,28,Good,21.0,No
+2025-03-09,Mar,Fort Collins,4.0,35.0,37,Good,22.0,No
+2025-03-09,Mar,Grand Junction,5.7,40.0,42,Good,32.0,No
+2025-03-09,Mar,Pueblo,4.9,20.0,21,Good,28.0,No
+2025-03-10,Mar,Denver,6.8,37.0,39,Good,27.0,No
+2025-03-10,Mar,Boulder,2.9,29.0,30,Good,33.0,No
+2025-03-10,Mar,Colorado Springs,5.4,30.0,31,Good,23.0,No
+2025-03-10,Mar,Fort Collins,8.8,33.0,36,Good,18.0,No
+2025-03-10,Mar,Grand Junction,5.3,32.0,33,Good,37.0,No
+2025-03-10,Mar,Pueblo,6.1,26.0,26,Good,29.0,No
+2025-03-11,Mar,Denver,4.4,46.0,48,Good,20.0,No
+2025-03-11,Mar,Boulder,1.2,32.0,33,Good,34.0,No
+2025-03-11,Mar,Colorado Springs,7.7,36.0,37,Good,35.0,No
+2025-03-11,Mar,Fort Collins,5.4,29.0,30,Good,39.0,No
+2025-03-11,Mar,Grand Junction,6.1,41.0,42,Good,37.0,No
+2025-03-11,Mar,Pueblo,6.3,34.0,35,Good,32.0,No
+2025-03-12,Mar,Denver,10.2,36.0,41,Good,17.0,No
+2025-03-12,Mar,Boulder,12.8,32.0,52,Moderate,35.0,No
+2025-03-12,Mar,Colorado Springs,8.5,26.0,34,Good,16.0,No
+2025-03-12,Mar,Fort Collins,7.1,31.0,32,Good,38.0,No
+2025-03-12,Mar,Grand Junction,9.8,32.0,40,Good,35.0,No
+2025-03-12,Mar,Pueblo,6.4,38.0,39,Good,43.0,No
+2025-03-13,Mar,Denver,9.9,38.0,40,Good,44.0,No
+2025-03-13,Mar,Boulder,4.8,33.0,34,Good,29.0,No
+2025-03-13,Mar,Colorado Springs,3.5,25.0,26,Good,45.0,No
+2025-03-13,Mar,Fort Collins,4.3,27.0,28,Good,39.0,No
+2025-03-13,Mar,Grand Junction,2.0,26.0,27,Good,36.0,No
+2025-03-13,Mar,Pueblo,9.4,35.0,38,Good,47.0,No
+2025-03-14,Mar,Denver,10.8,33.0,44,Good,31.0,No
+2025-03-14,Mar,Boulder,6.3,30.0,31,Good,32.0,No
+2025-03-14,Mar,Colorado Springs,5.2,30.0,31,Good,35.0,No
+2025-03-14,Mar,Fort Collins,6.5,16.0,26,Good,30.0,No
+2025-03-14,Mar,Grand Junction,8.0,30.0,32,Good,39.0,No
+2025-03-14,Mar,Pueblo,11.0,28.0,45,Good,41.0,No
+2025-03-15,Mar,Denver,17.7,23.0,72,Moderate,38.0,No
+2025-03-15,Mar,Boulder,7.1,28.0,29,Good,26.0,No
+2025-03-15,Mar,Colorado Springs,1.3,38.0,40,Good,33.0,No
+2025-03-15,Mar,Fort Collins,6.2,32.0,34,Good,37.0,No
+2025-03-15,Mar,Grand Junction,8.3,31.0,34,Good,22.0,No
+2025-03-15,Mar,Pueblo,6.5,28.0,29,Good,39.0,No
+2025-03-16,Mar,Denver,10.8,42.0,44,Good,39.0,No
+2025-03-16,Mar,Boulder,10.9,30.0,44,Good,28.0,No
+2025-03-16,Mar,Colorado Springs,5.1,21.0,22,Good,32.0,No
+2025-03-16,Mar,Fort Collins,5.5,31.0,32,Good,29.0,No
+2025-03-16,Mar,Grand Junction,4.5,28.0,29,Good,38.0,No
+2025-03-16,Mar,Pueblo,5.9,38.0,39,Good,49.0,No
+2025-03-17,Mar,Denver,7.0,44.0,46,Good,35.0,No
+2025-03-17,Mar,Boulder,4.4,31.0,32,Good,37.0,No
+2025-03-17,Mar,Colorado Springs,6.0,27.0,28,Good,44.0,No
+2025-03-17,Mar,Fort Collins,8.8,33.0,36,Good,39.0,No
+2025-03-17,Mar,Grand Junction,10.2,29.0,41,Good,30.0,No
+2025-03-17,Mar,Pueblo,11.2,32.0,45,Good,54.0,No
+2025-03-18,Mar,Denver,7.9,34.0,35,Good,27.0,No
+2025-03-18,Mar,Boulder,3.6,26.0,27,Good,34.0,No
+2025-03-18,Mar,Colorado Springs,4.5,15.0,18,Good,24.0,No
+2025-03-18,Mar,Fort Collins,3.2,32.0,33,Good,36.0,No
+2025-03-18,Mar,Grand Junction,7.8,41.0,43,Good,36.0,No
+2025-03-18,Mar,Pueblo,7.7,33.0,34,Good,29.0,No
+2025-03-19,Mar,Denver,,37.0,40,Good,37.0,No
+2025-03-19,Mar,Boulder,5.3,44.0,46,Good,27.0,No
+2025-03-19,Mar,Colorado Springs,12.0,29.0,49,Good,37.0,No
+2025-03-19,Mar,Fort Collins,5.6,37.0,39,Good,28.0,No
+2025-03-19,Mar,Grand Junction,8.9,35.0,36,Good,35.0,No
+2025-03-19,Mar,Pueblo,5.2,23.0,24,Good,53.0,No
+2025-03-20,Mar,Denver,6.0,44.0,46,Good,40.0,No
+2025-03-20,Mar,Boulder,9.0,33.0,36,Good,22.0,No
+2025-03-20,Mar,Colorado Springs,8.4,29.0,34,Good,26.0,No
+2025-03-20,Mar,Fort Collins,4.0,31.0,32,Good,31.0,No
+2025-03-20,Mar,Grand Junction,8.4,30.0,34,Good,37.0,No
+2025-03-20,Mar,Pueblo,,33.0,34,Good,45.0,No
+2025-03-21,Mar,Denver,9.2,26.0,37,Good,40.0,No
+2025-03-21,Mar,Boulder,1.0,37.0,38,Good,42.0,No
+2025-03-21,Mar,Colorado Springs,10.1,19.0,41,Good,34.0,No
+2025-03-21,Mar,Fort Collins,5.4,44.0,46,Good,34.0,No
+2025-03-21,Mar,Grand Junction,10.9,21.0,44,Good,38.0,No
+2025-03-21,Mar,Pueblo,6.8,20.0,28,Good,29.0,No
+2025-03-22,Mar,Denver,7.8,38.0,39,Good,31.0,No
+2025-03-22,Mar,Boulder,11.7,31.0,48,Good,36.0,No
+2025-03-22,Mar,Colorado Springs,6.2,25.0,26,Good,38.0,No
+2025-03-22,Mar,Fort Collins,8.9,31.0,36,Good,31.0,No
+2025-03-22,Mar,Grand Junction,8.1,30.0,33,Good,40.0,No
+2025-03-22,Mar,Pueblo,7.7,29.0,31,Good,41.0,No
+2025-03-23,Mar,Denver,8.5,28.0,34,Good,32.0,No
+2025-03-23,Mar,Boulder,5.0,35.0,36,Good,27.0,No
+2025-03-23,Mar,Colorado Springs,10.0,23.0,41,Good,33.0,No
+2025-03-23,Mar,Fort Collins,2.8,28.0,29,Good,34.0,No
+2025-03-23,Mar,Grand Junction,11.1,23.0,45,Good,39.0,No
+2025-03-23,Mar,Pueblo,11.3,33.0,46,Good,44.0,No
+2025-03-24,Mar,Denver,6.6,38.0,39,Good,36.0,No
+2025-03-24,Mar,Boulder,7.7,37.0,38,Good,51.0,No
+2025-03-24,Mar,Colorado Springs,5.8,19.0,23,Good,46.0,No
+2025-03-24,Mar,Fort Collins,5.3,34.0,35,Good,43.0,No
+2025-03-24,Mar,Grand Junction,7.9,29.0,32,Good,55.0,No
+2025-03-24,Mar,Pueblo,13.5,35.0,55,Moderate,35.0,No
+2025-03-25,Mar,Denver,10.5,33.0,43,Good,51.0,No
+2025-03-25,Mar,Boulder,8.6,27.0,35,Good,48.0,No
+2025-03-25,Mar,Colorado Springs,5.2,28.0,29,Good,36.0,No
+2025-03-25,Mar,Fort Collins,8.3,28.0,33,Good,40.0,No
+2025-03-25,Mar,Grand Junction,1.0,25.0,26,Good,54.0,No
+2025-03-25,Mar,Pueblo,5.5,32.0,33,Good,50.0,No
+2025-03-26,Mar,Denver,10.0,42.0,43,Good,27.0,No
+2025-03-26,Mar,Boulder,4.2,49.0,51,Moderate,28.0,No
+2025-03-26,Mar,Colorado Springs,2.9,33.0,34,Good,38.0,No
+2025-03-26,Mar,Fort Collins,1.5,31.0,32,Good,50.0,No
+2025-03-26,Mar,Grand Junction,11.8,25.0,48,Good,44.0,No
+2025-03-26,Mar,Pueblo,5.0,35.0,36,Good,46.0,No
+2025-03-27,Mar,Denver,7.7,36.0,37,Good,37.0,No
+2025-03-27,Mar,Boulder,7.6,31.0,32,Good,41.0,No
+2025-03-27,Mar,Colorado Springs,5.1,33.0,34,Good,50.0,No
+2025-03-27,Mar,Fort Collins,3.0,18.0,18,Good,39.0,No
+2025-03-27,Mar,Grand Junction,6.9,36.0,37,Good,40.0,No
+2025-03-27,Mar,Pueblo,3.5,39.0,40,Good,49.0,No
+2025-03-28,Mar,Denver,10.0,36.0,40,Good,53.0,No
+2025-03-28,Mar,Boulder,3.2,15.0,16,Good,26.0,No
+2025-03-28,Mar,Colorado Springs,4.6,34.0,35,Good,46.0,No
+2025-03-28,Mar,Fort Collins,6.1,34.0,35,Good,37.0,No
+2025-03-28,Mar,Grand Junction,10.9,30.0,44,Good,44.0,No
+2025-03-28,Mar,Pueblo,11.3,25.0,46,Good,37.0,No
+2025-03-29,Mar,Denver,7.6,38.0,39,Good,50.0,No
+2025-03-29,Mar,Boulder,8.7,30.0,35,Good,43.0,No
+2025-03-29,Mar,Colorado Springs,6.0,30.0,31,Good,42.0,No
+2025-03-29,Mar,Fort Collins,8.5,23.0,35,Good,51.0,No
+2025-03-29,Mar,Grand Junction,6.9,41.0,42,Good,44.0,No
+2025-03-29,Mar,Pueblo,9.4,26.0,38,Good,48.0,No
+2025-03-30,Mar,Denver,8.2,47.0,49,Good,42.0,No
+2025-03-30,Mar,Boulder,4.8,27.0,28,Good,39.0,No
+2025-03-30,Mar,Colorado Springs,12.5,26.0,51,Moderate,34.0,No
+2025-03-30,Mar,Fort Collins,4.7,26.0,26,Good,44.0,No
+2025-03-30,Mar,Grand Junction,10.6,40.0,43,Good,41.0,No
+2025-03-30,Mar,Pueblo,9.0,23.0,36,Good,39.0,No
+2025-03-31,Mar,Denver,8.7,37.0,39,Good,42.0,No
+2025-03-31,Mar,Boulder,3.5,38.0,39,Good,46.0,No
+2025-03-31,Mar,Colorado Springs,5.7,34.0,35,Good,29.0,No
+2025-03-31,Mar,Fort Collins,7.7,28.0,31,Good,41.0,No
+2025-03-31,Mar,Grand Junction,8.3,17.0,33,Good,44.0,No
+2025-03-31,Mar,Pueblo,11.3,34.0,46,Good,36.0,No
+2025-04-01,Apr,Denver,7.5,35.0,36,Good,46.0,No
+2025-04-01,Apr,Boulder,7.6,20.0,31,Good,40.0,No
+2025-04-01,Apr,Colorado Springs,6.4,35.0,36,Good,46.0,No
+2025-04-01,Apr,Fort Collins,8.4,24.0,34,Good,55.0,No
+2025-04-01,Apr,Grand Junction,1.0,32.0,33,Good,49.0,No
+2025-04-01,Apr,Pueblo,9.6,26.0,39,Good,38.0,No
+2025-04-02,Apr,Denver,9.4,42.0,43,Good,37.0,No
+2025-04-02,Apr,Boulder,11.8,38.0,48,Good,35.0,No
+2025-04-02,Apr,Colorado Springs,5.9,39.0,41,Good,41.0,No
+2025-04-02,Apr,Fort Collins,5.7,24.0,25,Good,44.0,No
+2025-04-02,Apr,Grand Junction,4.1,33.0,34,Good,46.0,No
+2025-04-02,Apr,Pueblo,6.3,27.0,28,Good,37.0,No
+2025-04-03,Apr,Denver,15.0,38.0,61,Moderate,37.0,No
+2025-04-03,Apr,Boulder,4.3,35.0,36,Good,51.0,No
+2025-04-03,Apr,Colorado Springs,1.0,34.0,35,Good,46.0,No
+2025-04-03,Apr,Fort Collins,6.5,27.0,28,Good,51.0,No
+2025-04-03,Apr,Grand Junction,9.8,32.0,40,Good,30.0,No
+2025-04-03,Apr,Pueblo,8.1,34.0,36,Good,51.0,No
+2025-04-04,Apr,Denver,8.3,49.0,51,Moderate,50.0,No
+2025-04-04,Apr,Boulder,5.5,45.0,47,Good,42.0,No
+2025-04-04,Apr,Colorado Springs,3.6,37.0,39,Good,49.0,No
+2025-04-04,Apr,Fort Collins,8.1,28.0,33,Good,49.0,No
+2025-04-04,Apr,Grand Junction,6.0,21.0,24,Good,41.0,No
+2025-04-04,Apr,Pueblo,8.7,32.0,35,Good,34.0,No
+2025-04-05,Apr,Denver,8.4,35.0,36,Good,46.0,No
+2025-04-05,Apr,Boulder,7.1,30.0,31,Good,27.0,No
+2025-04-05,Apr,Colorado Springs,2.7,39.0,40,Good,35.0,No
+2025-04-05,Apr,Fort Collins,7.2,28.0,29,Good,42.0,No
+2025-04-05,Apr,Grand Junction,4.3,24.0,24,Good,51.0,No
+2025-04-05,Apr,Pueblo,3.1,27.0,28,Good,55.0,No
+2025-04-06,Apr,Denver,8.9,39.0,40,Good,50.0,No
+2025-04-06,Apr,Boulder,8.9,25.0,36,Good,48.0,No
+2025-04-06,Apr,Colorado Springs,5.6,32.0,33,Good,35.0,No
+2025-04-06,Apr,Fort Collins,4.2,27.0,28,Good,45.0,No
+2025-04-06,Apr,Grand Junction,6.2,19.0,25,Good,56.0,No
+2025-04-06,Apr,Pueblo,7.3,28.0,29,Good,46.0,No
+2025-04-07,Apr,Denver,13.3,31.0,54,Moderate,32.0,No
+2025-04-07,Apr,Boulder,11.1,31.0,45,Good,47.0,No
+2025-04-07,Apr,Colorado Springs,4.5,43.0,45,Good,35.0,No
+2025-04-07,Apr,Fort Collins,5.5,26.0,27,Good,53.0,No
+2025-04-07,Apr,Grand Junction,8.9,39.0,40,Good,61.0,No
+2025-04-07,Apr,Pueblo,10.7,27.0,44,Good,44.0,No
+2025-04-08,Apr,Denver,3.8,30.0,31,Good,50.0,No
+2025-04-08,Apr,Boulder,2.9,28.0,29,Good,43.0,No
+2025-04-08,Apr,Colorado Springs,5.2,33.0,35,Good,57.0,No
+2025-04-08,Apr,Fort Collins,7.0,31.0,32,Good,52.0,No
+2025-04-08,Apr,Grand Junction,6.7,32.0,33,Good,51.0,No
+2025-04-08,Apr,Pueblo,7.0,30.0,31,Good,43.0,No
+2025-04-09,Apr,Denver,9.0,47.0,49,Good,46.0,No
+2025-04-09,Apr,Boulder,4.4,29.0,30,Good,35.0,No
+2025-04-09,Apr,Colorado Springs,7.8,21.0,31,Good,40.0,No
+2025-04-09,Apr,Fort Collins,1.6,28.0,29,Good,33.0,No
+2025-04-09,Apr,Grand Junction,12.0,28.0,49,Good,52.0,No
+2025-04-09,Apr,Pueblo,4.5,29.0,30,Good,50.0,No
+2025-04-10,Apr,Denver,5.8,37.0,38,Good,32.0,No
+2025-04-10,Apr,Boulder,9.9,38.0,40,Good,46.0,No
+2025-04-10,Apr,Colorado Springs,3.7,35.0,36,Good,52.0,No
+2025-04-10,Apr,Fort Collins,11.1,29.0,45,Good,32.0,No
+2025-04-10,Apr,Grand Junction,8.2,44.0,46,Good,57.0,No
+2025-04-10,Apr,Pueblo,6.2,32.0,33,Good,58.0,No
+2025-04-11,Apr,Denver,9.3,37.0,38,Good,51.0,No
+2025-04-11,Apr,Boulder,8.8,31.0,36,Good,39.0,No
+2025-04-11,Apr,Colorado Springs,6.2,32.0,33,Good,36.0,No
+2025-04-11,Apr,Fort Collins,9.5,31.0,39,Good,40.0,No
+2025-04-11,Apr,Grand Junction,4.3,30.0,31,Good,61.0,No
+2025-04-11,Apr,Pueblo,9.7,28.0,39,Good,61.0,No
+2025-04-12,Apr,Denver,8.7,36.0,37,Good,49.0,No
+2025-04-12,Apr,Boulder,1.0,29.0,30,Good,46.0,No
+2025-04-12,Apr,Colorado Springs,6.4,30.0,31,Good,53.0,No
+2025-04-12,Apr,Fort Collins,2.8,39.0,41,Good,53.0,No
+2025-04-12,Apr,Grand Junction,3.9,36.0,37,Good,57.0,No
+2025-04-12,Apr,Pueblo,1.7,37.0,38,Good,66.0,No
+2025-04-13,Apr,Denver,15.1,35.0,62,Moderate,43.0,No
+2025-04-13,Apr,Boulder,7.1,23.0,28,Good,46.0,No
+2025-04-13,Apr,Colorado Springs,3.4,30.0,31,Good,42.0,No
+2025-04-13,Apr,Fort Collins,6.9,29.0,30,Good,54.0,No
+2025-04-13,Apr,Grand Junction,8.0,31.0,32,Good,44.0,No
+2025-04-13,Apr,Pueblo,4.2,33.0,35,Good,56.0,No
+2025-04-14,Apr,Denver,10.0,31.0,41,Good,44.0,No
+2025-04-14,Apr,Boulder,9.5,23.0,39,Good,47.0,No
+2025-04-14,Apr,Colorado Springs,7.5,36.0,37,Good,56.0,No
+2025-04-14,Apr,Fort Collins,6.2,34.0,36,Good,52.0,No
+2025-04-14,Apr,Grand Junction,6.3,34.0,35,Good,40.0,No
+2025-04-14,Apr,Pueblo,9.0,35.0,36,Good,52.0,No
+2025-04-15,Apr,Denver,11.9,42.0,48,Good,50.0,No
+2025-04-15,Apr,Boulder,9.0,27.0,36,Good,39.0,No
+2025-04-15,Apr,Colorado Springs,6.6,40.0,41,Good,54.0,No
+2025-04-15,Apr,Fort Collins,3.5,25.0,26,Good,55.0,No
+2025-04-15,Apr,Grand Junction,6.5,29.0,30,Good,53.0,No
+2025-04-15,Apr,Pueblo,12.5,28.0,51,Moderate,43.0,No
+2025-04-16,Apr,Denver,6.6,32.0,33,Good,51.0,No
+2025-04-16,Apr,Boulder,3.5,27.0,28,Good,47.0,No
+2025-04-16,Apr,Colorado Springs,1.0,30.0,31,Good,49.0,No
+2025-04-16,Apr,Fort Collins,1.0,35.0,37,Good,41.0,No
+2025-04-16,Apr,Grand Junction,6.9,21.0,28,Good,54.0,No
+2025-04-16,Apr,Pueblo,8.7,28.0,35,Good,48.0,No
+2025-04-17,Apr,Denver,8.2,44.0,46,Good,66.0,No
+2025-04-17,Apr,Boulder,4.3,29.0,30,Good,42.0,No
+2025-04-17,Apr,Colorado Springs,1.0,24.0,24,Good,46.0,No
+2025-04-17,Apr,Fort Collins,3.6,36.0,37,Good,61.0,No
+2025-04-17,Apr,Grand Junction,3.6,39.0,41,Good,61.0,No
+2025-04-17,Apr,Pueblo,10.2,36.0,41,Good,53.0,No
+2025-04-18,Apr,Denver,13.3,48.0,54,Moderate,57.0,No
+2025-04-18,Apr,Boulder,4.9,25.0,25,Good,59.0,No
+2025-04-18,Apr,Colorado Springs,1.6,28.0,29,Good,47.0,No
+2025-04-18,Apr,Fort Collins,7.9,27.0,32,Good,58.0,No
+2025-04-18,Apr,Grand Junction,,33.0,34,Good,44.0,No
+2025-04-18,Apr,Pueblo,5.7,23.0,23,Good,64.0,No
+2025-04-19,Apr,Denver,7.9,26.0,32,Good,48.0,No
+2025-04-19,Apr,Boulder,10.7,28.0,43,Good,45.0,No
+2025-04-19,Apr,Colorado Springs,5.8,36.0,37,Good,46.0,No
+2025-04-19,Apr,Fort Collins,7.1,29.0,30,Good,55.0,No
+2025-04-19,Apr,Grand Junction,7.2,27.0,29,Good,44.0,No
+2025-04-19,Apr,Pueblo,7.6,28.0,31,Good,51.0,No
+2025-04-20,Apr,Denver,8.4,31.0,34,Good,55.0,No
+2025-04-20,Apr,Boulder,5.2,35.0,36,Good,48.0,No
+2025-04-20,Apr,Colorado Springs,3.5,31.0,32,Good,43.0,No
+2025-04-20,Apr,Fort Collins,10.4,28.0,42,Good,53.0,No
+2025-04-20,Apr,Grand Junction,5.2,46.0,48,Good,67.0,No
+2025-04-20,Apr,Pueblo,7.4,22.0,30,Good,47.0,No
+2025-04-21,Apr,Denver,9.3,52.0,54,Moderate,42.0,No
+2025-04-21,Apr,Boulder,,39.0,41,Good,47.0,No
+2025-04-21,Apr,Colorado Springs,11.2,27.0,45,Good,54.0,No
+2025-04-21,Apr,Fort Collins,5.0,22.0,22,Good,48.0,No
+2025-04-21,Apr,Grand Junction,12.5,19.0,51,Moderate,58.0,No
+2025-04-21,Apr,Pueblo,3.8,29.0,29,Good,63.0,No
+2025-04-22,Apr,Denver,8.0,47.0,49,Good,55.0,No
+2025-04-22,Apr,Boulder,6.1,37.0,38,Good,57.0,No
+2025-04-22,Apr,Colorado Springs,9.4,31.0,38,Good,59.0,No
+2025-04-22,Apr,Fort Collins,7.3,38.0,39,Good,68.0,No
+2025-04-22,Apr,Grand Junction,2.5,41.0,42,Good,66.0,No
+2025-04-22,Apr,Pueblo,1.6,29.0,30,Good,58.0,No
+2025-04-23,Apr,Denver,9.7,31.0,39,Good,59.0,No
+2025-04-23,Apr,Boulder,10.9,38.0,44,Good,55.0,No
+2025-04-23,Apr,Colorado Springs,2.8,45.0,46,Good,47.0,No
+2025-04-23,Apr,Fort Collins,8.4,33.0,34,Good,51.0,No
+2025-04-23,Apr,Grand Junction,7.9,39.0,40,Good,55.0,No
+2025-04-23,Apr,Pueblo,4.5,32.0,33,Good,74.0,No
+2025-04-24,Apr,Denver,7.9,45.0,46,Good,60.0,No
+2025-04-24,Apr,Boulder,6.9,25.0,28,Good,54.0,No
+2025-04-24,Apr,Colorado Springs,4.0,26.0,27,Good,60.0,No
+2025-04-24,Apr,Fort Collins,8.8,28.0,35,Good,62.0,No
+2025-04-24,Apr,Grand Junction,8.7,26.0,35,Good,66.0,No
+2025-04-24,Apr,Pueblo,6.1,24.0,24,Good,68.0,No
+2025-04-25,Apr,Denver,10.8,44.0,46,Good,61.0,No
+2025-04-25,Apr,Boulder,5.9,32.0,33,Good,52.0,No
+2025-04-25,Apr,Colorado Springs,6.5,21.0,26,Good,47.0,No
+2025-04-25,Apr,Fort Collins,7.8,39.0,41,Good,55.0,No
+2025-04-25,Apr,Grand Junction,1.6,35.0,36,Good,63.0,No
+2025-04-25,Apr,Pueblo,5.3,22.0,23,Good,53.0,No
+2025-04-26,Apr,Denver,1.0,44.0,46,Good,60.0,No
+2025-04-26,Apr,Boulder,1.0,29.0,30,Good,60.0,No
+2025-04-26,Apr,Colorado Springs,1.0,23.0,24,Good,48.0,No
+2025-04-26,Apr,Fort Collins,2.3,31.0,32,Good,53.0,No
+2025-04-26,Apr,Grand Junction,8.1,29.0,33,Good,63.0,No
+2025-04-26,Apr,Pueblo,7.2,37.0,38,Good,62.0,No
+2025-04-27,Apr,Denver,9.1,37.0,38,Good,68.0,No
+2025-04-27,Apr,Boulder,10.3,43.0,44,Good,65.0,No
+2025-04-27,Apr,Colorado Springs,10.0,22.0,40,Good,49.0,No
+2025-04-27,Apr,Fort Collins,9.7,38.0,40,Good,59.0,No
+2025-04-27,Apr,Grand Junction,8.7,38.0,39,Good,65.0,No
+2025-04-27,Apr,Pueblo,9.5,28.0,38,Good,59.0,No
+2025-04-28,Apr,Denver,5.3,39.0,41,Good,65.0,No
+2025-04-28,Apr,Boulder,9.2,34.0,37,Good,68.0,No
+2025-04-28,Apr,Colorado Springs,6.7,39.0,40,Good,57.0,No
+2025-04-28,Apr,Fort Collins,5.3,37.0,39,Good,61.0,No
+2025-04-28,Apr,Grand Junction,8.2,34.0,35,Good,67.0,No
+2025-04-28,Apr,Pueblo,5.5,34.0,36,Good,57.0,No
+2025-04-29,Apr,Denver,8.0,48.0,50,Good,53.0,No
+2025-04-29,Apr,Boulder,1.0,26.0,27,Good,64.0,No
+2025-04-29,Apr,Colorado Springs,7.0,42.0,44,Good,67.0,No
+2025-04-29,Apr,Fort Collins,3.5,31.0,32,Good,55.0,No
+2025-04-29,Apr,Grand Junction,11.3,33.0,46,Good,67.0,No
+2025-04-29,Apr,Pueblo,11.3,36.0,46,Good,56.0,No
+2025-04-30,Apr,Denver,6.0,38.0,40,Good,62.0,No
+2025-04-30,Apr,Boulder,4.7,27.0,28,Good,55.0,No
+2025-04-30,Apr,Colorado Springs,1.7,34.0,35,Good,47.0,No
+2025-04-30,Apr,Fort Collins,9.4,34.0,38,Good,60.0,No
+2025-04-30,Apr,Grand Junction,11.4,20.0,46,Good,53.0,No
+2025-04-30,Apr,Pueblo,8.9,40.0,41,Good,71.0,No
+2025-05-01,May,Denver,8.8,47.0,49,Good,62.0,No
+2025-05-01,May,Boulder,3.9,27.0,28,Good,58.0,No
+2025-05-01,May,Colorado Springs,6.5,45.0,46,Good,71.0,No
+2025-05-01,May,Fort Collins,10.5,36.0,43,Good,52.0,No
+2025-05-01,May,Grand Junction,8.4,33.0,34,Good,61.0,No
+2025-05-01,May,Pueblo,6.6,28.0,28,Good,65.0,No
+2025-05-02,May,Denver,4.5,35.0,36,Good,60.0,No
+2025-05-02,May,Boulder,11.1,34.0,45,Good,67.0,No
+2025-05-02,May,Colorado Springs,5.3,27.0,28,Good,52.0,No
+2025-05-02,May,Fort Collins,2.8,34.0,35,Good,60.0,No
+2025-05-02,May,Grand Junction,10.5,28.0,43,Good,66.0,No
+2025-05-02,May,Pueblo,5.9,30.0,31,Good,79.0,No
+2025-05-03,May,Denver,6.6,37.0,38,Good,56.0,No
+2025-05-03,May,Boulder,2.8,29.0,30,Good,62.0,No
+2025-05-03,May,Colorado Springs,8.8,38.0,39,Good,61.0,No
+2025-05-03,May,Fort Collins,8.1,23.0,33,Good,63.0,No
+2025-05-03,May,Grand Junction,3.7,40.0,42,Good,70.0,No
+2025-05-03,May,Pueblo,6.4,33.0,34,Good,58.0,No
+2025-05-04,May,Denver,13.1,47.0,53,Moderate,66.0,No
+2025-05-04,May,Boulder,3.5,26.0,27,Good,57.0,No
+2025-05-04,May,Colorado Springs,2.5,32.0,33,Good,46.0,No
+2025-05-04,May,Fort Collins,6.0,30.0,31,Good,64.0,No
+2025-05-04,May,Grand Junction,6.8,31.0,32,Good,63.0,No
+2025-05-04,May,Pueblo,4.6,38.0,39,Good,71.0,No
+2025-05-05,May,Denver,10.3,46.0,47,Good,54.0,No
+2025-05-05,May,Boulder,8.9,31.0,36,Good,53.0,No
+2025-05-05,May,Colorado Springs,5.5,37.0,39,Good,62.0,No
+2025-05-05,May,Fort Collins,8.8,38.0,40,Good,76.0,No
+2025-05-05,May,Grand Junction,8.9,36.0,37,Good,66.0,No
+2025-05-05,May,Pueblo,5.7,25.0,26,Good,56.0,No
+2025-05-06,May,Denver,8.4,40.0,42,Good,51.0,No
+2025-05-06,May,Boulder,6.7,37.0,39,Good,60.0,No
+2025-05-06,May,Colorado Springs,4.5,30.0,31,Good,60.0,No
+2025-05-06,May,Fort Collins,4.8,33.0,35,Good,65.0,No
+2025-05-06,May,Grand Junction,6.0,15.0,24,Good,54.0,No
+2025-05-06,May,Pueblo,6.4,32.0,33,Good,68.0,No
+2025-05-07,May,Denver,7.8,39.0,40,Good,65.0,No
+2025-05-07,May,Boulder,6.8,39.0,41,Good,77.0,No
+2025-05-07,May,Colorado Springs,5.6,20.0,22,Good,54.0,No
+2025-05-07,May,Fort Collins,7.6,33.0,34,Good,64.0,No
+2025-05-07,May,Grand Junction,4.3,29.0,30,Good,71.0,No
+2025-05-07,May,Pueblo,6.0,39.0,40,Good,67.0,No
+2025-05-08,May,Denver,10.6,39.0,43,Good,68.0,No
+2025-05-08,May,Boulder,7.5,29.0,30,Good,69.0,No
+2025-05-08,May,Colorado Springs,2.9,42.0,43,Good,63.0,No
+2025-05-08,May,Fort Collins,6.2,34.0,35,Good,54.0,No
+2025-05-08,May,Grand Junction,10.9,24.0,44,Good,63.0,No
+2025-05-08,May,Pueblo,10.3,33.0,42,Good,66.0,No
+2025-05-09,May,Denver,6.3,38.0,40,Good,56.0,No
+2025-05-09,May,Boulder,2.2,36.0,37,Good,52.0,No
+2025-05-09,May,Colorado Springs,6.5,39.0,40,Good,58.0,No
+2025-05-09,May,Fort Collins,6.7,29.0,30,Good,59.0,No
+2025-05-09,May,Grand Junction,8.7,20.0,35,Good,60.0,No
+2025-05-09,May,Pueblo,10.8,32.0,44,Good,78.0,No
+2025-05-10,May,Denver,5.9,43.0,44,Good,55.0,No
+2025-05-10,May,Boulder,6.2,19.0,25,Good,57.0,No
+2025-05-10,May,Colorado Springs,5.1,31.0,32,Good,67.0,No
+2025-05-10,May,Fort Collins,5.0,36.0,38,Good,60.0,No
+2025-05-10,May,Grand Junction,8.7,47.0,49,Good,69.0,No
+2025-05-10,May,Pueblo,5.3,43.0,44,Good,72.0,No
+2025-05-11,May,Denver,8.7,43.0,44,Good,66.0,No
+2025-05-11,May,Boulder,9.6,30.0,39,Good,69.0,No
+2025-05-11,May,Colorado Springs,6.8,36.0,37,Good,74.0,No
+2025-05-11,May,Fort Collins,4.6,27.0,28,Good,69.0,No
+2025-05-11,May,Grand Junction,11.1,30.0,45,Good,62.0,No
+2025-05-11,May,Pueblo,5.3,36.0,37,Good,68.0,No
+2025-05-12,May,Denver,8.1,53.0,55,Moderate,68.0,No
+2025-05-12,May,Boulder,8.3,24.0,34,Good,53.0,No
+2025-05-12,May,Colorado Springs,7.0,30.0,31,Good,64.0,No
+2025-05-12,May,Fort Collins,5.3,31.0,32,Good,62.0,No
+2025-05-12,May,Grand Junction,11.9,30.0,48,Good,73.0,No
+2025-05-12,May,Pueblo,10.5,37.0,43,Good,73.0,No
+2025-05-13,May,Denver,8.9,41.0,42,Good,53.0,No
+2025-05-13,May,Boulder,11.2,37.0,45,Good,69.0,No
+2025-05-13,May,Colorado Springs,5.6,46.0,48,Good,68.0,No
+2025-05-13,May,Fort Collins,4.6,31.0,32,Good,73.0,No
+2025-05-13,May,Grand Junction,8.1,44.0,45,Good,84.0,No
+2025-05-13,May,Pueblo,9.3,36.0,38,Good,75.0,No
+2025-05-14,May,Denver,12.4,47.0,50,Good,57.0,No
+2025-05-14,May,Boulder,4.3,34.0,35,Good,77.0,No
+2025-05-14,May,Colorado Springs,5.8,27.0,28,Good,70.0,No
+2025-05-14,May,Fort Collins,9.9,50.0,52,Moderate,67.0,No
+2025-05-14,May,Grand Junction,7.8,25.0,31,Good,60.0,No
+2025-05-14,May,Pueblo,9.2,41.0,43,Good,75.0,No
+2025-05-15,May,Denver,10.1,44.0,46,Good,67.0,No
+2025-05-15,May,Boulder,6.3,25.0,26,Good,69.0,No
+2025-05-15,May,Colorado Springs,5.0,42.0,44,Good,63.0,No
+2025-05-15,May,Fort Collins,6.5,37.0,38,Good,73.0,No
+2025-05-15,May,Grand Junction,3.1,30.0,31,Good,68.0,No
+2025-05-15,May,Pueblo,9.9,29.0,40,Good,76.0,No
+2025-05-16,May,Denver,8.8,34.0,36,Good,64.0,No
+2025-05-16,May,Boulder,7.5,32.0,33,Good,67.0,No
+2025-05-16,May,Colorado Springs,3.6,41.0,42,Good,71.0,No
+2025-05-16,May,Fort Collins,4.1,24.0,25,Good,62.0,No
+2025-05-16,May,Grand Junction,11.5,36.0,47,Good,76.0,No
+2025-05-16,May,Pueblo,5.9,49.0,51,Moderate,75.0,No
+2025-05-17,May,Denver,6.8,33.0,35,Good,61.0,No
+2025-05-17,May,Boulder,5.6,26.0,27,Good,61.0,No
+2025-05-17,May,Colorado Springs,3.6,25.0,26,Good,65.0,No
+2025-05-17,May,Fort Collins,5.4,24.0,24,Good,77.0,No
+2025-05-17,May,Grand Junction,6.4,43.0,45,Good,77.0,No
+2025-05-17,May,Pueblo,6.5,49.0,51,Moderate,70.0,No
+2025-05-18,May,Denver,10.6,48.0,49,Good,53.0,No
+2025-05-18,May,Boulder,6.7,42.0,44,Good,70.0,No
+2025-05-18,May,Colorado Springs,9.3,30.0,37,Good,55.0,No
+2025-05-18,May,Fort Collins,5.4,44.0,46,Good,59.0,No
+2025-05-18,May,Grand Junction,9.3,33.0,38,Good,55.0,No
+2025-05-18,May,Pueblo,7.3,33.0,34,Good,73.0,No
+2025-05-19,May,Denver,7.4,41.0,42,Good,63.0,No
+2025-05-19,May,Boulder,9.3,28.0,37,Good,66.0,No
+2025-05-19,May,Colorado Springs,6.3,28.0,29,Good,61.0,No
+2025-05-19,May,Fort Collins,5.4,43.0,44,Good,59.0,No
+2025-05-19,May,Grand Junction,4.5,47.0,49,Good,78.0,No
+2025-05-19,May,Pueblo,6.3,35.0,36,Good,74.0,No
+2025-05-20,May,Denver,12.8,45.0,52,Moderate,63.0,No
+2025-05-20,May,Boulder,7.9,34.0,35,Good,77.0,No
+2025-05-20,May,Colorado Springs,3.2,47.0,49,Good,77.0,No
+2025-05-20,May,Fort Collins,3.8,38.0,39,Good,69.0,No
+2025-05-20,May,Grand Junction,,33.0,61,Moderate,60.0,No
+2025-05-20,May,Pueblo,9.2,41.0,42,Good,71.0,No
+2025-05-21,May,Denver,14.6,39.0,59,Moderate,57.0,No
+2025-05-21,May,Boulder,8.6,29.0,35,Good,67.0,No
+2025-05-21,May,Colorado Springs,1.0,44.0,45,Good,77.0,No
+2025-05-21,May,Fort Collins,5.4,48.0,50,Good,78.0,No
+2025-05-21,May,Grand Junction,7.5,47.0,49,Good,77.0,No
+2025-05-21,May,Pueblo,4.8,55.0,57,Moderate,89.0,No
+2025-05-22,May,Denver,10.4,43.0,45,Good,62.0,No
+2025-05-22,May,Boulder,8.5,40.0,42,Good,61.0,No
+2025-05-22,May,Colorado Springs,5.4,38.0,39,Good,74.0,No
+2025-05-22,May,Fort Collins,7.8,25.0,32,Good,58.0,No
+2025-05-22,May,Grand Junction,9.1,41.0,42,Good,82.0,No
+2025-05-22,May,Pueblo,8.0,23.0,32,Good,76.0,No
+2025-05-23,May,Denver,8.9,42.0,44,Good,69.0,No
+2025-05-23,May,Boulder,6.4,33.0,34,Good,70.0,No
+2025-05-23,May,Colorado Springs,2.1,43.0,44,Good,80.0,No
+2025-05-23,May,Fort Collins,8.3,48.0,49,Good,68.0,No
+2025-05-23,May,Grand Junction,9.7,42.0,43,Good,84.0,No
+2025-05-23,May,Pueblo,8.2,41.0,43,Good,81.0,No
+2025-05-24,May,Denver,8.0,42.0,43,Good,69.0,No
+2025-05-24,May,Boulder,7.3,30.0,32,Good,66.0,No
+2025-05-24,May,Colorado Springs,1.0,25.0,26,Good,61.0,No
+2025-05-24,May,Fort Collins,9.4,39.0,41,Good,68.0,No
+2025-05-24,May,Grand Junction,5.5,43.0,44,Good,83.0,No
+2025-05-24,May,Pueblo,10.3,30.0,42,Good,71.0,No
+2025-05-25,May,Denver,8.2,38.0,39,Good,72.0,No
+2025-05-25,May,Boulder,,42.0,44,Good,71.0,No
+2025-05-25,May,Colorado Springs,12.1,22.0,49,Good,55.0,No
+2025-05-25,May,Fort Collins,7.7,42.0,44,Good,75.0,No
+2025-05-25,May,Grand Junction,6.0,49.0,51,Moderate,80.0,No
+2025-05-25,May,Pueblo,2.4,43.0,44,Good,78.0,No
+2025-05-26,May,Denver,9.6,49.0,51,Moderate,82.0,No
+2025-05-26,May,Boulder,8.5,33.0,35,Good,77.0,No
+2025-05-26,May,Colorado Springs,8.2,40.0,42,Good,78.0,No
+2025-05-26,May,Fort Collins,4.8,39.0,41,Good,63.0,No
+2025-05-26,May,Grand Junction,10.7,33.0,44,Good,77.0,No
+2025-05-26,May,Pueblo,6.0,46.0,48,Good,75.0,No
+2025-05-27,May,Denver,7.9,57.0,60,Moderate,83.0,No
+2025-05-27,May,Boulder,5.5,50.0,52,Moderate,70.0,No
+2025-05-27,May,Colorado Springs,1.9,47.0,49,Good,82.0,No
+2025-05-27,May,Fort Collins,5.7,40.0,41,Good,69.0,No
+2025-05-27,May,Grand Junction,6.3,41.0,43,Good,76.0,No
+2025-05-27,May,Pueblo,6.1,45.0,47,Good,78.0,No
+2025-05-28,May,Denver,8.5,51.0,53,Moderate,78.0,No
+2025-05-28,May,Boulder,11.3,43.0,46,Good,69.0,No
+2025-05-28,May,Colorado Springs,5.4,37.0,39,Good,79.0,No
+2025-05-28,May,Fort Collins,7.6,38.0,39,Good,70.0,No
+2025-05-28,May,Grand Junction,9.1,39.0,41,Good,78.0,No
+2025-05-28,May,Pueblo,7.6,45.0,47,Good,79.0,No
+2025-05-29,May,Denver,11.4,47.0,48,Good,59.0,No
+2025-05-29,May,Boulder,1.1,37.0,38,Good,71.0,No
+2025-05-29,May,Colorado Springs,2.7,39.0,41,Good,79.0,No
+2025-05-29,May,Fort Collins,9.2,40.0,42,Good,81.0,No
+2025-05-29,May,Grand Junction,7.4,38.0,39,Good,82.0,No
+2025-05-29,May,Pueblo,5.2,40.0,41,Good,72.0,No
+2025-05-30,May,Denver,7.1,54.0,57,Moderate,78.0,No
+2025-05-30,May,Boulder,8.3,38.0,40,Good,69.0,No
+2025-05-30,May,Colorado Springs,7.0,33.0,34,Good,75.0,No
+2025-05-30,May,Fort Collins,5.8,26.0,27,Good,62.0,No
+2025-05-30,May,Grand Junction,4.1,44.0,46,Good,79.0,No
+2025-05-30,May,Pueblo,6.2,42.0,44,Good,80.0,No
+2025-05-31,May,Denver,10.6,50.0,52,Moderate,81.0,No
+2025-05-31,May,Boulder,7.8,26.0,31,Good,66.0,No
+2025-05-31,May,Colorado Springs,5.8,40.0,41,Good,69.0,No
+2025-05-31,May,Fort Collins,2.9,31.0,32,Good,66.0,No
+2025-05-31,May,Grand Junction,7.1,48.0,50,Good,72.0,No
+2025-05-31,May,Pueblo,7.6,43.0,44,Good,85.0,No
+2025-06-01,Jun,Denver,13.2,50.0,53,Moderate,77.0,No
+2025-06-01,Jun,Boulder,3.5,38.0,39,Good,71.0,No
+2025-06-01,Jun,Colorado Springs,6.6,39.0,41,Good,70.0,No
+2025-06-01,Jun,Fort Collins,2.3,53.0,56,Moderate,73.0,No
+2025-06-01,Jun,Grand Junction,6.4,39.0,40,Good,71.0,No
+2025-06-01,Jun,Pueblo,3.3,32.0,33,Good,71.0,No
+2025-06-02,Jun,Denver,7.7,45.0,47,Good,69.0,No
+2025-06-02,Jun,Boulder,4.1,40.0,41,Good,73.0,No
+2025-06-02,Jun,Colorado Springs,4.1,38.0,39,Good,69.0,No
+2025-06-02,Jun,Fort Collins,3.9,32.0,33,Good,69.0,No
+2025-06-02,Jun,Grand Junction,8.2,32.0,34,Good,66.0,No
+2025-06-02,Jun,Pueblo,6.5,49.0,51,Moderate,85.0,No
+2025-06-03,Jun,Denver,7.4,39.0,40,Good,64.0,No
+2025-06-03,Jun,Boulder,4.3,46.0,48,Good,80.0,No
+2025-06-03,Jun,Colorado Springs,8.2,39.0,41,Good,81.0,No
+2025-06-03,Jun,Fort Collins,3.9,47.0,49,Good,79.0,No
+2025-06-03,Jun,Grand Junction,3.6,32.0,33,Good,74.0,No
+2025-06-03,Jun,Pueblo,8.5,51.0,53,Moderate,84.0,No
+2025-06-04,Jun,Denver,9.4,39.0,41,Good,58.0,No
+2025-06-04,Jun,Boulder,1.6,54.0,57,Moderate,93.0,No
+2025-06-04,Jun,Colorado Springs,2.9,34.0,35,Good,69.0,No
+2025-06-04,Jun,Fort Collins,8.1,40.0,42,Good,79.0,No
+2025-06-04,Jun,Grand Junction,5.1,42.0,44,Good,87.0,No
+2025-06-04,Jun,Pueblo,1.0,41.0,42,Good,81.0,No
+2025-06-05,Jun,Denver,8.4,39.0,41,Good,73.0,No
+2025-06-05,Jun,Boulder,6.8,37.0,39,Good,70.0,No
+2025-06-05,Jun,Colorado Springs,4.9,38.0,39,Good,80.0,No
+2025-06-05,Jun,Fort Collins,6.2,36.0,37,Good,79.0,No
+2025-06-05,Jun,Grand Junction,10.5,45.0,47,Good,84.0,No
+2025-06-05,Jun,Pueblo,5.4,48.0,50,Good,87.0,No
+2025-06-06,Jun,Denver,4.1,39.0,40,Good,67.0,No
+2025-06-06,Jun,Boulder,11.6,43.0,47,Good,67.0,No
+2025-06-06,Jun,Colorado Springs,5.1,30.0,31,Good,77.0,No
+2025-06-06,Jun,Fort Collins,4.5,38.0,40,Good,72.0,No
+2025-06-06,Jun,Grand Junction,5.3,45.0,46,Good,83.0,No
+2025-06-06,Jun,Pueblo,6.7,47.0,49,Good,78.0,No
+2025-06-07,Jun,Denver,3.3,43.0,44,Good,76.0,No
+2025-06-07,Jun,Boulder,6.1,34.0,35,Good,74.0,No
+2025-06-07,Jun,Colorado Springs,8.4,33.0,34,Good,80.0,No
+2025-06-07,Jun,Fort Collins,6.1,41.0,43,Good,74.0,No
+2025-06-07,Jun,Grand Junction,6.1,37.0,38,Good,80.0,No
+2025-06-07,Jun,Pueblo,6.4,41.0,42,Good,87.0,No
+2025-06-08,Jun,Denver,11.6,48.0,50,Good,80.0,No
+2025-06-08,Jun,Boulder,6.3,31.0,32,Good,74.0,No
+2025-06-08,Jun,Colorado Springs,4.7,49.0,51,Moderate,80.0,No
+2025-06-08,Jun,Fort Collins,7.4,48.0,49,Good,83.0,No
+2025-06-08,Jun,Grand Junction,5.5,39.0,40,Good,82.0,No
+2025-06-08,Jun,Pueblo,2.6,48.0,50,Good,91.0,No
+2025-06-09,Jun,Denver,6.8,42.0,44,Good,78.0,No
+2025-06-09,Jun,Boulder,11.7,35.0,47,Good,77.0,No
+2025-06-09,Jun,Colorado Springs,7.3,46.0,48,Good,80.0,No
+2025-06-09,Jun,Fort Collins,6.5,41.0,42,Good,82.0,No
+2025-06-09,Jun,Grand Junction,15.2,33.0,62,Moderate,71.0,No
+2025-06-09,Jun,Pueblo,5.4,45.0,47,Good,88.0,No
+2025-06-10,Jun,Denver,7.8,45.0,47,Good,76.0,No
+2025-06-10,Jun,Boulder,6.5,34.0,35,Good,78.0,No
+2025-06-10,Jun,Colorado Springs,5.1,51.0,53,Moderate,71.0,No
+2025-06-10,Jun,Fort Collins,5.9,41.0,43,Good,72.0,No
+2025-06-10,Jun,Grand Junction,4.6,35.0,36,Good,72.0,No
+2025-06-10,Jun,Pueblo,7.0,20.0,28,Good,68.0,No
+2025-06-11,Jun,Denver,8.6,43.0,45,Good,67.0,No
+2025-06-11,Jun,Boulder,4.9,38.0,39,Good,83.0,No
+2025-06-11,Jun,Colorado Springs,3.7,51.0,53,Moderate,88.0,No
+2025-06-11,Jun,Fort Collins,3.7,36.0,37,Good,85.0,No
+2025-06-11,Jun,Grand Junction,5.2,43.0,45,Good,82.0,No
+2025-06-11,Jun,Pueblo,10.1,40.0,41,Good,79.0,No
+2025-06-12,Jun,Denver,6.6,48.0,50,Good,82.0,No
+2025-06-12,Jun,Boulder,7.1,44.0,46,Good,79.0,No
+2025-06-12,Jun,Colorado Springs,8.4,44.0,45,Good,84.0,No
+2025-06-12,Jun,Fort Collins,5.1,41.0,42,Good,84.0,No
+2025-06-12,Jun,Grand Junction,8.6,51.0,53,Moderate,79.0,No
+2025-06-12,Jun,Pueblo,7.2,45.0,47,Good,75.0,No
+2025-06-13,Jun,Denver,10.2,57.0,60,Moderate,82.0,No
+2025-06-13,Jun,Boulder,4.8,42.0,44,Good,76.0,No
+2025-06-13,Jun,Colorado Springs,9.2,41.0,43,Good,87.0,No
+2025-06-13,Jun,Fort Collins,8.6,40.0,42,Good,79.0,No
+2025-06-13,Jun,Grand Junction,8.0,39.0,40,Good,83.0,No
+2025-06-13,Jun,Pueblo,8.2,33.0,34,Good,76.0,No
+2025-06-14,Jun,Denver,5.0,61.0,64,Moderate,74.0,No
+2025-06-14,Jun,Boulder,6.6,52.0,54,Moderate,83.0,No
+2025-06-14,Jun,Colorado Springs,6.1,37.0,39,Good,63.0,No
+2025-06-14,Jun,Fort Collins,8.7,45.0,46,Good,80.0,No
+2025-06-14,Jun,Grand Junction,6.4,34.0,35,Good,77.0,No
+2025-06-14,Jun,Pueblo,9.6,42.0,43,Good,76.0,No
+2025-06-15,Jun,Denver,2.6,51.0,53,Moderate,81.0,No
+2025-06-15,Jun,Boulder,9.3,31.0,38,Good,78.0,No
+2025-06-15,Jun,Colorado Springs,14.7,37.0,60,Moderate,92.0,No
+2025-06-15,Jun,Fort Collins,1.0,44.0,46,Good,81.0,No
+2025-06-15,Jun,Grand Junction,5.5,50.0,52,Moderate,88.0,No
+2025-06-15,Jun,Pueblo,1.1,42.0,43,Good,82.0,No
+2025-06-16,Jun,Denver,6.1,50.0,52,Moderate,84.0,No
+2025-06-16,Jun,Boulder,10.1,47.0,49,Good,94.0,No
+2025-06-16,Jun,Colorado Springs,4.5,49.0,51,Moderate,83.0,No
+2025-06-16,Jun,Fort Collins,,31.0,32,Good,72.0,No
+2025-06-16,Jun,Grand Junction,8.7,42.0,43,Good,80.0,No
+2025-06-16,Jun,Pueblo,7.4,41.0,43,Good,79.0,No
+2025-06-17,Jun,Denver,5.7,46.0,47,Good,86.0,No
+2025-06-17,Jun,Boulder,4.8,37.0,38,Good,76.0,No
+2025-06-17,Jun,Colorado Springs,7.3,43.0,44,Good,85.0,No
+2025-06-17,Jun,Fort Collins,6.7,27.0,28,Good,56.0,No
+2025-06-17,Jun,Grand Junction,4.4,44.0,46,Good,74.0,No
+2025-06-17,Jun,Pueblo,8.2,39.0,40,Good,79.0,No
+2025-06-18,Jun,Denver,10.0,58.0,60,Moderate,87.0,No
+2025-06-18,Jun,Boulder,10.4,35.0,42,Good,70.0,No
+2025-06-18,Jun,Colorado Springs,8.8,44.0,46,Good,80.0,No
+2025-06-18,Jun,Fort Collins,7.8,46.0,48,Good,99.0,No
+2025-06-18,Jun,Grand Junction,7.8,49.0,51,Moderate,78.0,No
+2025-06-18,Jun,Pueblo,8.3,46.0,48,Good,86.0,No
+2025-06-19,Jun,Denver,10.5,51.0,53,Moderate,75.0,No
+2025-06-19,Jun,Boulder,8.4,38.0,39,Good,78.0,No
+2025-06-19,Jun,Colorado Springs,5.8,40.0,42,Good,81.0,No
+2025-06-19,Jun,Fort Collins,8.6,41.0,42,Good,78.0,No
+2025-06-19,Jun,Grand Junction,5.9,50.0,52,Moderate,92.0,No
+2025-06-19,Jun,Pueblo,5.7,44.0,46,Good,76.0,No
+2025-06-20,Jun,Denver,7.0,41.0,43,Good,63.0,No
+2025-06-20,Jun,Boulder,7.8,47.0,48,Good,82.0,No
+2025-06-20,Jun,Colorado Springs,8.1,41.0,42,Good,83.0,No
+2025-06-20,Jun,Fort Collins,4.0,38.0,39,Good,78.0,No
+2025-06-20,Jun,Grand Junction,10.8,34.0,44,Good,71.0,No
+2025-06-20,Jun,Pueblo,3.7,51.0,53,Moderate,86.0,No
+2025-06-21,Jun,Denver,11.0,49.0,51,Moderate,85.0,No
+2025-06-21,Jun,Boulder,6.9,39.0,40,Good,67.0,No
+2025-06-21,Jun,Colorado Springs,3.2,28.0,29,Good,62.0,No
+2025-06-21,Jun,Fort Collins,9.9,38.0,40,Good,80.0,No
+2025-06-21,Jun,Grand Junction,5.4,49.0,51,Moderate,84.0,No
+2025-06-21,Jun,Pueblo,7.0,35.0,36,Good,75.0,No
+2025-06-22,Jun,Denver,9.8,62.0,64,Moderate,80.0,No
+2025-06-22,Jun,Boulder,4.8,45.0,46,Good,69.0,No
+2025-06-22,Jun,Colorado Springs,6.9,45.0,47,Good,80.0,No
+2025-06-22,Jun,Fort Collins,3.7,39.0,41,Good,80.0,No
+2025-06-22,Jun,Grand Junction,6.6,42.0,44,Good,84.0,No
+2025-06-22,Jun,Pueblo,8.4,41.0,42,Good,85.0,No
+2025-06-23,Jun,Denver,12.6,60.0,63,Moderate,72.0,No
+2025-06-23,Jun,Boulder,8.1,38.0,40,Good,83.0,No
+2025-06-23,Jun,Colorado Springs,4.0,43.0,45,Good,83.0,No
+2025-06-23,Jun,Fort Collins,8.4,32.0,34,Good,76.0,No
+2025-06-23,Jun,Grand Junction,8.3,50.0,52,Moderate,89.0,No
+2025-06-23,Jun,Pueblo,8.4,56.0,59,Moderate,90.0,No
+2025-06-24,Jun,Denver,3.1,56.0,58,Moderate,83.0,No
+2025-06-24,Jun,Boulder,6.7,38.0,39,Good,89.0,No
+2025-06-24,Jun,Colorado Springs,5.6,51.0,54,Moderate,93.0,No
+2025-06-24,Jun,Fort Collins,8.3,30.0,33,Good,81.0,No
+2025-06-24,Jun,Grand Junction,3.9,45.0,47,Good,83.0,No
+2025-06-24,Jun,Pueblo,4.9,40.0,41,Good,81.0,No
+2025-06-25,Jun,Denver,10.8,55.0,58,Moderate,92.0,No
+2025-06-25,Jun,Boulder,6.2,33.0,34,Good,84.0,No
+2025-06-25,Jun,Colorado Springs,5.5,42.0,44,Good,87.0,No
+2025-06-25,Jun,Fort Collins,9.2,40.0,42,Good,80.0,No
+2025-06-25,Jun,Grand Junction,1.2,51.0,53,Moderate,94.0,No
+2025-06-25,Jun,Pueblo,6.3,43.0,45,Good,86.0,No
+2025-06-26,Jun,Denver,12.7,43.0,51,Moderate,87.0,No
+2025-06-26,Jun,Boulder,1.8,31.0,32,Good,83.0,No
+2025-06-26,Jun,Colorado Springs,3.9,36.0,37,Good,85.0,No
+2025-06-26,Jun,Fort Collins,7.0,35.0,36,Good,78.0,No
+2025-06-26,Jun,Grand Junction,5.6,39.0,40,Good,91.0,No
+2025-06-26,Jun,Pueblo,3.1,43.0,45,Good,92.0,No
+2025-06-27,Jun,Denver,9.9,46.0,47,Good,73.0,No
+2025-06-27,Jun,Boulder,9.0,38.0,39,Good,82.0,No
+2025-06-27,Jun,Colorado Springs,8.4,41.0,43,Good,82.0,No
+2025-06-27,Jun,Fort Collins,5.2,36.0,38,Good,80.0,No
+2025-06-27,Jun,Grand Junction,5.3,47.0,49,Good,86.0,No
+2025-06-27,Jun,Pueblo,6.7,43.0,45,Good,84.0,No
+2025-06-28,Jun,Denver,8.6,56.0,58,Moderate,91.0,No
+2025-06-28,Jun,Boulder,5.2,43.0,45,Good,96.0,No
+2025-06-28,Jun,Colorado Springs,10.9,38.0,44,Good,74.0,No
+2025-06-28,Jun,Fort Collins,8.6,43.0,44,Good,91.0,No
+2025-06-28,Jun,Grand Junction,4.1,42.0,43,Good,95.0,No
+2025-06-28,Jun,Pueblo,11.7,36.0,48,Good,78.0,No
+2025-06-29,Jun,Denver,13.2,39.0,54,Moderate,73.0,No
+2025-06-29,Jun,Boulder,9.2,37.0,38,Good,74.0,No
+2025-06-29,Jun,Colorado Springs,10.4,44.0,45,Good,78.0,No
+2025-06-29,Jun,Fort Collins,4.4,43.0,44,Good,91.0,No
+2025-06-29,Jun,Grand Junction,13.3,42.0,54,Moderate,91.0,No
+2025-06-29,Jun,Pueblo,4.3,42.0,44,Good,80.0,No
+2025-06-30,Jun,Denver,9.4,42.0,44,Good,82.0,No
+2025-06-30,Jun,Boulder,11.2,41.0,46,Good,77.0,No
+2025-06-30,Jun,Colorado Springs,4.9,46.0,48,Good,92.0,No
+2025-06-30,Jun,Fort Collins,1.7,40.0,41,Good,68.0,No
+2025-06-30,Jun,Grand Junction,13.5,43.0,55,Moderate,87.0,No
+2025-06-30,Jun,Pueblo,10.3,31.0,42,Good,81.0,No
+2025-07-01,Jul,Denver,9.0,49.0,51,Moderate,70.0,No
+2025-07-01,Jul,Boulder,6.7,42.0,44,Good,87.0,No
+2025-07-01,Jul,Colorado Springs,5.3,39.0,40,Good,80.0,No
+2025-07-01,Jul,Fort Collins,2.8,44.0,46,Good,79.0,No
+2025-07-01,Jul,Grand Junction,6.9,44.0,46,Good,87.0,No
+2025-07-01,Jul,Pueblo,8.1,42.0,43,Good,88.0,No
+2025-07-02,Jul,Denver,12.7,46.0,51,Moderate,80.0,No
+2025-07-02,Jul,Boulder,11.4,41.0,46,Good,80.0,No
+2025-07-02,Jul,Colorado Springs,6.7,30.0,31,Good,76.0,No
+2025-07-02,Jul,Fort Collins,10.0,44.0,46,Good,91.0,No
+2025-07-02,Jul,Grand Junction,5.8,38.0,39,Good,74.0,No
+2025-07-02,Jul,Pueblo,1.0,47.0,49,Good,96.0,No
+2025-07-03,Jul,Denver,11.1,41.0,45,Good,73.0,No
+2025-07-03,Jul,Boulder,5.9,46.0,47,Good,77.0,No
+2025-07-03,Jul,Colorado Springs,5.6,54.0,56,Moderate,94.0,No
+2025-07-03,Jul,Fort Collins,6.8,43.0,44,Good,85.0,No
+2025-07-03,Jul,Grand Junction,8.5,47.0,49,Good,90.0,No
+2025-07-03,Jul,Pueblo,8.2,31.0,33,Good,81.0,No
+2025-07-04,Jul,Denver,10.0,41.0,43,Good,79.0,No
+2025-07-04,Jul,Boulder,4.3,42.0,43,Good,75.0,No
+2025-07-04,Jul,Colorado Springs,10.0,34.0,41,Good,74.0,No
+2025-07-04,Jul,Fort Collins,8.1,42.0,44,Good,72.0,No
+2025-07-04,Jul,Grand Junction,11.5,33.0,47,Good,80.0,No
+2025-07-04,Jul,Pueblo,8.3,33.0,34,Good,78.0,No
+2025-07-05,Jul,Denver,9.6,51.0,54,Moderate,83.0,No
+2025-07-05,Jul,Boulder,6.0,36.0,38,Good,78.0,No
+2025-07-05,Jul,Colorado Springs,4.4,41.0,42,Good,86.0,No
+2025-07-05,Jul,Fort Collins,3.1,46.0,48,Good,76.0,No
+2025-07-05,Jul,Grand Junction,6.8,46.0,48,Good,90.0,No
+2025-07-05,Jul,Pueblo,7.2,33.0,34,Good,86.0,No
+2025-07-06,Jul,Denver,7.5,48.0,50,Good,93.0,No
+2025-07-06,Jul,Boulder,8.7,40.0,41,Good,81.0,No
+2025-07-06,Jul,Colorado Springs,7.8,41.0,42,Good,81.0,No
+2025-07-06,Jul,Fort Collins,6.2,37.0,39,Good,81.0,No
+2025-07-06,Jul,Grand Junction,12.2,35.0,50,Good,92.0,No
+2025-07-06,Jul,Pueblo,11.5,51.0,53,Moderate,100.0,No
+2025-07-07,Jul,Denver,8.4,60.0,62,Moderate,84.0,No
+2025-07-07,Jul,Boulder,4.5,41.0,42,Good,72.0,No
+2025-07-07,Jul,Colorado Springs,8.1,59.0,62,Moderate,108.0,No
+2025-07-07,Jul,Fort Collins,1.0,53.0,55,Moderate,85.0,No
+2025-07-07,Jul,Grand Junction,5.9,48.0,50,Good,81.0,No
+2025-07-07,Jul,Pueblo,,45.0,47,Good,90.0,No
+2025-07-08,Jul,Denver,7.9,53.0,55,Moderate,86.0,No
+2025-07-08,Jul,Boulder,6.1,51.0,53,Moderate,93.0,No
+2025-07-08,Jul,Colorado Springs,5.1,48.0,50,Good,82.0,No
+2025-07-08,Jul,Fort Collins,6.6,60.0,62,Moderate,84.0,No
+2025-07-08,Jul,Grand Junction,10.6,41.0,43,Good,90.0,No
+2025-07-08,Jul,Pueblo,6.6,42.0,43,Good,89.0,No
+2025-07-09,Jul,Denver,7.3,54.0,56,Moderate,93.0,No
+2025-07-09,Jul,Boulder,11.8,46.0,48,Good,84.0,No
+2025-07-09,Jul,Colorado Springs,3.2,41.0,43,Good,79.0,No
+2025-07-09,Jul,Fort Collins,6.8,42.0,43,Good,81.0,No
+2025-07-09,Jul,Grand Junction,16.2,46.0,66,Moderate,95.0,No
+2025-07-09,Jul,Pueblo,7.0,51.0,53,Moderate,85.0,No
+2025-07-10,Jul,Denver,7.4,53.0,55,Moderate,82.0,No
+2025-07-10,Jul,Boulder,3.7,51.0,53,Moderate,89.0,No
+2025-07-10,Jul,Colorado Springs,8.9,58.0,61,Moderate,91.0,No
+2025-07-10,Jul,Fort Collins,5.6,44.0,46,Good,90.0,No
+2025-07-10,Jul,Grand Junction,12.1,45.0,49,Good,73.0,No
+2025-07-10,Jul,Pueblo,7.0,48.0,50,Good,88.0,No
+2025-07-11,Jul,Denver,8.8,52.0,54,Moderate,83.0,No
+2025-07-11,Jul,Boulder,9.0,38.0,39,Good,99.0,No
+2025-07-11,Jul,Colorado Springs,8.4,51.0,54,Moderate,91.0,No
+2025-07-11,Jul,Fort Collins,5.7,44.0,46,Good,88.0,No
+2025-07-11,Jul,Grand Junction,6.9,64.0,67,Moderate,93.0,No
+2025-07-11,Jul,Pueblo,10.5,48.0,50,Good,83.0,No
+2025-07-12,Jul,Denver,11.8,38.0,48,Good,72.0,No
+2025-07-12,Jul,Boulder,1.8,30.0,31,Good,79.0,No
+2025-07-12,Jul,Colorado Springs,5.7,32.0,33,Good,87.0,No
+2025-07-12,Jul,Fort Collins,8.0,39.0,41,Good,84.0,No
+2025-07-12,Jul,Grand Junction,11.0,38.0,44,Good,87.0,No
+2025-07-12,Jul,Pueblo,6.8,48.0,50,Good,90.0,No
+2025-07-13,Jul,Denver,11.0,56.0,58,Moderate,94.0,No
+2025-07-13,Jul,Boulder,3.3,39.0,40,Good,76.0,No
+2025-07-13,Jul,Colorado Springs,7.2,41.0,42,Good,79.0,No
+2025-07-13,Jul,Fort Collins,8.0,45.0,47,Good,91.0,No
+2025-07-13,Jul,Grand Junction,9.4,58.0,60,Moderate,99.0,No
+2025-07-13,Jul,Pueblo,9.7,42.0,44,Good,90.0,No
+2025-07-14,Jul,Denver,5.5,47.0,49,Good,84.0,No
+2025-07-14,Jul,Boulder,11.1,41.0,45,Good,77.0,No
+2025-07-14,Jul,Colorado Springs,7.0,41.0,42,Good,93.0,No
+2025-07-14,Jul,Fort Collins,4.7,55.0,57,Moderate,87.0,No
+2025-07-14,Jul,Grand Junction,9.6,58.0,60,Moderate,93.0,No
+2025-07-14,Jul,Pueblo,7.2,46.0,47,Good,85.0,No
+2025-07-15,Jul,Denver,7.6,58.0,61,Moderate,91.0,No
+2025-07-15,Jul,Boulder,1.9,37.0,38,Good,86.0,No
+2025-07-15,Jul,Colorado Springs,8.1,45.0,46,Good,87.0,No
+2025-07-15,Jul,Fort Collins,2.0,32.0,33,Good,77.0,No
+2025-07-15,Jul,Grand Junction,4.5,42.0,43,Good,83.0,No
+2025-07-15,Jul,Pueblo,11.3,46.0,48,Good,83.0,No
+2025-07-16,Jul,Denver,13.2,47.0,54,Moderate,71.0,No
+2025-07-16,Jul,Boulder,5.4,39.0,40,Good,82.0,No
+2025-07-16,Jul,Colorado Springs,4.0,35.0,36,Good,81.0,No
+2025-07-16,Jul,Fort Collins,9.5,51.0,53,Moderate,80.0,No
+2025-07-16,Jul,Grand Junction,1.7,52.0,54,Moderate,82.0,No
+2025-07-16,Jul,Pueblo,3.7,43.0,45,Good,87.0,No
+2025-07-17,Jul,Denver,8.5,46.0,48,Good,84.0,No
+2025-07-17,Jul,Boulder,8.1,37.0,39,Good,72.0,No
+2025-07-17,Jul,Colorado Springs,4.1,34.0,35,Good,91.0,No
+2025-07-17,Jul,Fort Collins,4.4,39.0,40,Good,86.0,No
+2025-07-17,Jul,Grand Junction,7.7,48.0,49,Good,86.0,No
+2025-07-17,Jul,Pueblo,9.7,53.0,55,Moderate,92.0,No
+2025-07-18,Jul,Denver,14.8,44.0,60,Moderate,87.0,No
+2025-07-18,Jul,Boulder,7.8,37.0,38,Good,86.0,No
+2025-07-18,Jul,Colorado Springs,2.8,59.0,62,Moderate,103.0,No
+2025-07-18,Jul,Fort Collins,6.4,44.0,46,Good,84.0,No
+2025-07-18,Jul,Grand Junction,9.3,54.0,57,Moderate,79.0,No
+2025-07-18,Jul,Pueblo,6.7,55.0,58,Moderate,88.0,No
+2025-07-19,Jul,Denver,9.6,55.0,57,Moderate,89.0,No
+2025-07-19,Jul,Boulder,5.8,56.0,58,Moderate,90.0,No
+2025-07-19,Jul,Colorado Springs,1.0,40.0,42,Good,79.0,No
+2025-07-19,Jul,Fort Collins,5.2,41.0,42,Good,92.0,No
+2025-07-19,Jul,Grand Junction,2.3,55.0,57,Moderate,98.0,No
+2025-07-19,Jul,Pueblo,7.4,54.0,56,Moderate,87.0,No
+2025-07-20,Jul,Denver,38.0,52.0,155,Unhealthy,85.0,Yes
+2025-07-20,Jul,Boulder,35.7,54.0,146,Unhealthy for Sensitive Groups,83.0,Yes
+2025-07-20,Jul,Colorado Springs,31.5,36.0,129,Unhealthy for Sensitive Groups,74.0,Yes
+2025-07-20,Jul,Fort Collins,36.5,42.0,149,Unhealthy for Sensitive Groups,90.0,Yes
+2025-07-20,Jul,Grand Junction,33.2,49.0,135,Unhealthy for Sensitive Groups,89.0,Yes
+2025-07-20,Jul,Pueblo,36.0,49.0,147,Unhealthy for Sensitive Groups,86.0,Yes
+2025-07-21,Jul,Denver,37.3,50.0,152,Unhealthy,75.0,Yes
+2025-07-21,Jul,Boulder,39.9,44.0,163,Unhealthy,80.0,Yes
+2025-07-21,Jul,Colorado Springs,31.1,44.0,127,Unhealthy for Sensitive Groups,80.0,Yes
+2025-07-21,Jul,Fort Collins,32.9,34.0,134,Unhealthy for Sensitive Groups,83.0,Yes
+2025-07-21,Jul,Grand Junction,38.0,36.0,155,Unhealthy,75.0,Yes
+2025-07-21,Jul,Pueblo,36.8,45.0,150,Unhealthy for Sensitive Groups,89.0,Yes
+2025-07-22,Jul,Denver,41.1,50.0,168,Unhealthy,84.0,Yes
+2025-07-22,Jul,Boulder,38.3,43.0,157,Unhealthy,89.0,Yes
+2025-07-22,Jul,Colorado Springs,32.4,33.0,132,Unhealthy for Sensitive Groups,77.0,Yes
+2025-07-22,Jul,Fort Collins,32.9,44.0,134,Unhealthy for Sensitive Groups,79.0,Yes
+2025-07-22,Jul,Grand Junction,36.3,52.0,148,Unhealthy for Sensitive Groups,83.0,Yes
+2025-07-22,Jul,Pueblo,40.2,51.0,164,Unhealthy,94.0,Yes
+2025-07-23,Jul,Denver,37.0,55.0,151,Unhealthy,94.0,Yes
+2025-07-23,Jul,Boulder,,35.0,154,Unhealthy,75.0,Yes
+2025-07-23,Jul,Colorado Springs,31.6,30.0,129,Unhealthy for Sensitive Groups,72.0,Yes
+2025-07-23,Jul,Fort Collins,32.0,41.0,131,Unhealthy for Sensitive Groups,73.0,Yes
+2025-07-23,Jul,Grand Junction,37.7,52.0,154,Unhealthy,91.0,Yes
+2025-07-23,Jul,Pueblo,38.8,45.0,159,Unhealthy,82.0,Yes
+2025-07-24,Jul,Denver,35.8,47.0,146,Unhealthy for Sensitive Groups,81.0,Yes
+2025-07-24,Jul,Boulder,30.6,47.0,125,Unhealthy for Sensitive Groups,84.0,Yes
+2025-07-24,Jul,Colorado Springs,29.7,52.0,121,Unhealthy for Sensitive Groups,95.0,Yes
+2025-07-24,Jul,Fort Collins,33.6,34.0,137,Unhealthy for Sensitive Groups,74.0,Yes
+2025-07-24,Jul,Grand Junction,39.6,40.0,162,Unhealthy,82.0,Yes
+2025-07-24,Jul,Pueblo,35.7,49.0,146,Unhealthy for Sensitive Groups,83.0,Yes
+2025-07-25,Jul,Denver,38.7,61.0,158,Unhealthy,84.0,Yes
+2025-07-25,Jul,Boulder,31.7,34.0,129,Unhealthy for Sensitive Groups,67.0,Yes
+2025-07-25,Jul,Colorado Springs,40.0,52.0,163,Unhealthy,91.0,Yes
+2025-07-25,Jul,Fort Collins,30.3,48.0,124,Unhealthy for Sensitive Groups,92.0,Yes
+2025-07-25,Jul,Grand Junction,33.6,40.0,137,Unhealthy for Sensitive Groups,78.0,Yes
+2025-07-25,Jul,Pueblo,33.0,26.0,135,Unhealthy for Sensitive Groups,66.0,Yes
+2025-07-26,Jul,Denver,44.8,55.0,183,Unhealthy,75.0,Yes
+2025-07-26,Jul,Boulder,32.7,44.0,134,Unhealthy for Sensitive Groups,80.0,Yes
+2025-07-26,Jul,Colorado Springs,34.1,50.0,139,Unhealthy for Sensitive Groups,71.0,Yes
+2025-07-26,Jul,Fort Collins,33.3,48.0,136,Unhealthy for Sensitive Groups,82.0,Yes
+2025-07-26,Jul,Grand Junction,34.8,46.0,142,Unhealthy for Sensitive Groups,95.0,Yes
+2025-07-26,Jul,Pueblo,30.2,35.0,123,Unhealthy for Sensitive Groups,78.0,Yes
+2025-07-27,Jul,Denver,37.4,39.0,153,Unhealthy,80.0,Yes
+2025-07-27,Jul,Boulder,30.0,44.0,123,Unhealthy for Sensitive Groups,79.0,Yes
+2025-07-27,Jul,Colorado Springs,36.5,34.0,149,Unhealthy for Sensitive Groups,77.0,Yes
+2025-07-27,Jul,Fort Collins,31.6,37.0,129,Unhealthy for Sensitive Groups,75.0,Yes
+2025-07-27,Jul,Grand Junction,33.9,55.0,139,Unhealthy for Sensitive Groups,94.0,Yes
+2025-07-27,Jul,Pueblo,37.6,45.0,154,Unhealthy,88.0,Yes
+2025-07-28,Jul,Denver,13.5,46.0,55,Moderate,77.0,No
+2025-07-28,Jul,Boulder,5.1,27.0,28,Good,78.0,No
+2025-07-28,Jul,Colorado Springs,4.9,48.0,50,Good,84.0,No
+2025-07-28,Jul,Fort Collins,8.2,28.0,33,Good,74.0,No
+2025-07-28,Jul,Grand Junction,13.2,54.0,56,Moderate,91.0,No
+2025-07-28,Jul,Pueblo,8.8,59.0,62,Moderate,81.0,No
+2025-07-29,Jul,Denver,7.3,51.0,54,Moderate,83.0,No
+2025-07-29,Jul,Boulder,3.8,36.0,38,Good,91.0,No
+2025-07-29,Jul,Colorado Springs,4.9,49.0,51,Moderate,88.0,No
+2025-07-29,Jul,Fort Collins,5.3,43.0,44,Good,75.0,No
+2025-07-29,Jul,Grand Junction,8.9,45.0,47,Good,89.0,No
+2025-07-29,Jul,Pueblo,7.5,47.0,48,Good,83.0,No
+2025-07-30,Jul,Denver,13.5,47.0,55,Moderate,89.0,No
+2025-07-30,Jul,Boulder,10.9,29.0,44,Good,66.0,No
+2025-07-30,Jul,Colorado Springs,7.4,46.0,48,Good,88.0,No
+2025-07-30,Jul,Fort Collins,8.5,54.0,56,Moderate,81.0,No
+2025-07-30,Jul,Grand Junction,10.5,53.0,55,Moderate,92.0,No
+2025-07-30,Jul,Pueblo,5.0,50.0,52,Moderate,83.0,No
+2025-07-31,Jul,Denver,8.5,53.0,55,Moderate,83.0,No
+2025-07-31,Jul,Boulder,7.4,33.0,34,Good,84.0,No
+2025-07-31,Jul,Colorado Springs,5.9,35.0,36,Good,79.0,No
+2025-07-31,Jul,Fort Collins,10.1,50.0,52,Moderate,82.0,No
+2025-07-31,Jul,Grand Junction,9.2,38.0,39,Good,89.0,No
+2025-07-31,Jul,Pueblo,6.9,48.0,50,Good,94.0,No
+2025-08-01,Aug,Denver,7.7,42.0,43,Good,79.0,No
+2025-08-01,Aug,Boulder,5.8,37.0,39,Good,71.0,No
+2025-08-01,Aug,Colorado Springs,14.3,33.0,58,Moderate,78.0,No
+2025-08-01,Aug,Fort Collins,5.8,46.0,48,Good,83.0,No
+2025-08-01,Aug,Grand Junction,6.4,40.0,41,Good,85.0,No
+2025-08-01,Aug,Pueblo,7.2,33.0,34,Good,97.0,No
+2025-08-02,Aug,Denver,7.9,51.0,53,Moderate,94.0,No
+2025-08-02,Aug,Boulder,11.7,47.0,48,Good,82.0,No
+2025-08-02,Aug,Colorado Springs,8.2,39.0,40,Good,83.0,No
+2025-08-02,Aug,Fort Collins,7.5,35.0,36,Good,77.0,No
+2025-08-02,Aug,Grand Junction,7.5,44.0,45,Good,76.0,No
+2025-08-02,Aug,Pueblo,10.6,46.0,48,Good,81.0,No
+2025-08-03,Aug,Denver,9.9,51.0,53,Moderate,84.0,No
+2025-08-03,Aug,Boulder,14.2,35.0,58,Moderate,74.0,No
+2025-08-03,Aug,Colorado Springs,3.2,44.0,46,Good,82.0,No
+2025-08-03,Aug,Fort Collins,10.9,42.0,44,Good,86.0,No
+2025-08-03,Aug,Grand Junction,7.6,29.0,31,Good,84.0,No
+2025-08-03,Aug,Pueblo,5.9,40.0,42,Good,89.0,No
+2025-08-04,Aug,Denver,8.1,43.0,45,Good,81.0,No
+2025-08-04,Aug,Boulder,7.0,35.0,36,Good,87.0,No
+2025-08-04,Aug,Colorado Springs,5.2,36.0,37,Good,78.0,No
+2025-08-04,Aug,Fort Collins,9.7,43.0,44,Good,90.0,No
+2025-08-04,Aug,Grand Junction,5.7,46.0,48,Good,91.0,No
+2025-08-04,Aug,Pueblo,11.2,41.0,45,Good,85.0,No
+2025-08-05,Aug,Denver,6.9,53.0,55,Moderate,79.0,No
+2025-08-05,Aug,Boulder,3.2,48.0,50,Good,89.0,No
+2025-08-05,Aug,Colorado Springs,6.9,41.0,42,Good,81.0,No
+2025-08-05,Aug,Fort Collins,2.8,42.0,43,Good,95.0,No
+2025-08-05,Aug,Grand Junction,7.8,47.0,48,Good,97.0,No
+2025-08-05,Aug,Pueblo,8.5,44.0,46,Good,87.0,No
+2025-08-06,Aug,Denver,11.0,65.0,67,Moderate,92.0,No
+2025-08-06,Aug,Boulder,8.5,41.0,43,Good,91.0,No
+2025-08-06,Aug,Colorado Springs,7.5,41.0,43,Good,81.0,No
+2025-08-06,Aug,Fort Collins,8.1,43.0,44,Good,91.0,No
+2025-08-06,Aug,Grand Junction,6.8,43.0,44,Good,87.0,No
+2025-08-06,Aug,Pueblo,4.7,47.0,49,Good,89.0,No
+2025-08-07,Aug,Denver,9.8,50.0,52,Moderate,87.0,No
+2025-08-07,Aug,Boulder,4.1,59.0,61,Moderate,99.0,No
+2025-08-07,Aug,Colorado Springs,1.0,42.0,44,Good,78.0,No
+2025-08-07,Aug,Fort Collins,5.6,43.0,45,Good,85.0,No
+2025-08-07,Aug,Grand Junction,1.0,32.0,33,Good,91.0,No
+2025-08-07,Aug,Pueblo,5.1,41.0,42,Good,87.0,No
+2025-08-08,Aug,Denver,8.7,50.0,52,Moderate,77.0,No
+2025-08-08,Aug,Boulder,6.9,42.0,44,Good,81.0,No
+2025-08-08,Aug,Colorado Springs,6.6,35.0,36,Good,82.0,No
+2025-08-08,Aug,Fort Collins,2.9,37.0,38,Good,75.0,No
+2025-08-08,Aug,Grand Junction,6.6,38.0,39,Good,74.0,No
+2025-08-08,Aug,Pueblo,7.4,32.0,33,Good,84.0,No
+2025-08-09,Aug,Denver,7.8,51.0,53,Moderate,83.0,No
+2025-08-09,Aug,Boulder,7.2,39.0,41,Good,77.0,No
+2025-08-09,Aug,Colorado Springs,6.4,36.0,37,Good,73.0,No
+2025-08-09,Aug,Fort Collins,13.4,41.0,55,Moderate,94.0,No
+2025-08-09,Aug,Grand Junction,9.2,36.0,37,Good,87.0,No
+2025-08-09,Aug,Pueblo,2.2,34.0,35,Good,85.0,No
+2025-08-10,Aug,Denver,7.9,68.0,71,Moderate,84.0,No
+2025-08-10,Aug,Boulder,1.2,45.0,47,Good,79.0,No
+2025-08-10,Aug,Colorado Springs,6.2,35.0,37,Good,70.0,No
+2025-08-10,Aug,Fort Collins,6.7,46.0,48,Good,85.0,No
+2025-08-10,Aug,Grand Junction,8.9,40.0,42,Good,81.0,No
+2025-08-10,Aug,Pueblo,7.5,48.0,50,Good,87.0,No
+2025-08-11,Aug,Denver,14.3,51.0,58,Moderate,76.0,No
+2025-08-11,Aug,Boulder,5.2,39.0,40,Good,74.0,No
+2025-08-11,Aug,Colorado Springs,3.3,50.0,52,Moderate,88.0,No
+2025-08-11,Aug,Fort Collins,7.4,48.0,50,Good,79.0,No
+2025-08-11,Aug,Grand Junction,7.1,36.0,37,Good,84.0,No
+2025-08-11,Aug,Pueblo,9.1,51.0,53,Moderate,76.0,No
+2025-08-12,Aug,Denver,6.4,54.0,56,Moderate,71.0,No
+2025-08-12,Aug,Boulder,6.0,30.0,31,Good,73.0,No
+2025-08-12,Aug,Colorado Springs,3.2,49.0,51,Moderate,82.0,No
+2025-08-12,Aug,Fort Collins,3.9,46.0,48,Good,92.0,No
+2025-08-12,Aug,Grand Junction,7.8,56.0,58,Moderate,98.0,No
+2025-08-12,Aug,Pueblo,6.8,42.0,43,Good,84.0,No
+2025-08-13,Aug,Denver,14.0,50.0,57,Moderate,93.0,No
+2025-08-13,Aug,Boulder,1.1,42.0,44,Good,80.0,No
+2025-08-13,Aug,Colorado Springs,6.1,44.0,46,Good,83.0,No
+2025-08-13,Aug,Fort Collins,7.7,44.0,46,Good,87.0,No
+2025-08-13,Aug,Grand Junction,10.1,36.0,41,Good,85.0,No
+2025-08-13,Aug,Pueblo,1.2,54.0,56,Moderate,90.0,No
+2025-08-14,Aug,Denver,10.5,60.0,62,Moderate,75.0,No
+2025-08-14,Aug,Boulder,2.5,36.0,37,Good,78.0,No
+2025-08-14,Aug,Colorado Springs,9.0,39.0,40,Good,85.0,No
+2025-08-14,Aug,Fort Collins,3.3,36.0,37,Good,85.0,No
+2025-08-14,Aug,Grand Junction,4.6,46.0,48,Good,86.0,No
+2025-08-14,Aug,Pueblo,7.1,46.0,48,Good,86.0,No
+2025-08-15,Aug,Denver,10.0,40.0,42,Good,69.0,No
+2025-08-15,Aug,Boulder,6.9,44.0,46,Good,74.0,No
+2025-08-15,Aug,Colorado Springs,9.2,37.0,39,Good,72.0,No
+2025-08-15,Aug,Fort Collins,9.0,29.0,36,Good,70.0,No
+2025-08-15,Aug,Grand Junction,8.3,29.0,33,Good,84.0,No
+2025-08-15,Aug,Pueblo,8.7,45.0,46,Good,87.0,No
+2025-08-16,Aug,Denver,5.8,43.0,45,Good,69.0,No
+2025-08-16,Aug,Boulder,8.9,48.0,50,Good,88.0,No
+2025-08-16,Aug,Colorado Springs,7.8,47.0,49,Good,84.0,No
+2025-08-16,Aug,Fort Collins,5.1,46.0,48,Good,82.0,No
+2025-08-16,Aug,Grand Junction,7.3,38.0,40,Good,81.0,No
+2025-08-16,Aug,Pueblo,9.0,41.0,43,Good,85.0,No
+2025-08-17,Aug,Denver,6.0,36.0,38,Good,78.0,No
+2025-08-17,Aug,Boulder,6.9,34.0,35,Good,69.0,No
+2025-08-17,Aug,Colorado Springs,2.0,47.0,49,Good,80.0,No
+2025-08-17,Aug,Fort Collins,4.5,48.0,50,Good,79.0,No
+2025-08-17,Aug,Grand Junction,7.6,41.0,43,Good,81.0,No
+2025-08-17,Aug,Pueblo,5.2,48.0,50,Good,90.0,No
+2025-08-18,Aug,Denver,11.7,48.0,49,Good,67.0,No
+2025-08-18,Aug,Boulder,5.3,39.0,40,Good,67.0,No
+2025-08-18,Aug,Colorado Springs,6.8,29.0,30,Good,73.0,No
+2025-08-18,Aug,Fort Collins,5.3,43.0,45,Good,74.0,No
+2025-08-18,Aug,Grand Junction,4.0,38.0,40,Good,87.0,No
+2025-08-18,Aug,Pueblo,5.7,40.0,41,Good,76.0,No
+2025-08-19,Aug,Denver,9.2,47.0,49,Good,76.0,No
+2025-08-19,Aug,Boulder,6.5,36.0,37,Good,77.0,No
+2025-08-19,Aug,Colorado Springs,7.4,46.0,48,Good,76.0,No
+2025-08-19,Aug,Fort Collins,2.5,40.0,41,Good,79.0,No
+2025-08-19,Aug,Grand Junction,4.8,43.0,45,Good,81.0,No
+2025-08-19,Aug,Pueblo,8.9,58.0,60,Moderate,86.0,No
+2025-08-20,Aug,Denver,10.1,50.0,52,Moderate,83.0,No
+2025-08-20,Aug,Boulder,6.4,46.0,48,Good,68.0,No
+2025-08-20,Aug,Colorado Springs,7.0,57.0,59,Moderate,83.0,No
+2025-08-20,Aug,Fort Collins,11.8,45.0,48,Good,76.0,No
+2025-08-20,Aug,Grand Junction,10.1,27.0,41,Good,73.0,No
+2025-08-20,Aug,Pueblo,6.0,46.0,48,Good,91.0,No
+2025-08-21,Aug,Denver,9.4,51.0,53,Moderate,81.0,No
+2025-08-21,Aug,Boulder,4.2,38.0,39,Good,76.0,No
+2025-08-21,Aug,Colorado Springs,6.0,52.0,54,Moderate,89.0,No
+2025-08-21,Aug,Fort Collins,10.5,34.0,43,Good,74.0,No
+2025-08-21,Aug,Grand Junction,8.5,46.0,48,Good,93.0,No
+2025-08-21,Aug,Pueblo,11.1,40.0,45,Good,84.0,No
+2025-08-22,Aug,Denver,8.8,38.0,39,Good,70.0,No
+2025-08-22,Aug,Boulder,7.4,29.0,30,Good,71.0,No
+2025-08-22,Aug,Colorado Springs,5.1,48.0,50,Good,77.0,No
+2025-08-22,Aug,Fort Collins,6.6,43.0,44,Good,77.0,No
+2025-08-22,Aug,Grand Junction,8.4,44.0,46,Good,76.0,No
+2025-08-22,Aug,Pueblo,1.2,38.0,39,Good,78.0,No
+2025-08-23,Aug,Denver,8.5,46.0,48,Good,68.0,No
+2025-08-23,Aug,Boulder,7.8,34.0,35,Good,73.0,No
+2025-08-23,Aug,Colorado Springs,8.3,34.0,35,Good,77.0,No
+2025-08-23,Aug,Fort Collins,,34.0,37,Good,75.0,No
+2025-08-23,Aug,Grand Junction,7.6,40.0,41,Good,78.0,No
+2025-08-23,Aug,Pueblo,2.2,32.0,33,Good,72.0,No
+2025-08-24,Aug,Denver,38.8,49.0,159,Unhealthy,76.0,Yes
+2025-08-24,Aug,Boulder,34.3,50.0,140,Unhealthy for Sensitive Groups,78.0,Yes
+2025-08-24,Aug,Colorado Springs,33.9,32.0,139,Unhealthy for Sensitive Groups,75.0,Yes
+2025-08-24,Aug,Fort Collins,33.5,32.0,137,Unhealthy for Sensitive Groups,71.0,Yes
+2025-08-24,Aug,Grand Junction,31.0,35.0,127,Unhealthy for Sensitive Groups,88.0,Yes
+2025-08-24,Aug,Pueblo,33.9,48.0,139,Unhealthy for Sensitive Groups,92.0,Yes
+2025-08-25,Aug,Denver,32.6,42.0,133,Unhealthy for Sensitive Groups,73.0,Yes
+2025-08-25,Aug,Boulder,37.5,34.0,153,Unhealthy,76.0,Yes
+2025-08-25,Aug,Colorado Springs,36.2,29.0,148,Unhealthy for Sensitive Groups,60.0,Yes
+2025-08-25,Aug,Fort Collins,,38.0,120,Unhealthy for Sensitive Groups,80.0,Yes
+2025-08-25,Aug,Grand Junction,33.5,33.0,137,Unhealthy for Sensitive Groups,70.0,Yes
+2025-08-25,Aug,Pueblo,36.8,32.0,150,Unhealthy for Sensitive Groups,72.0,Yes
+2025-08-26,Aug,Denver,39.0,52.0,159,Unhealthy,85.0,Yes
+2025-08-26,Aug,Boulder,36.7,47.0,150,Unhealthy for Sensitive Groups,73.0,Yes
+2025-08-26,Aug,Colorado Springs,32.1,35.0,131,Unhealthy for Sensitive Groups,76.0,Yes
+2025-08-26,Aug,Fort Collins,35.7,31.0,146,Unhealthy for Sensitive Groups,76.0,Yes
+2025-08-26,Aug,Grand Junction,35.5,39.0,145,Unhealthy for Sensitive Groups,82.0,Yes
+2025-08-26,Aug,Pueblo,32.1,33.0,131,Unhealthy for Sensitive Groups,78.0,Yes
+2025-08-27,Aug,Denver,35.8,33.0,146,Unhealthy for Sensitive Groups,68.0,Yes
+2025-08-27,Aug,Boulder,35.1,30.0,144,Unhealthy for Sensitive Groups,72.0,Yes
+2025-08-27,Aug,Colorado Springs,34.2,54.0,140,Unhealthy for Sensitive Groups,91.0,Yes
+2025-08-27,Aug,Fort Collins,32.9,50.0,135,Unhealthy for Sensitive Groups,79.0,Yes
+2025-08-27,Aug,Grand Junction,40.0,43.0,163,Unhealthy,81.0,Yes
+2025-08-27,Aug,Pueblo,37.5,40.0,153,Unhealthy,74.0,Yes
+2025-08-28,Aug,Denver,35.8,38.0,146,Unhealthy for Sensitive Groups,73.0,Yes
+2025-08-28,Aug,Boulder,35.4,30.0,145,Unhealthy for Sensitive Groups,68.0,Yes
+2025-08-28,Aug,Colorado Springs,36.5,46.0,149,Unhealthy for Sensitive Groups,80.0,Yes
+2025-08-28,Aug,Fort Collins,39.0,31.0,159,Unhealthy,76.0,Yes
+2025-08-28,Aug,Grand Junction,34.4,45.0,141,Unhealthy for Sensitive Groups,91.0,Yes
+2025-08-28,Aug,Pueblo,37.6,39.0,154,Unhealthy,84.0,Yes
+2025-08-29,Aug,Denver,39.5,48.0,161,Unhealthy,79.0,Yes
+2025-08-29,Aug,Boulder,31.1,43.0,127,Unhealthy for Sensitive Groups,70.0,Yes
+2025-08-29,Aug,Colorado Springs,37.5,40.0,153,Unhealthy,72.0,Yes
+2025-08-29,Aug,Fort Collins,33.2,32.0,136,Unhealthy for Sensitive Groups,60.0,Yes
+2025-08-29,Aug,Grand Junction,36.1,43.0,148,Unhealthy for Sensitive Groups,94.0,Yes
+2025-08-29,Aug,Pueblo,34.1,52.0,139,Unhealthy for Sensitive Groups,91.0,Yes
+2025-08-30,Aug,Denver,40.0,52.0,164,Unhealthy,75.0,Yes
+2025-08-30,Aug,Boulder,32.9,49.0,134,Unhealthy for Sensitive Groups,65.0,Yes
+2025-08-30,Aug,Colorado Springs,35.8,51.0,146,Unhealthy for Sensitive Groups,85.0,Yes
+2025-08-30,Aug,Fort Collins,32.3,30.0,132,Unhealthy for Sensitive Groups,73.0,Yes
+2025-08-30,Aug,Grand Junction,36.9,41.0,151,Unhealthy,89.0,Yes
+2025-08-30,Aug,Pueblo,35.8,41.0,146,Unhealthy for Sensitive Groups,84.0,Yes
+2025-08-31,Aug,Denver,7.9,47.0,48,Good,79.0,No
+2025-08-31,Aug,Boulder,5.7,36.0,37,Good,80.0,No
+2025-08-31,Aug,Colorado Springs,6.6,33.0,34,Good,64.0,No
+2025-08-31,Aug,Fort Collins,9.0,40.0,41,Good,83.0,No
+2025-08-31,Aug,Grand Junction,8.2,41.0,42,Good,80.0,No
+2025-08-31,Aug,Pueblo,9.9,54.0,56,Moderate,84.0,No
+2025-09-01,Sep,Denver,13.2,52.0,54,Moderate,78.0,No
+2025-09-01,Sep,Boulder,13.6,31.0,55,Moderate,72.0,No
+2025-09-01,Sep,Colorado Springs,12.9,40.0,52,Moderate,72.0,No
+2025-09-01,Sep,Fort Collins,9.5,31.0,38,Good,70.0,No
+2025-09-01,Sep,Grand Junction,8.4,54.0,56,Moderate,78.0,No
+2025-09-01,Sep,Pueblo,5.0,42.0,43,Good,68.0,No
+2025-09-02,Sep,Denver,8.4,52.0,54,Moderate,79.0,No
+2025-09-02,Sep,Boulder,1.7,31.0,32,Good,68.0,No
+2025-09-02,Sep,Colorado Springs,7.2,46.0,47,Good,73.0,No
+2025-09-02,Sep,Fort Collins,8.7,44.0,46,Good,71.0,No
+2025-09-02,Sep,Grand Junction,7.2,34.0,35,Good,71.0,No
+2025-09-02,Sep,Pueblo,6.5,46.0,48,Good,75.0,No
+2025-09-03,Sep,Denver,12.3,49.0,51,Moderate,80.0,No
+2025-09-03,Sep,Boulder,,30.0,35,Good,62.0,No
+2025-09-03,Sep,Colorado Springs,10.7,45.0,46,Good,73.0,No
+2025-09-03,Sep,Fort Collins,5.7,37.0,39,Good,70.0,No
+2025-09-03,Sep,Grand Junction,6.8,36.0,37,Good,74.0,No
+2025-09-03,Sep,Pueblo,4.4,42.0,44,Good,87.0,No
+2025-09-04,Sep,Denver,11.5,55.0,57,Moderate,76.0,No
+2025-09-04,Sep,Boulder,7.8,37.0,38,Good,69.0,No
+2025-09-04,Sep,Colorado Springs,7.5,38.0,40,Good,66.0,No
+2025-09-04,Sep,Fort Collins,3.2,26.0,27,Good,76.0,No
+2025-09-04,Sep,Grand Junction,10.0,50.0,51,Moderate,85.0,No
+2025-09-04,Sep,Pueblo,3.5,49.0,51,Moderate,78.0,No
+2025-09-05,Sep,Denver,6.4,34.0,35,Good,70.0,No
+2025-09-05,Sep,Boulder,2.0,25.0,25,Good,66.0,No
+2025-09-05,Sep,Colorado Springs,1.0,41.0,42,Good,74.0,No
+2025-09-05,Sep,Fort Collins,6.6,36.0,37,Good,65.0,No
+2025-09-05,Sep,Grand Junction,10.8,34.0,44,Good,69.0,No
+2025-09-05,Sep,Pueblo,9.2,36.0,38,Good,66.0,No
+2025-09-06,Sep,Denver,5.3,41.0,42,Good,69.0,No
+2025-09-06,Sep,Boulder,6.6,27.0,28,Good,63.0,No
+2025-09-06,Sep,Colorado Springs,8.0,34.0,35,Good,64.0,No
+2025-09-06,Sep,Fort Collins,1.0,33.0,34,Good,55.0,No
+2025-09-06,Sep,Grand Junction,6.3,21.0,25,Good,66.0,No
+2025-09-06,Sep,Pueblo,7.7,40.0,42,Good,83.0,No
+2025-09-07,Sep,Denver,3.6,42.0,43,Good,69.0,No
+2025-09-07,Sep,Boulder,7.9,37.0,38,Good,66.0,No
+2025-09-07,Sep,Colorado Springs,9.4,33.0,38,Good,60.0,No
+2025-09-07,Sep,Fort Collins,3.2,34.0,35,Good,69.0,No
+2025-09-07,Sep,Grand Junction,8.4,34.0,35,Good,79.0,No
+2025-09-07,Sep,Pueblo,7.3,29.0,29,Good,61.0,No
+2025-09-08,Sep,Denver,1.1,60.0,62,Moderate,90.0,No
+2025-09-08,Sep,Boulder,6.6,43.0,45,Good,75.0,No
+2025-09-08,Sep,Colorado Springs,7.1,37.0,38,Good,74.0,No
+2025-09-08,Sep,Fort Collins,5.1,28.0,29,Good,71.0,No
+2025-09-08,Sep,Grand Junction,4.6,33.0,34,Good,68.0,No
+2025-09-08,Sep,Pueblo,4.2,36.0,37,Good,69.0,No
+2025-09-09,Sep,Denver,14.2,40.0,58,Moderate,64.0,No
+2025-09-09,Sep,Boulder,7.8,35.0,36,Good,65.0,No
+2025-09-09,Sep,Colorado Springs,8.4,38.0,39,Good,80.0,No
+2025-09-09,Sep,Fort Collins,11.1,33.0,45,Good,61.0,No
+2025-09-09,Sep,Grand Junction,8.0,29.0,32,Good,66.0,No
+2025-09-09,Sep,Pueblo,8.7,40.0,41,Good,86.0,No
+2025-09-10,Sep,Denver,6.4,64.0,67,Moderate,79.0,No
+2025-09-10,Sep,Boulder,9.2,32.0,37,Good,69.0,No
+2025-09-10,Sep,Colorado Springs,3.8,43.0,44,Good,76.0,No
+2025-09-10,Sep,Fort Collins,10.0,31.0,41,Good,64.0,No
+2025-09-10,Sep,Grand Junction,2.3,33.0,34,Good,79.0,No
+2025-09-10,Sep,Pueblo,5.7,33.0,34,Good,70.0,No
+2025-09-11,Sep,Denver,8.5,50.0,52,Moderate,73.0,No
+2025-09-11,Sep,Boulder,6.4,35.0,36,Good,77.0,No
+2025-09-11,Sep,Colorado Springs,6.3,25.0,25,Good,63.0,No
+2025-09-11,Sep,Fort Collins,5.9,37.0,39,Good,83.0,No
+2025-09-11,Sep,Grand Junction,8.9,42.0,44,Good,70.0,No
+2025-09-11,Sep,Pueblo,9.1,35.0,37,Good,77.0,No
+2025-09-12,Sep,Denver,13.7,33.0,56,Moderate,62.0,No
+2025-09-12,Sep,Boulder,5.5,43.0,45,Good,67.0,No
+2025-09-12,Sep,Colorado Springs,5.3,39.0,40,Good,69.0,No
+2025-09-12,Sep,Fort Collins,7.5,33.0,34,Good,68.0,No
+2025-09-12,Sep,Grand Junction,11.7,46.0,47,Good,84.0,No
+2025-09-12,Sep,Pueblo,8.2,31.0,33,Good,82.0,No
+2025-09-13,Sep,Denver,12.8,56.0,58,Moderate,84.0,No
+2025-09-13,Sep,Boulder,1.6,47.0,49,Good,80.0,No
+2025-09-13,Sep,Colorado Springs,2.4,42.0,44,Good,71.0,No
+2025-09-13,Sep,Fort Collins,8.2,22.0,33,Good,63.0,No
+2025-09-13,Sep,Grand Junction,7.5,39.0,40,Good,79.0,No
+2025-09-13,Sep,Pueblo,8.9,34.0,36,Good,69.0,No
+2025-09-14,Sep,Denver,9.4,36.0,38,Good,61.0,No
+2025-09-14,Sep,Boulder,3.4,36.0,37,Good,67.0,No
+2025-09-14,Sep,Colorado Springs,7.0,35.0,36,Good,68.0,No
+2025-09-14,Sep,Fort Collins,5.0,37.0,38,Good,72.0,No
+2025-09-14,Sep,Grand Junction,5.7,35.0,36,Good,61.0,No
+2025-09-14,Sep,Pueblo,7.3,37.0,38,Good,66.0,No
+2025-09-15,Sep,Denver,11.1,35.0,45,Good,68.0,No
+2025-09-15,Sep,Boulder,7.3,25.0,29,Good,65.0,No
+2025-09-15,Sep,Colorado Springs,6.8,30.0,31,Good,64.0,No
+2025-09-15,Sep,Fort Collins,7.0,38.0,40,Good,72.0,No
+2025-09-15,Sep,Grand Junction,1.0,37.0,38,Good,88.0,No
+2025-09-15,Sep,Pueblo,4.3,41.0,42,Good,75.0,No
+2025-09-16,Sep,Denver,7.5,53.0,55,Moderate,77.0,No
+2025-09-16,Sep,Boulder,7.8,44.0,46,Good,64.0,No
+2025-09-16,Sep,Colorado Springs,5.7,27.0,28,Good,63.0,No
+2025-09-16,Sep,Fort Collins,3.0,25.0,25,Good,66.0,No
+2025-09-16,Sep,Grand Junction,6.3,27.0,28,Good,68.0,No
+2025-09-16,Sep,Pueblo,9.8,36.0,40,Good,77.0,No
+2025-09-17,Sep,Denver,7.0,27.0,28,Good,54.0,No
+2025-09-17,Sep,Boulder,8.4,33.0,35,Good,59.0,No
+2025-09-17,Sep,Colorado Springs,3.7,26.0,27,Good,58.0,No
+2025-09-17,Sep,Fort Collins,7.6,37.0,38,Good,79.0,No
+2025-09-17,Sep,Grand Junction,10.7,26.0,43,Good,65.0,No
+2025-09-17,Sep,Pueblo,5.8,43.0,45,Good,69.0,No
+2025-09-18,Sep,Denver,10.9,41.0,44,Good,62.0,No
+2025-09-18,Sep,Boulder,4.5,39.0,41,Good,68.0,No
+2025-09-18,Sep,Colorado Springs,7.5,41.0,42,Good,53.0,No
+2025-09-18,Sep,Fort Collins,,35.0,37,Good,73.0,No
+2025-09-18,Sep,Grand Junction,8.2,58.0,61,Moderate,83.0,No
+2025-09-18,Sep,Pueblo,11.9,33.0,48,Good,75.0,No
+2025-09-19,Sep,Denver,10.4,58.0,60,Moderate,90.0,No
+2025-09-19,Sep,Boulder,6.9,33.0,34,Good,70.0,No
+2025-09-19,Sep,Colorado Springs,9.4,43.0,45,Good,78.0,No
+2025-09-19,Sep,Fort Collins,5.3,32.0,33,Good,55.0,No
+2025-09-19,Sep,Grand Junction,4.6,44.0,46,Good,74.0,No
+2025-09-19,Sep,Pueblo,5.8,29.0,30,Good,68.0,No
+2025-09-20,Sep,Denver,7.5,39.0,40,Good,66.0,No
+2025-09-20,Sep,Boulder,5.6,34.0,35,Good,61.0,No
+2025-09-20,Sep,Colorado Springs,6.6,25.0,27,Good,62.0,No
+2025-09-20,Sep,Fort Collins,10.8,30.0,44,Good,52.0,No
+2025-09-20,Sep,Grand Junction,4.9,35.0,36,Good,83.0,No
+2025-09-20,Sep,Pueblo,6.5,24.0,26,Good,56.0,No
+2025-09-21,Sep,Denver,10.0,41.0,43,Good,77.0,No
+2025-09-21,Sep,Boulder,7.6,24.0,31,Good,56.0,No
+2025-09-21,Sep,Colorado Springs,4.0,27.0,28,Good,62.0,No
+2025-09-21,Sep,Fort Collins,9.1,30.0,37,Good,58.0,No
+2025-09-21,Sep,Grand Junction,11.0,33.0,45,Good,81.0,No
+2025-09-21,Sep,Pueblo,10.9,35.0,44,Good,76.0,No
+2025-09-22,Sep,Denver,6.0,30.0,31,Good,58.0,No
+2025-09-22,Sep,Boulder,6.2,40.0,42,Good,64.0,No
+2025-09-22,Sep,Colorado Springs,2.6,43.0,44,Good,62.0,No
+2025-09-22,Sep,Fort Collins,9.6,38.0,39,Good,65.0,No
+2025-09-22,Sep,Grand Junction,3.7,25.0,26,Good,67.0,No
+2025-09-22,Sep,Pueblo,1.0,22.0,23,Good,61.0,No
+2025-09-23,Sep,Denver,11.6,41.0,47,Good,62.0,No
+2025-09-23,Sep,Boulder,8.2,23.0,33,Good,72.0,No
+2025-09-23,Sep,Colorado Springs,7.5,29.0,30,Good,64.0,No
+2025-09-23,Sep,Fort Collins,7.1,21.0,29,Good,62.0,No
+2025-09-23,Sep,Grand Junction,7.3,41.0,43,Good,55.0,No
+2025-09-23,Sep,Pueblo,9.1,36.0,37,Good,69.0,No
+2025-09-24,Sep,Denver,12.4,35.0,50,Good,64.0,No
+2025-09-24,Sep,Boulder,5.2,31.0,32,Good,70.0,No
+2025-09-24,Sep,Colorado Springs,1.0,33.0,34,Good,56.0,No
+2025-09-24,Sep,Fort Collins,5.4,42.0,43,Good,64.0,No
+2025-09-24,Sep,Grand Junction,6.5,28.0,29,Good,57.0,No
+2025-09-24,Sep,Pueblo,11.2,38.0,46,Good,72.0,No
+2025-09-25,Sep,Denver,12.5,48.0,51,Moderate,67.0,No
+2025-09-25,Sep,Boulder,8.2,43.0,45,Good,66.0,No
+2025-09-25,Sep,Colorado Springs,3.1,19.0,19,Good,53.0,No
+2025-09-25,Sep,Fort Collins,9.7,23.0,39,Good,61.0,No
+2025-09-25,Sep,Grand Junction,8.5,45.0,47,Good,54.0,No
+2025-09-25,Sep,Pueblo,6.4,37.0,38,Good,73.0,No
+2025-09-26,Sep,Denver,13.4,34.0,55,Moderate,50.0,No
+2025-09-26,Sep,Boulder,10.2,38.0,41,Good,62.0,No
+2025-09-26,Sep,Colorado Springs,8.9,22.0,36,Good,48.0,No
+2025-09-26,Sep,Fort Collins,8.0,38.0,40,Good,70.0,No
+2025-09-26,Sep,Grand Junction,2.5,40.0,41,Good,64.0,No
+2025-09-26,Sep,Pueblo,8.2,32.0,33,Good,68.0,No
+2025-09-27,Sep,Denver,11.8,34.0,48,Good,51.0,No
+2025-09-27,Sep,Boulder,2.6,35.0,36,Good,59.0,No
+2025-09-27,Sep,Colorado Springs,5.9,38.0,39,Good,62.0,No
+2025-09-27,Sep,Fort Collins,8.7,28.0,35,Good,58.0,No
+2025-09-27,Sep,Grand Junction,4.2,46.0,47,Good,75.0,No
+2025-09-27,Sep,Pueblo,6.8,36.0,38,Good,69.0,No
+2025-09-28,Sep,Denver,5.7,51.0,53,Moderate,56.0,No
+2025-09-28,Sep,Boulder,1.5,19.0,19,Good,51.0,No
+2025-09-28,Sep,Colorado Springs,4.8,28.0,29,Good,62.0,No
+2025-09-28,Sep,Fort Collins,3.5,27.0,28,Good,58.0,No
+2025-09-28,Sep,Grand Junction,10.1,43.0,45,Good,65.0,No
+2025-09-28,Sep,Pueblo,6.2,36.0,37,Good,64.0,No
+2025-09-29,Sep,Denver,7.1,45.0,47,Good,70.0,No
+2025-09-29,Sep,Boulder,4.7,31.0,32,Good,62.0,No
+2025-09-29,Sep,Colorado Springs,3.0,22.0,23,Good,54.0,No
+2025-09-29,Sep,Fort Collins,1.4,33.0,34,Good,53.0,No
+2025-09-29,Sep,Grand Junction,9.0,29.0,37,Good,63.0,No
+2025-09-29,Sep,Pueblo,7.0,31.0,32,Good,72.0,No
+2025-09-30,Sep,Denver,9.8,35.0,40,Good,59.0,No
+2025-09-30,Sep,Boulder,8.3,28.0,34,Good,55.0,No
+2025-09-30,Sep,Colorado Springs,4.4,34.0,35,Good,53.0,No
+2025-09-30,Sep,Fort Collins,9.7,26.0,39,Good,54.0,No
+2025-09-30,Sep,Grand Junction,7.7,35.0,36,Good,71.0,No
+2025-09-30,Sep,Pueblo,2.0,29.0,29,Good,64.0,No
+2025-10-01,Oct,Denver,9.5,39.0,40,Good,62.0,No
+2025-10-01,Oct,Boulder,2.1,34.0,35,Good,64.0,No
+2025-10-01,Oct,Colorado Springs,6.7,36.0,37,Good,67.0,No
+2025-10-01,Oct,Fort Collins,6.4,30.0,31,Good,55.0,No
+2025-10-01,Oct,Grand Junction,10.6,40.0,43,Good,70.0,No
+2025-10-01,Oct,Pueblo,7.2,38.0,39,Good,64.0,No
+2025-10-02,Oct,Denver,9.1,34.0,37,Good,50.0,No
+2025-10-02,Oct,Boulder,2.7,43.0,45,Good,50.0,No
+2025-10-02,Oct,Colorado Springs,4.4,29.0,30,Good,46.0,No
+2025-10-02,Oct,Fort Collins,9.2,34.0,37,Good,53.0,No
+2025-10-02,Oct,Grand Junction,5.4,31.0,32,Good,53.0,No
+2025-10-02,Oct,Pueblo,8.9,52.0,54,Moderate,69.0,No
+2025-10-03,Oct,Denver,8.0,45.0,47,Good,62.0,No
+2025-10-03,Oct,Boulder,12.9,40.0,53,Moderate,70.0,No
+2025-10-03,Oct,Colorado Springs,6.7,26.0,27,Good,62.0,No
+2025-10-03,Oct,Fort Collins,10.5,24.0,43,Good,61.0,No
+2025-10-03,Oct,Grand Junction,5.0,28.0,29,Good,57.0,No
+2025-10-03,Oct,Pueblo,9.8,28.0,40,Good,60.0,No
+2025-10-04,Oct,Denver,10.4,38.0,42,Good,51.0,No
+2025-10-04,Oct,Boulder,7.0,25.0,28,Good,53.0,No
+2025-10-04,Oct,Colorado Springs,7.8,33.0,34,Good,48.0,No
+2025-10-04,Oct,Fort Collins,8.4,37.0,39,Good,48.0,No
+2025-10-04,Oct,Grand Junction,1.0,32.0,33,Good,62.0,No
+2025-10-04,Oct,Pueblo,5.3,39.0,41,Good,62.0,No
+2025-10-05,Oct,Denver,10.2,30.0,41,Good,59.0,No
+2025-10-05,Oct,Boulder,8.0,37.0,38,Good,50.0,No
+2025-10-05,Oct,Colorado Springs,6.9,30.0,31,Good,54.0,No
+2025-10-05,Oct,Fort Collins,4.3,24.0,25,Good,54.0,No
+2025-10-05,Oct,Grand Junction,7.6,24.0,31,Good,49.0,No
+2025-10-05,Oct,Pueblo,7.2,35.0,36,Good,63.0,No
+2025-10-06,Oct,Denver,9.3,35.0,38,Good,58.0,No
+2025-10-06,Oct,Boulder,6.6,36.0,38,Good,50.0,No
+2025-10-06,Oct,Colorado Springs,11.0,27.0,45,Good,51.0,No
+2025-10-06,Oct,Fort Collins,5.2,26.0,27,Good,54.0,No
+2025-10-06,Oct,Grand Junction,,35.0,51,Moderate,65.0,No
+2025-10-06,Oct,Pueblo,6.8,44.0,46,Good,52.0,No
+2025-10-07,Oct,Denver,5.8,39.0,41,Good,66.0,No
+2025-10-07,Oct,Boulder,8.8,29.0,36,Good,59.0,No
+2025-10-07,Oct,Colorado Springs,5.4,30.0,31,Good,61.0,No
+2025-10-07,Oct,Fort Collins,2.7,31.0,32,Good,52.0,No
+2025-10-07,Oct,Grand Junction,5.1,30.0,31,Good,53.0,No
+2025-10-07,Oct,Pueblo,4.9,39.0,41,Good,61.0,No
+2025-10-08,Oct,Denver,9.9,35.0,40,Good,58.0,No
+2025-10-08,Oct,Boulder,6.2,20.0,25,Good,64.0,No
+2025-10-08,Oct,Colorado Springs,5.1,45.0,47,Good,60.0,No
+2025-10-08,Oct,Fort Collins,7.1,39.0,40,Good,50.0,No
+2025-10-08,Oct,Grand Junction,6.5,27.0,28,Good,55.0,No
+2025-10-08,Oct,Pueblo,5.8,41.0,42,Good,64.0,No
+2025-10-09,Oct,Denver,15.3,37.0,62,Moderate,52.0,No
+2025-10-09,Oct,Boulder,12.2,28.0,50,Good,44.0,No
+2025-10-09,Oct,Colorado Springs,7.3,23.0,30,Good,56.0,No
+2025-10-09,Oct,Fort Collins,6.0,41.0,43,Good,50.0,No
+2025-10-09,Oct,Grand Junction,4.4,34.0,35,Good,62.0,No
+2025-10-09,Oct,Pueblo,6.8,35.0,36,Good,50.0,No
+2025-10-10,Oct,Denver,8.0,35.0,37,Good,54.0,No
+2025-10-10,Oct,Boulder,4.1,32.0,33,Good,73.0,No
+2025-10-10,Oct,Colorado Springs,5.5,28.0,28,Good,61.0,No
+2025-10-10,Oct,Fort Collins,4.8,36.0,37,Good,42.0,No
+2025-10-10,Oct,Grand Junction,6.6,26.0,27,Good,61.0,No
+2025-10-10,Oct,Pueblo,7.2,32.0,33,Good,42.0,No
+2025-10-11,Oct,Denver,8.2,38.0,40,Good,46.0,No
+2025-10-11,Oct,Boulder,5.7,37.0,39,Good,49.0,No
+2025-10-11,Oct,Colorado Springs,9.3,27.0,38,Good,52.0,No
+2025-10-11,Oct,Fort Collins,4.0,36.0,38,Good,53.0,No
+2025-10-11,Oct,Grand Junction,6.4,34.0,35,Good,53.0,No
+2025-10-11,Oct,Pueblo,8.6,27.0,35,Good,60.0,No
+2025-10-12,Oct,Denver,10.4,36.0,42,Good,46.0,No
+2025-10-12,Oct,Boulder,5.8,35.0,36,Good,48.0,No
+2025-10-12,Oct,Colorado Springs,6.9,26.0,28,Good,50.0,No
+2025-10-12,Oct,Fort Collins,3.3,24.0,25,Good,52.0,No
+2025-10-12,Oct,Grand Junction,5.4,34.0,35,Good,42.0,No
+2025-10-12,Oct,Pueblo,4.2,34.0,35,Good,53.0,No
+2025-10-13,Oct,Denver,9.1,26.0,37,Good,57.0,No
+2025-10-13,Oct,Boulder,11.7,36.0,48,Good,34.0,No
+2025-10-13,Oct,Colorado Springs,5.6,24.0,25,Good,44.0,No
+2025-10-13,Oct,Fort Collins,4.8,30.0,31,Good,52.0,No
+2025-10-13,Oct,Grand Junction,7.2,25.0,29,Good,55.0,No
+2025-10-13,Oct,Pueblo,6.2,28.0,29,Good,57.0,No
+2025-10-14,Oct,Denver,12.2,38.0,49,Good,42.0,No
+2025-10-14,Oct,Boulder,4.1,37.0,39,Good,44.0,No
+2025-10-14,Oct,Colorado Springs,5.3,37.0,38,Good,38.0,No
+2025-10-14,Oct,Fort Collins,3.6,35.0,36,Good,51.0,No
+2025-10-14,Oct,Grand Junction,6.6,23.0,27,Good,61.0,No
+2025-10-14,Oct,Pueblo,4.8,25.0,26,Good,62.0,No
+2025-10-15,Oct,Denver,7.5,50.0,52,Moderate,52.0,No
+2025-10-15,Oct,Boulder,6.0,22.0,24,Good,56.0,No
+2025-10-15,Oct,Colorado Springs,4.7,32.0,33,Good,41.0,No
+2025-10-15,Oct,Fort Collins,10.0,34.0,40,Good,48.0,No
+2025-10-15,Oct,Grand Junction,6.5,21.0,26,Good,58.0,No
+2025-10-15,Oct,Pueblo,9.9,26.0,40,Good,53.0,No
+2025-10-16,Oct,Denver,11.2,48.0,49,Good,60.0,No
+2025-10-16,Oct,Boulder,7.2,30.0,31,Good,52.0,No
+2025-10-16,Oct,Colorado Springs,8.5,35.0,37,Good,43.0,No
+2025-10-16,Oct,Fort Collins,6.2,30.0,31,Good,58.0,No
+2025-10-16,Oct,Grand Junction,6.2,39.0,41,Good,47.0,No
+2025-10-16,Oct,Pueblo,7.2,36.0,38,Good,55.0,No
+2025-10-17,Oct,Denver,10.8,43.0,45,Good,50.0,No
+2025-10-17,Oct,Boulder,8.9,23.0,36,Good,58.0,No
+2025-10-17,Oct,Colorado Springs,5.5,36.0,38,Good,61.0,No
+2025-10-17,Oct,Fort Collins,4.4,34.0,35,Good,56.0,No
+2025-10-17,Oct,Grand Junction,9.3,33.0,38,Good,63.0,No
+2025-10-17,Oct,Pueblo,7.8,23.0,31,Good,48.0,No
+2025-10-18,Oct,Denver,12.2,35.0,49,Good,45.0,No
+2025-10-18,Oct,Boulder,5.5,29.0,30,Good,47.0,No
+2025-10-18,Oct,Colorado Springs,4.8,23.0,23,Good,49.0,No
+2025-10-18,Oct,Fort Collins,6.5,26.0,27,Good,45.0,No
+2025-10-18,Oct,Grand Junction,5.9,36.0,37,Good,61.0,No
+2025-10-18,Oct,Pueblo,8.7,26.0,35,Good,56.0,No
+2025-10-19,Oct,Denver,10.8,35.0,44,Good,36.0,No
+2025-10-19,Oct,Boulder,5.9,35.0,36,Good,48.0,No
+2025-10-19,Oct,Colorado Springs,11.5,32.0,47,Good,49.0,No
+2025-10-19,Oct,Fort Collins,4.5,34.0,35,Good,47.0,No
+2025-10-19,Oct,Grand Junction,9.0,28.0,36,Good,57.0,No
+2025-10-19,Oct,Pueblo,1.0,28.0,29,Good,52.0,No
+2025-10-20,Oct,Denver,10.9,32.0,44,Good,44.0,No
+2025-10-20,Oct,Boulder,5.9,32.0,33,Good,51.0,No
+2025-10-20,Oct,Colorado Springs,4.8,21.0,22,Good,45.0,No
+2025-10-20,Oct,Fort Collins,8.5,37.0,38,Good,27.0,No
+2025-10-20,Oct,Grand Junction,7.9,33.0,34,Good,51.0,No
+2025-10-20,Oct,Pueblo,5.2,38.0,39,Good,60.0,No
+2025-10-21,Oct,Denver,10.5,37.0,43,Good,51.0,No
+2025-10-21,Oct,Boulder,6.6,28.0,29,Good,50.0,No
+2025-10-21,Oct,Colorado Springs,5.3,24.0,25,Good,34.0,No
+2025-10-21,Oct,Fort Collins,9.4,42.0,44,Good,52.0,No
+2025-10-21,Oct,Grand Junction,5.3,28.0,29,Good,46.0,No
+2025-10-21,Oct,Pueblo,8.1,25.0,33,Good,48.0,No
+2025-10-22,Oct,Denver,12.4,39.0,51,Moderate,42.0,No
+2025-10-22,Oct,Boulder,8.0,20.0,32,Good,47.0,No
+2025-10-22,Oct,Colorado Springs,9.5,21.0,38,Good,38.0,No
+2025-10-22,Oct,Fort Collins,8.1,14.0,33,Good,57.0,No
+2025-10-22,Oct,Grand Junction,4.4,39.0,41,Good,48.0,No
+2025-10-22,Oct,Pueblo,7.9,27.0,32,Good,59.0,No
+2025-10-23,Oct,Denver,15.6,40.0,64,Moderate,34.0,No
+2025-10-23,Oct,Boulder,5.7,25.0,26,Good,39.0,No
+2025-10-23,Oct,Colorado Springs,7.7,33.0,34,Good,51.0,No
+2025-10-23,Oct,Fort Collins,8.7,35.0,36,Good,49.0,No
+2025-10-23,Oct,Grand Junction,11.1,37.0,45,Good,39.0,No
+2025-10-23,Oct,Pueblo,6.8,31.0,32,Good,49.0,No
+2025-10-24,Oct,Denver,3.5,44.0,46,Good,35.0,No
+2025-10-24,Oct,Boulder,2.0,24.0,25,Good,44.0,No
+2025-10-24,Oct,Colorado Springs,5.1,29.0,30,Good,48.0,No
+2025-10-24,Oct,Fort Collins,4.2,27.0,28,Good,49.0,No
+2025-10-24,Oct,Grand Junction,,26.0,43,Good,55.0,No
+2025-10-24,Oct,Pueblo,6.9,35.0,36,Good,44.0,No
+2025-10-25,Oct,Denver,8.8,34.0,35,Good,42.0,No
+2025-10-25,Oct,Boulder,8.4,33.0,34,Good,48.0,No
+2025-10-25,Oct,Colorado Springs,5.4,32.0,34,Good,52.0,No
+2025-10-25,Oct,Fort Collins,8.6,27.0,35,Good,40.0,No
+2025-10-25,Oct,Grand Junction,4.7,29.0,30,Good,51.0,No
+2025-10-25,Oct,Pueblo,7.4,34.0,36,Good,67.0,No
+2025-10-26,Oct,Denver,2.9,41.0,42,Good,34.0,No
+2025-10-26,Oct,Boulder,8.5,22.0,35,Good,32.0,No
+2025-10-26,Oct,Colorado Springs,4.7,38.0,39,Good,37.0,No
+2025-10-26,Oct,Fort Collins,4.2,28.0,29,Good,43.0,No
+2025-10-26,Oct,Grand Junction,4.2,41.0,42,Good,49.0,No
+2025-10-26,Oct,Pueblo,9.2,31.0,37,Good,49.0,No
+2025-10-27,Oct,Denver,13.8,46.0,56,Moderate,54.0,No
+2025-10-27,Oct,Boulder,5.4,28.0,29,Good,49.0,No
+2025-10-27,Oct,Colorado Springs,9.1,46.0,48,Good,37.0,No
+2025-10-27,Oct,Fort Collins,10.0,28.0,41,Good,45.0,No
+2025-10-27,Oct,Grand Junction,5.8,36.0,38,Good,44.0,No
+2025-10-27,Oct,Pueblo,4.7,31.0,32,Good,47.0,No
+2025-10-28,Oct,Denver,11.3,35.0,46,Good,48.0,No
+2025-10-28,Oct,Boulder,1.2,30.0,31,Good,32.0,No
+2025-10-28,Oct,Colorado Springs,4.2,24.0,25,Good,36.0,No
+2025-10-28,Oct,Fort Collins,6.8,31.0,32,Good,41.0,No
+2025-10-28,Oct,Grand Junction,9.7,29.0,39,Good,45.0,No
+2025-10-28,Oct,Pueblo,9.2,28.0,37,Good,44.0,No
+2025-10-29,Oct,Denver,8.6,44.0,46,Good,48.0,No
+2025-10-29,Oct,Boulder,5.3,24.0,25,Good,42.0,No
+2025-10-29,Oct,Colorado Springs,11.2,38.0,46,Good,45.0,No
+2025-10-29,Oct,Fort Collins,9.2,27.0,37,Good,54.0,No
+2025-10-29,Oct,Grand Junction,8.6,32.0,35,Good,52.0,No
+2025-10-29,Oct,Pueblo,4.4,32.0,33,Good,41.0,No
+2025-10-30,Oct,Denver,9.8,40.0,42,Good,50.0,No
+2025-10-30,Oct,Boulder,1.0,28.0,29,Good,44.0,No
+2025-10-30,Oct,Colorado Springs,8.5,31.0,35,Good,45.0,No
+2025-10-30,Oct,Fort Collins,5.8,35.0,36,Good,36.0,No
+2025-10-30,Oct,Grand Junction,1.0,32.0,33,Good,60.0,No
+2025-10-30,Oct,Pueblo,5.6,16.0,22,Good,54.0,No
+2025-10-31,Oct,Denver,7.4,38.0,39,Good,46.0,No
+2025-10-31,Oct,Boulder,8.2,25.0,33,Good,34.0,No
+2025-10-31,Oct,Colorado Springs,5.9,33.0,34,Good,47.0,No
+2025-10-31,Oct,Fort Collins,3.1,25.0,26,Good,50.0,No
+2025-10-31,Oct,Grand Junction,6.5,40.0,41,Good,36.0,No
+2025-10-31,Oct,Pueblo,7.1,25.0,29,Good,38.0,No
+2025-11-01,Nov,Denver,7.6,42.0,43,Good,55.0,No
+2025-11-01,Nov,Boulder,4.6,34.0,35,Good,27.0,No
+2025-11-01,Nov,Colorado Springs,5.4,37.0,39,Good,39.0,No
+2025-11-01,Nov,Fort Collins,1.2,39.0,40,Good,44.0,No
+2025-11-01,Nov,Grand Junction,8.0,28.0,32,Good,43.0,No
+2025-11-01,Nov,Pueblo,6.3,26.0,27,Good,49.0,No
+2025-11-02,Nov,Denver,9.6,32.0,39,Good,50.0,No
+2025-11-02,Nov,Boulder,1.0,20.0,21,Good,37.0,No
+2025-11-02,Nov,Colorado Springs,9.1,28.0,37,Good,33.0,No
+2025-11-02,Nov,Fort Collins,10.8,28.0,44,Good,36.0,No
+2025-11-02,Nov,Grand Junction,6.6,24.0,27,Good,49.0,No
+2025-11-02,Nov,Pueblo,6.7,40.0,42,Good,38.0,No
+2025-11-03,Nov,Denver,11.3,31.0,46,Good,44.0,No
+2025-11-03,Nov,Boulder,1.8,23.0,23,Good,43.0,No
+2025-11-03,Nov,Colorado Springs,3.9,28.0,29,Good,41.0,No
+2025-11-03,Nov,Fort Collins,8.2,36.0,37,Good,33.0,No
+2025-11-03,Nov,Grand Junction,2.2,32.0,33,Good,48.0,No
+2025-11-03,Nov,Pueblo,2.5,31.0,32,Good,36.0,No
+2025-11-04,Nov,Denver,11.3,38.0,46,Good,47.0,No
+2025-11-04,Nov,Boulder,9.6,30.0,39,Good,36.0,No
+2025-11-04,Nov,Colorado Springs,7.3,31.0,32,Good,33.0,No
+2025-11-04,Nov,Fort Collins,8.4,28.0,34,Good,50.0,No
+2025-11-04,Nov,Grand Junction,8.6,31.0,35,Good,39.0,No
+2025-11-04,Nov,Pueblo,9.2,24.0,37,Good,46.0,No
+2025-11-05,Nov,Denver,5.8,41.0,43,Good,52.0,No
+2025-11-05,Nov,Boulder,9.8,46.0,47,Good,38.0,No
+2025-11-05,Nov,Colorado Springs,7.7,34.0,35,Good,45.0,No
+2025-11-05,Nov,Fort Collins,1.6,22.0,22,Good,32.0,No
+2025-11-05,Nov,Grand Junction,7.0,30.0,31,Good,41.0,No
+2025-11-05,Nov,Pueblo,4.3,28.0,29,Good,46.0,No
+2025-11-06,Nov,Denver,9.2,41.0,42,Good,41.0,No
+2025-11-06,Nov,Boulder,6.9,32.0,33,Good,50.0,No
+2025-11-06,Nov,Colorado Springs,6.2,29.0,30,Good,42.0,No
+2025-11-06,Nov,Fort Collins,10.8,24.0,44,Good,52.0,No
+2025-11-06,Nov,Grand Junction,8.2,27.0,33,Good,29.0,No
+2025-11-06,Nov,Pueblo,2.2,28.0,29,Good,32.0,No
+2025-11-07,Nov,Denver,6.7,43.0,44,Good,23.0,No
+2025-11-07,Nov,Boulder,3.8,22.0,23,Good,42.0,No
+2025-11-07,Nov,Colorado Springs,3.5,38.0,39,Good,49.0,No
+2025-11-07,Nov,Fort Collins,3.2,29.0,30,Good,30.0,No
+2025-11-07,Nov,Grand Junction,3.9,27.0,28,Good,55.0,No
+2025-11-07,Nov,Pueblo,8.7,30.0,35,Good,26.0,No
+2025-11-08,Nov,Denver,10.1,48.0,50,Good,45.0,No
+2025-11-08,Nov,Boulder,6.0,36.0,38,Good,35.0,No
+2025-11-08,Nov,Colorado Springs,4.5,25.0,25,Good,32.0,No
+2025-11-08,Nov,Fort Collins,3.6,20.0,20,Good,42.0,No
+2025-11-08,Nov,Grand Junction,7.0,28.0,29,Good,36.0,No
+2025-11-08,Nov,Pueblo,8.6,31.0,35,Good,43.0,No
+2025-11-09,Nov,Denver,11.7,43.0,47,Good,25.0,No
+2025-11-09,Nov,Boulder,7.8,31.0,32,Good,36.0,No
+2025-11-09,Nov,Colorado Springs,6.5,33.0,34,Good,30.0,No
+2025-11-09,Nov,Fort Collins,3.6,31.0,32,Good,45.0,No
+2025-11-09,Nov,Grand Junction,3.1,35.0,37,Good,50.0,No
+2025-11-09,Nov,Pueblo,7.3,31.0,32,Good,39.0,No
+2025-11-10,Nov,Denver,11.5,40.0,47,Good,40.0,No
+2025-11-10,Nov,Boulder,5.7,21.0,23,Good,40.0,No
+2025-11-10,Nov,Colorado Springs,7.0,35.0,37,Good,38.0,No
+2025-11-10,Nov,Fort Collins,7.2,38.0,39,Good,44.0,No
+2025-11-10,Nov,Grand Junction,4.0,37.0,38,Good,43.0,No
+2025-11-10,Nov,Pueblo,5.3,32.0,33,Good,40.0,No
+2025-11-11,Nov,Denver,6.4,43.0,45,Good,39.0,No
+2025-11-11,Nov,Boulder,5.0,22.0,22,Good,30.0,No
+2025-11-11,Nov,Colorado Springs,7.1,33.0,34,Good,31.0,No
+2025-11-11,Nov,Fort Collins,7.0,26.0,28,Good,41.0,No
+2025-11-11,Nov,Grand Junction,5.3,26.0,27,Good,47.0,No
+2025-11-11,Nov,Pueblo,8.4,37.0,38,Good,48.0,No
+2025-11-12,Nov,Denver,5.7,43.0,44,Good,39.0,No
+2025-11-12,Nov,Boulder,7.7,26.0,31,Good,31.0,No
+2025-11-12,Nov,Colorado Springs,5.0,33.0,34,Good,46.0,No
+2025-11-12,Nov,Fort Collins,9.1,21.0,37,Good,30.0,No
+2025-11-12,Nov,Grand Junction,6.8,22.0,27,Good,29.0,No
+2025-11-12,Nov,Pueblo,11.0,32.0,44,Good,30.0,No
+2025-11-13,Nov,Denver,4.8,40.0,42,Good,39.0,No
+2025-11-13,Nov,Boulder,9.9,31.0,40,Good,44.0,No
+2025-11-13,Nov,Colorado Springs,7.4,28.0,30,Good,44.0,No
+2025-11-13,Nov,Fort Collins,7.2,38.0,39,Good,48.0,No
+2025-11-13,Nov,Grand Junction,14.3,18.0,58,Moderate,36.0,No
+2025-11-13,Nov,Pueblo,6.1,29.0,30,Good,41.0,No
+2025-11-14,Nov,Denver,7.8,49.0,51,Moderate,30.0,No
+2025-11-14,Nov,Boulder,7.5,36.0,38,Good,26.0,No
+2025-11-14,Nov,Colorado Springs,4.9,21.0,22,Good,38.0,No
+2025-11-14,Nov,Fort Collins,6.4,29.0,30,Good,13.0,No
+2025-11-14,Nov,Grand Junction,11.1,32.0,45,Good,47.0,No
+2025-11-14,Nov,Pueblo,8.8,23.0,36,Good,48.0,No
+2025-11-15,Nov,Denver,1.0,32.0,34,Good,33.0,No
+2025-11-15,Nov,Boulder,5.8,36.0,37,Good,24.0,No
+2025-11-15,Nov,Colorado Springs,3.0,25.0,26,Good,33.0,No
+2025-11-15,Nov,Fort Collins,6.0,32.0,33,Good,31.0,No
+2025-11-15,Nov,Grand Junction,7.2,38.0,39,Good,37.0,No
+2025-11-15,Nov,Pueblo,10.6,22.0,43,Good,50.0,No
+2025-11-16,Nov,Denver,5.9,42.0,44,Good,27.0,No
+2025-11-16,Nov,Boulder,4.9,33.0,34,Good,35.0,No
+2025-11-16,Nov,Colorado Springs,5.4,34.0,35,Good,35.0,No
+2025-11-16,Nov,Fort Collins,10.5,27.0,43,Good,17.0,No
+2025-11-16,Nov,Grand Junction,5.4,35.0,36,Good,38.0,No
+2025-11-16,Nov,Pueblo,6.0,45.0,47,Good,38.0,No
+2025-11-17,Nov,Denver,5.7,29.0,30,Good,21.0,No
+2025-11-17,Nov,Boulder,13.5,23.0,55,Moderate,38.0,No
+2025-11-17,Nov,Colorado Springs,5.9,25.0,26,Good,28.0,No
+2025-11-17,Nov,Fort Collins,1.0,36.0,38,Good,30.0,No
+2025-11-17,Nov,Grand Junction,5.2,34.0,35,Good,30.0,No
+2025-11-17,Nov,Pueblo,,21.0,30,Good,31.0,No
+2025-11-18,Nov,Denver,10.2,34.0,41,Good,39.0,No
+2025-11-18,Nov,Boulder,6.2,22.0,25,Good,28.0,No
+2025-11-18,Nov,Colorado Springs,6.5,29.0,30,Good,35.0,No
+2025-11-18,Nov,Fort Collins,7.2,16.0,29,Good,34.0,No
+2025-11-18,Nov,Grand Junction,9.9,28.0,40,Good,31.0,No
+2025-11-18,Nov,Pueblo,5.6,29.0,30,Good,37.0,No
+2025-11-19,Nov,Denver,7.6,32.0,33,Good,26.0,No
+2025-11-19,Nov,Boulder,7.3,28.0,29,Good,39.0,No
+2025-11-19,Nov,Colorado Springs,10.1,19.0,41,Good,35.0,No
+2025-11-19,Nov,Fort Collins,8.6,40.0,42,Good,31.0,No
+2025-11-19,Nov,Grand Junction,8.9,24.0,36,Good,46.0,No
+2025-11-19,Nov,Pueblo,5.5,30.0,31,Good,26.0,No
+2025-11-20,Nov,Denver,14.7,44.0,60,Moderate,23.0,No
+2025-11-20,Nov,Boulder,5.9,34.0,35,Good,28.0,No
+2025-11-20,Nov,Colorado Springs,10.1,35.0,41,Good,23.0,No
+2025-11-20,Nov,Fort Collins,12.0,28.0,49,Good,49.0,No
+2025-11-20,Nov,Grand Junction,10.1,26.0,41,Good,38.0,No
+2025-11-20,Nov,Pueblo,5.8,40.0,41,Good,16.0,No
+2025-11-21,Nov,Denver,8.4,39.0,40,Good,33.0,No
+2025-11-21,Nov,Boulder,5.3,23.0,24,Good,21.0,No
+2025-11-21,Nov,Colorado Springs,5.3,34.0,35,Good,29.0,No
+2025-11-21,Nov,Fort Collins,7.2,37.0,39,Good,27.0,No
+2025-11-21,Nov,Grand Junction,7.9,34.0,35,Good,46.0,No
+2025-11-21,Nov,Pueblo,7.4,28.0,30,Good,33.0,No
+2025-11-22,Nov,Denver,5.4,32.0,33,Good,20.0,No
+2025-11-22,Nov,Boulder,7.8,36.0,38,Good,38.0,No
+2025-11-22,Nov,Colorado Springs,1.9,44.0,45,Good,23.0,No
+2025-11-22,Nov,Fort Collins,10.8,28.0,44,Good,31.0,No
+2025-11-22,Nov,Grand Junction,7.6,27.0,31,Good,29.0,No
+2025-11-22,Nov,Pueblo,4.2,33.0,34,Good,28.0,No
+2025-11-23,Nov,Denver,13.5,32.0,55,Moderate,20.0,No
+2025-11-23,Nov,Boulder,8.3,31.0,33,Good,28.0,No
+2025-11-23,Nov,Colorado Springs,6.0,35.0,36,Good,41.0,No
+2025-11-23,Nov,Fort Collins,8.9,34.0,36,Good,30.0,No
+2025-11-23,Nov,Grand Junction,,43.0,45,Good,35.0,No
+2025-11-23,Nov,Pueblo,5.3,31.0,32,Good,38.0,No
+2025-11-24,Nov,Denver,9.1,43.0,44,Good,35.0,No
+2025-11-24,Nov,Boulder,1.0,33.0,34,Good,30.0,No
+2025-11-24,Nov,Colorado Springs,10.1,25.0,41,Good,33.0,No
+2025-11-24,Nov,Fort Collins,6.8,34.0,36,Good,31.0,No
+2025-11-24,Nov,Grand Junction,,27.0,32,Good,28.0,No
+2025-11-24,Nov,Pueblo,7.3,28.0,30,Good,28.0,No
+2025-11-25,Nov,Denver,8.4,35.0,36,Good,21.0,No
+2025-11-25,Nov,Boulder,5.2,17.0,21,Good,23.0,No
+2025-11-25,Nov,Colorado Springs,2.8,29.0,29,Good,36.0,No
+2025-11-25,Nov,Fort Collins,10.6,32.0,43,Good,30.0,No
+2025-11-25,Nov,Grand Junction,7.5,23.0,30,Good,29.0,No
+2025-11-25,Nov,Pueblo,9.3,33.0,38,Good,42.0,No
+2025-11-26,Nov,Denver,6.8,35.0,36,Good,20.0,No
+2025-11-26,Nov,Boulder,8.9,27.0,36,Good,20.0,No
+2025-11-26,Nov,Colorado Springs,3.7,32.0,33,Good,34.0,No
+2025-11-26,Nov,Fort Collins,8.4,36.0,37,Good,32.0,No
+2025-11-26,Nov,Grand Junction,8.2,24.0,33,Good,31.0,No
+2025-11-26,Nov,Pueblo,5.6,24.0,25,Good,40.0,No
+2025-11-27,Nov,Denver,7.2,46.0,48,Good,20.0,No
+2025-11-27,Nov,Boulder,1.0,32.0,33,Good,23.0,No
+2025-11-27,Nov,Colorado Springs,5.0,27.0,27,Good,29.0,No
+2025-11-27,Nov,Fort Collins,7.4,38.0,40,Good,16.0,No
+2025-11-27,Nov,Grand Junction,6.2,30.0,31,Good,27.0,No
+2025-11-27,Nov,Pueblo,7.6,29.0,31,Good,23.0,No
+2025-11-28,Nov,Denver,13.5,34.0,55,Moderate,30.0,No
+2025-11-28,Nov,Boulder,6.2,30.0,31,Good,24.0,No
+2025-11-28,Nov,Colorado Springs,10.0,26.0,40,Good,22.0,No
+2025-11-28,Nov,Fort Collins,3.1,28.0,29,Good,27.0,No
+2025-11-28,Nov,Grand Junction,12.3,25.0,50,Good,29.0,No
+2025-11-28,Nov,Pueblo,11.1,24.0,45,Good,42.0,No
+2025-11-29,Nov,Denver,11.3,32.0,46,Good,38.0,No
+2025-11-29,Nov,Boulder,6.7,28.0,29,Good,23.0,No
+2025-11-29,Nov,Colorado Springs,8.1,25.0,33,Good,16.0,No
+2025-11-29,Nov,Fort Collins,11.1,30.0,45,Good,29.0,No
+2025-11-29,Nov,Grand Junction,9.1,24.0,37,Good,15.0,No
+2025-11-29,Nov,Pueblo,7.7,22.0,31,Good,47.0,No
+2025-11-30,Nov,Denver,12.2,21.0,49,Good,28.0,No
+2025-11-30,Nov,Boulder,3.4,44.0,46,Good,24.0,No
+2025-11-30,Nov,Colorado Springs,10.1,27.0,41,Good,30.0,No
+2025-11-30,Nov,Fort Collins,4.3,27.0,28,Good,32.0,No
+2025-11-30,Nov,Grand Junction,6.6,20.0,27,Good,30.0,No
+2025-11-30,Nov,Pueblo,4.4,41.0,42,Good,30.0,No
+2025-12-01,Dec,Denver,14.2,29.0,58,Moderate,18.0,No
+2025-12-01,Dec,Boulder,8.5,31.0,34,Good,17.0,No
+2025-12-01,Dec,Colorado Springs,12.3,25.0,50,Good,31.0,No
+2025-12-01,Dec,Fort Collins,9.3,22.0,38,Good,11.0,No
+2025-12-01,Dec,Grand Junction,13.5,26.0,55,Moderate,34.0,No
+2025-12-01,Dec,Pueblo,8.7,31.0,35,Good,22.0,No
+2025-12-02,Dec,Denver,10.6,34.0,43,Good,26.0,No
+2025-12-02,Dec,Boulder,7.1,29.0,30,Good,32.0,No
+2025-12-02,Dec,Colorado Springs,2.9,32.0,33,Good,32.0,No
+2025-12-02,Dec,Fort Collins,3.2,45.0,46,Good,22.0,No
+2025-12-02,Dec,Grand Junction,6.6,35.0,36,Good,27.0,No
+2025-12-02,Dec,Pueblo,5.6,37.0,38,Good,34.0,No
+2025-12-03,Dec,Denver,12.2,35.0,50,Good,25.0,No
+2025-12-03,Dec,Boulder,5.8,25.0,25,Good,26.0,No
+2025-12-03,Dec,Colorado Springs,8.0,38.0,39,Good,32.0,No
+2025-12-03,Dec,Fort Collins,7.0,36.0,37,Good,27.0,No
+2025-12-03,Dec,Grand Junction,14.0,34.0,57,Moderate,32.0,No
+2025-12-03,Dec,Pueblo,10.1,24.0,41,Good,34.0,No
+2025-12-04,Dec,Denver,17.4,40.0,71,Moderate,26.0,No
+2025-12-04,Dec,Boulder,4.5,30.0,31,Good,33.0,No
+2025-12-04,Dec,Colorado Springs,5.1,28.0,29,Good,22.0,No
+2025-12-04,Dec,Fort Collins,3.6,23.0,23,Good,36.0,No
+2025-12-04,Dec,Grand Junction,9.1,37.0,39,Good,41.0,No
+2025-12-04,Dec,Pueblo,4.6,27.0,28,Good,26.0,No
+2025-12-05,Dec,Denver,14.9,34.0,61,Moderate,22.0,No
+2025-12-05,Dec,Boulder,1.9,27.0,28,Good,27.0,No
+2025-12-05,Dec,Colorado Springs,1.0,28.0,29,Good,27.0,No
+2025-12-05,Dec,Fort Collins,1.0,28.0,29,Good,24.0,No
+2025-12-05,Dec,Grand Junction,9.9,28.0,40,Good,27.0,No
+2025-12-05,Dec,Pueblo,7.9,35.0,37,Good,27.0,No
+2025-12-06,Dec,Denver,11.6,36.0,47,Good,15.0,No
+2025-12-06,Dec,Boulder,1.2,34.0,35,Good,21.0,No
+2025-12-06,Dec,Colorado Springs,4.9,27.0,28,Good,26.0,No
+2025-12-06,Dec,Fort Collins,2.1,34.0,36,Good,18.0,No
+2025-12-06,Dec,Grand Junction,12.7,27.0,51,Moderate,28.0,No
+2025-12-06,Dec,Pueblo,6.9,32.0,33,Good,22.0,No
+2025-12-07,Dec,Denver,10.6,45.0,47,Good,11.0,No
+2025-12-07,Dec,Boulder,9.2,30.0,37,Good,38.0,No
+2025-12-07,Dec,Colorado Springs,8.1,26.0,33,Good,27.0,No
+2025-12-07,Dec,Fort Collins,6.0,29.0,30,Good,12.0,No
+2025-12-07,Dec,Grand Junction,9.9,31.0,40,Good,37.0,No
+2025-12-07,Dec,Pueblo,4.9,32.0,33,Good,30.0,No
+2025-12-08,Dec,Denver,11.5,43.0,47,Good,27.0,No
+2025-12-08,Dec,Boulder,10.9,29.0,44,Good,28.0,No
+2025-12-08,Dec,Colorado Springs,2.3,23.0,23,Good,27.0,No
+2025-12-08,Dec,Fort Collins,11.6,34.0,47,Good,16.0,No
+2025-12-08,Dec,Grand Junction,13.8,42.0,56,Moderate,24.0,No
+2025-12-08,Dec,Pueblo,5.7,19.0,23,Good,36.0,No
+2025-12-09,Dec,Denver,16.9,32.0,69,Moderate,17.0,No
+2025-12-09,Dec,Boulder,5.5,28.0,29,Good,26.0,No
+2025-12-09,Dec,Colorado Springs,6.1,35.0,37,Good,42.0,No
+2025-12-09,Dec,Fort Collins,8.6,30.0,35,Good,23.0,No
+2025-12-09,Dec,Grand Junction,10.5,34.0,42,Good,35.0,No
+2025-12-09,Dec,Pueblo,9.2,23.0,37,Good,28.0,No
+2025-12-10,Dec,Denver,10.2,41.0,42,Good,23.0,No
+2025-12-10,Dec,Boulder,4.5,21.0,21,Good,14.0,No
+2025-12-10,Dec,Colorado Springs,1.0,34.0,35,Good,27.0,No
+2025-12-10,Dec,Fort Collins,6.6,34.0,35,Good,33.0,No
+2025-12-10,Dec,Grand Junction,11.2,37.0,46,Good,27.0,No
+2025-12-10,Dec,Pueblo,8.4,14.0,34,Good,35.0,No
+2025-12-11,Dec,Denver,13.1,42.0,53,Moderate,11.0,No
+2025-12-11,Dec,Boulder,11.3,31.0,46,Good,25.0,No
+2025-12-11,Dec,Colorado Springs,5.4,29.0,30,Good,24.0,No
+2025-12-11,Dec,Fort Collins,1.4,18.0,19,Good,24.0,No
+2025-12-11,Dec,Grand Junction,11.6,26.0,47,Good,26.0,No
+2025-12-11,Dec,Pueblo,10.7,26.0,43,Good,27.0,No
+2025-12-12,Dec,Denver,11.8,42.0,48,Good,24.0,No
+2025-12-12,Dec,Boulder,4.4,23.0,23,Good,15.0,No
+2025-12-12,Dec,Colorado Springs,5.5,27.0,28,Good,18.0,No
+2025-12-12,Dec,Fort Collins,,26.0,31,Good,24.0,No
+2025-12-12,Dec,Grand Junction,9.9,35.0,40,Good,27.0,No
+2025-12-12,Dec,Pueblo,9.2,36.0,37,Good,13.0,No
+2025-12-13,Dec,Denver,11.0,40.0,45,Good,20.0,No
+2025-12-13,Dec,Boulder,6.8,44.0,45,Good,17.0,No
+2025-12-13,Dec,Colorado Springs,2.0,12.0,12,Good,20.0,No
+2025-12-13,Dec,Fort Collins,6.2,24.0,25,Good,34.0,No
+2025-12-13,Dec,Grand Junction,9.2,29.0,37,Good,41.0,No
+2025-12-13,Dec,Pueblo,7.1,42.0,44,Good,23.0,No
+2025-12-14,Dec,Denver,15.9,51.0,65,Moderate,10.0,No
+2025-12-14,Dec,Boulder,8.1,34.0,35,Good,18.0,No
+2025-12-14,Dec,Colorado Springs,6.6,29.0,30,Good,35.0,No
+2025-12-14,Dec,Fort Collins,11.1,37.0,45,Good,14.0,No
+2025-12-14,Dec,Grand Junction,13.2,24.0,54,Moderate,31.0,No
+2025-12-14,Dec,Pueblo,12.4,15.0,50,Good,23.0,No
+2025-12-15,Dec,Denver,11.0,36.0,45,Good,24.0,No
+2025-12-15,Dec,Boulder,7.5,26.0,30,Good,15.0,No
+2025-12-15,Dec,Colorado Springs,12.6,32.0,51,Moderate,25.0,No
+2025-12-15,Dec,Fort Collins,9.0,42.0,44,Good,14.0,No
+2025-12-15,Dec,Grand Junction,9.6,25.0,39,Good,28.0,No
+2025-12-15,Dec,Pueblo,4.5,30.0,31,Good,21.0,No
+2025-12-16,Dec,Denver,15.6,32.0,64,Moderate,14.0,No
+2025-12-16,Dec,Boulder,4.0,19.0,19,Good,30.0,No
+2025-12-16,Dec,Colorado Springs,5.2,33.0,34,Good,22.0,No
+2025-12-16,Dec,Fort Collins,2.5,45.0,46,Good,18.0,No
+2025-12-16,Dec,Grand Junction,11.7,40.0,48,Good,30.0,No
+2025-12-16,Dec,Pueblo,4.9,26.0,27,Good,30.0,No
+2025-12-17,Dec,Denver,9.5,31.0,38,Good,28.0,No
+2025-12-17,Dec,Boulder,9.6,28.0,39,Good,25.0,No
+2025-12-17,Dec,Colorado Springs,4.6,21.0,22,Good,34.0,No
+2025-12-17,Dec,Fort Collins,10.6,25.0,43,Good,28.0,No
+2025-12-17,Dec,Grand Junction,7.6,28.0,31,Good,23.0,No
+2025-12-17,Dec,Pueblo,6.1,31.0,32,Good,26.0,No
+2025-12-18,Dec,Denver,15.9,35.0,65,Moderate,14.0,No
+2025-12-18,Dec,Boulder,2.2,25.0,26,Good,12.0,No
+2025-12-18,Dec,Colorado Springs,7.4,32.0,33,Good,17.0,No
+2025-12-18,Dec,Fort Collins,7.4,34.0,35,Good,10.0,No
+2025-12-18,Dec,Grand Junction,15.6,30.0,63,Moderate,28.0,No
+2025-12-18,Dec,Pueblo,9.8,28.0,40,Good,26.0,No
+2025-12-19,Dec,Denver,12.1,39.0,49,Good,12.0,No
+2025-12-19,Dec,Boulder,2.4,36.0,37,Good,23.0,No
+2025-12-19,Dec,Colorado Springs,8.5,31.0,34,Good,19.0,No
+2025-12-19,Dec,Fort Collins,6.1,32.0,33,Good,29.0,No
+2025-12-19,Dec,Grand Junction,13.0,22.0,53,Moderate,19.0,No
+2025-12-19,Dec,Pueblo,2.1,30.0,31,Good,22.0,No
+2025-12-20,Dec,Denver,14.7,43.0,60,Moderate,25.0,No
+2025-12-20,Dec,Boulder,3.8,41.0,42,Good,18.0,No
+2025-12-20,Dec,Colorado Springs,1.6,29.0,30,Good,18.0,No
+2025-12-20,Dec,Fort Collins,11.3,22.0,46,Good,8.0,No
+2025-12-20,Dec,Grand Junction,13.8,28.0,56,Moderate,22.0,No
+2025-12-20,Dec,Pueblo,9.7,34.0,39,Good,27.0,No
+2025-12-21,Dec,Denver,15.6,48.0,64,Moderate,13.0,No
+2025-12-21,Dec,Boulder,1.9,30.0,31,Good,10.0,No
+2025-12-21,Dec,Colorado Springs,9.7,22.0,39,Good,5.0,No
+2025-12-21,Dec,Fort Collins,5.2,38.0,39,Good,25.0,No
+2025-12-21,Dec,Grand Junction,7.4,29.0,30,Good,24.0,No
+2025-12-21,Dec,Pueblo,10.4,19.0,42,Good,17.0,No
+2025-12-22,Dec,Denver,17.1,37.0,70,Moderate,20.0,No
+2025-12-22,Dec,Boulder,8.2,22.0,33,Good,24.0,No
+2025-12-22,Dec,Colorado Springs,9.0,32.0,36,Good,16.0,No
+2025-12-22,Dec,Fort Collins,5.1,46.0,48,Good,27.0,No
+2025-12-22,Dec,Grand Junction,12.7,33.0,52,Moderate,14.0,No
+2025-12-22,Dec,Pueblo,8.4,28.0,34,Good,33.0,No
+2025-12-23,Dec,Denver,13.1,37.0,53,Moderate,14.0,No
+2025-12-23,Dec,Boulder,6.7,25.0,27,Good,15.0,No
+2025-12-23,Dec,Colorado Springs,1.0,32.0,33,Good,13.0,No
+2025-12-23,Dec,Fort Collins,7.5,34.0,35,Good,15.0,No
+2025-12-23,Dec,Grand Junction,13.2,37.0,54,Moderate,33.0,No
+2025-12-23,Dec,Pueblo,8.5,20.0,35,Good,16.0,No
+2025-12-24,Dec,Denver,11.9,41.0,48,Good,9.0,No
+2025-12-24,Dec,Boulder,7.8,35.0,36,Good,21.0,No
+2025-12-24,Dec,Colorado Springs,2.5,25.0,26,Good,18.0,No
+2025-12-24,Dec,Fort Collins,9.6,39.0,40,Good,29.0,No
+2025-12-24,Dec,Grand Junction,9.4,33.0,38,Good,20.0,No
+2025-12-24,Dec,Pueblo,4.4,36.0,37,Good,19.0,No
+2025-12-25,Dec,Denver,14.8,34.0,60,Moderate,11.0,No
+2025-12-25,Dec,Boulder,1.0,29.0,30,Good,10.0,No
+2025-12-25,Dec,Colorado Springs,1.9,35.0,37,Good,18.0,No
+2025-12-25,Dec,Fort Collins,1.1,32.0,33,Good,13.0,No
+2025-12-25,Dec,Grand Junction,9.4,17.0,38,Good,22.0,No
+2025-12-25,Dec,Pueblo,6.5,21.0,26,Good,14.0,No
+2025-12-26,Dec,Denver,19.3,37.0,79,Moderate,38.0,No
+2025-12-26,Dec,Boulder,9.1,31.0,37,Good,36.0,No
+2025-12-26,Dec,Colorado Springs,4.8,35.0,36,Good,6.0,No
+2025-12-26,Dec,Fort Collins,4.5,30.0,31,Good,19.0,No
+2025-12-26,Dec,Grand Junction,10.7,28.0,44,Good,27.0,No
+2025-12-26,Dec,Pueblo,8.0,32.0,33,Good,24.0,No
+2025-12-27,Dec,Denver,13.1,38.0,53,Moderate,14.0,No
+2025-12-27,Dec,Boulder,4.9,28.0,29,Good,20.0,No
+2025-12-27,Dec,Colorado Springs,3.2,29.0,30,Good,29.0,No
+2025-12-27,Dec,Fort Collins,7.1,30.0,31,Good,8.0,No
+2025-12-27,Dec,Grand Junction,13.0,25.0,53,Moderate,21.0,No
+2025-12-27,Dec,Pueblo,7.7,34.0,35,Good,30.0,No
+2025-12-28,Dec,Denver,17.1,43.0,70,Moderate,10.0,No
+2025-12-28,Dec,Boulder,6.3,25.0,26,Good,7.0,No
+2025-12-28,Dec,Colorado Springs,4.2,29.0,30,Good,10.0,No
+2025-12-28,Dec,Fort Collins,5.9,35.0,37,Good,24.0,No
+2025-12-28,Dec,Grand Junction,17.8,30.0,72,Moderate,42.0,No
+2025-12-28,Dec,Pueblo,8.6,27.0,35,Good,36.0,No
+2025-12-29,Dec,Denver,9.8,35.0,40,Good,33.0,No
+2025-12-29,Dec,Boulder,9.2,38.0,39,Good,21.0,No
+2025-12-29,Dec,Colorado Springs,6.3,30.0,31,Good,22.0,No
+2025-12-29,Dec,Fort Collins,8.0,35.0,37,Good,6.0,No
+2025-12-29,Dec,Grand Junction,13.4,27.0,55,Moderate,28.0,No
+2025-12-29,Dec,Pueblo,7.6,28.0,31,Good,29.0,No
+2025-12-30,Dec,Denver,13.3,41.0,54,Moderate,27.0,No
+2025-12-30,Dec,Boulder,6.3,36.0,37,Good,18.0,No
+2025-12-30,Dec,Colorado Springs,2.3,18.0,19,Good,13.0,No
+2025-12-30,Dec,Fort Collins,10.8,30.0,44,Good,22.0,No
+2025-12-30,Dec,Grand Junction,10.7,34.0,43,Good,43.0,No
+2025-12-30,Dec,Pueblo,4.6,30.0,31,Good,18.0,No
+2025-12-31,Dec,Denver,12.2,31.0,49,Good,11.0,No
+2025-12-31,Dec,Boulder,6.7,21.0,27,Good,30.0,No
+2025-12-31,Dec,Colorado Springs,3.8,37.0,38,Good,30.0,No
+2025-12-31,Dec,Fort Collins,2.4,35.0,36,Good,10.0,No
+2025-12-31,Dec,Grand Junction,13.3,33.0,54,Moderate,26.0,No
+2025-12-31,Dec,Pueblo,9.8,32.0,40,Good,15.0,No
