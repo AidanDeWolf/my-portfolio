@@ -96,6 +96,11 @@ line_chart = alt.Chart(aqi_trend).mark_line().encode(
 ).properties(height=350)
 
 st.altair_chart(line_chart, use_container_width=True)
+st.caption(
+    "Line chart showing AQI remaining mostly steady "
+    "throughout the year, with noticeable spikes during the "
+    "summer months associated with increased wildfire activity."
+)
 
 left, middle, right = st.columns(3)
 
@@ -129,6 +134,8 @@ with left:
     ozone_chart = points + trendline
 
     st.altair_chart(ozone_chart, use_container_width=True)
+    st.caption("Scatterplot showing a generally positive relationship between temperature and ozone concentration. "
+               "Higher temperatures tend to correspond with higher ozone levels."
 
 # WILDFIRE SMOKE BOXPLOT
 
@@ -142,6 +149,8 @@ with middle:
     ).properties(height=300)
 
     st.altair_chart(smoke_chart, use_container_width=True)
+    st. caption("AQI Boxplots for wildfire smoke and non-smoke days are completely separated."
+                "The median AQI is 146 on smoke days compared to 39 on non-smoke days, indicating a substantial difference in air quality."
 
 # AVERAGE AQI BY CITY
 with right:
@@ -166,6 +175,11 @@ with right:
     ).properties(height=300)
 
     st.altair_chart(city_chart, use_container_width=True)
+    st.caption("Bar Chart showing the average AQI by city within the selected filters."
+               "Color coded with darker red indicating higher AQI levels and lighter red indicating lower AQI levels."
+               "When viewing the full year, Denver has the highest average "
+                "AQI at 52, followed by Grand Junction at 46 and Pueblo at 43. "
+                "Fort Collins, Colorado Springs, and Boulder each average 41.")
 
 # ----------------------------------
 # KEY INSIGHTS
@@ -180,16 +194,13 @@ highest_city_aqi = city_averages.max()
 
 # Wildfire smoke comparison
 smoke_avg = filtered.groupby("wildfire_smoke")["aqi"].mean()
-
 smoke_yes = smoke_avg.get("yes", float("nan"))
 smoke_no = smoke_avg.get("no", float("nan"))
 
-# Month with highest average AQI
-worst_month = (
-    filtered.groupby("month")["aqi"]
-    .mean()
-    .idxmax()
-)
+# Monthly AQI
+monthly_aqi = filtered.groupby("month")["aqi"].mean()
+worst_month = monthly_aqi.idxmax()
+worst_month_aqi = monthly_aqi.max()
 
 # Temperature and ozone correlation
 correlation = filtered["temp_f"].corr(
