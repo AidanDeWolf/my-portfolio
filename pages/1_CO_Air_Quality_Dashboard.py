@@ -200,9 +200,6 @@ st.markdown(f"""
 - **Highest AQI by city:** {highest_city} has the highest
   average AQI at **{highest_city_aqi:.1f}**.
 
-- **Wildfire smoke impact:** Average AQI is
-  **{smoke_yes:.1f}** on smoke days compared to
-  **{smoke_no:.1f}** on non-smoke days.
 
 - **Seasonal pattern:** {worst_month} has the highest
   average AQI.
