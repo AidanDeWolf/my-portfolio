@@ -95,7 +95,7 @@ k3.metric(
     "Top product",
     filtered.groupby("product")["sales"].sum().idxmax()
 )
-k4.metric("Average Monthly Sales", f"{filtered['sales'].mean():,})
+k4.metric("Average Monthly Sales", f"{filtered['sales'].mean():,}")
 
 # 5. MAIN ROW
 left, right = st.columns((3, 1), gap="medium")
