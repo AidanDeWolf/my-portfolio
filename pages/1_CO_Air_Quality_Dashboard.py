@@ -211,7 +211,7 @@ st.markdown(f"""
 
 
 - **Seasonal pattern:** {worst_month} has the highest
-  average AQI.
+  average AQI at {worst_month_aqi}
 
 - **Ozone and temperature:** The correlation is
   **{correlation:.2f}**.
