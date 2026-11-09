@@ -71,7 +71,7 @@ st.header("Colorado Air Quality Dashboard")
 k1, k2, k3 = st.columns(3)
 
 k1.metric("Average AQI", f"{filtered['aqi'].mean():.1f}")
-k2.metric("Maximum AQI", int(filtered['aqi'].max())
+k2.metric("Maximum AQI", int(filtered['aqi'].max()))
 k3.metric("Average Ozone", f"{filtered['ozone_ppb'].mean():.1f} ppb")
 
 
