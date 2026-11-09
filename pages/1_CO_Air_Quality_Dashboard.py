@@ -3,7 +3,9 @@ import pandas as pd
 import altair as alt
 import streamlit as st
 
-# 1. PAGE CONFIG
+# ----------------------------------
+# PAGE CONFIG
+# ----------------------------------
 st.set_page_config(
     page_title="Colorado Air Quality Dashborad",
     page_icon="🌎",
@@ -11,7 +13,9 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-# 2. LOAD DATA
+# ----------------------------------
+# LOAD DATA
+# ----------------------------------
 @st.cache_data
 def load_data():
     df = pd.read_csv("data/colorado_air_quality.csv")
@@ -20,7 +24,9 @@ def load_data():
 
 df = load_data()
 
-# 3. SIDEBAR
+# ----------------------------------
+# SIDEBAR
+# ----------------------------------
 with st.sidebar:
     st.title("Colorado Air Quality")
 
@@ -65,7 +71,9 @@ if filtered.empty:
     st.stop
 
 
-# 4. KPI ROW
+# ----------------------------------
+# KPI ROW
+# ----------------------------------
 st.header("Colorado Air Quality Dashboard")
 
 k1, k2, k3 = st.columns(3)
@@ -75,7 +83,9 @@ k2.metric("Maximum AQI", int(filtered['aqi'].max()))
 k3.metric("Average Ozone", f"{filtered['ozone_ppb'].mean():.1f} ppb")
 
 
-# 5. MAIN CHARTS
+# ----------------------------------
+# MAIN CHARTS
+# ----------------------------------
 st.subheader("AQI Trend Over Time")
 aqi_trend = (filtered.groupby("date")["aqi"].mean().reset_index())
 
@@ -87,66 +97,97 @@ line_chart = alt.Chart(aqi_trend).mark_line().encode(
 
 st.altair_chart(line_chart, use_container_width=True)
 
-left, right = st.columns(2)
+left, middle, right = st.columns(3)
 
+# OZONE VS TEMPERATURE
 with left:
     st.subheader("Ozone vs. Temperature")
 
-    ozone_chart = alt.Chart(filtered).mark_circle().encode(
-        x="temp_f:Q",
-        y="ozone_ppb:Q",
+    ozone_data = filtered.dropna(
+        subset=["temp_f", "ozone_ppb"]
+    )
+
+    points = alt.Chart(ozone_data).mark_circle(
+        size=20,
+        opacity=0.4
+    ).encode(
+        x=alt.X("temp_f:Q", title="Temperature (F)"),
+        y=alt.Y("ozone_ppb:Q", title="Ozone (ppb)"),
         tooltip=["city", "temp_f", "ozone_ppb"]
     )
+
+    trendline = (
+        alt.Chart(ozone_data)
+        .transform_regression("temp_f", "ozone_ppb")
+        .mark_line(color="red", size=2)
+        .encode(
+            x="temp_f:Q",
+            y="ozone_ppb:Q"
+        )
+    )
+
+    ozone_chart = points + trendline
+
     st.altair_chart(ozone_chart, use_container_width=True)
 
-with right:
+# WILDFIRE SMOKE BOXPLOT
+
+with middle:
     st.subheader("Wildfire Smoke Impact")
 
-    smoke_data = (
-        filtered.groupby("wildfire_smoke")["aqi"]
-        .mean()
-        .reset_index()
-    )
-
-    smoke_chart = alt.Chart(smoke_data).mark_bar().encode(
-        x="wildfire_smoke:N",
-        y="aqi:Q",
-        tooltip=["wildfire_smoke", "aqi"]
-    )
+    smoke_chart = alt.Chart(filtered).mark_boxplot().encode(
+        x=alt.X("wildfire_smoke:N", title="Wildfire Smoke"),
+        y=alt.Y("aqi:Q", title="AQI"),
+        color=alt.Color("wildfire_smoke:N", legend=None)
+    ).properties(height=300)
 
     st.altair_chart(smoke_chart, use_container_width=True)
 
-# 6. TABS
-tab_heat, tab_data = st.tabs(["🔥 Heatmap", "📄 Raw data"])
+# AVERAGE AQI BY CITY
+with right:
+    st.subheader("Average AQI by City")
 
-with tab_heat:
-    heat_df = filtered.groupby(
-        ["region", "product"], as_index=False
-    )["sales"].sum()
-
-    heat = (
-        alt.Chart(heat_df)
-        .mark_rect()
-        .encode(
-            x=alt.X("product:N", title="Product"),
-            y=alt.Y("region:N", title="Region"),
-            color=alt.Color(
-                "sales:Q",
-                scale=alt.Scale(scheme=theme)
-            ),
-            tooltip=["region", "product", "sales"]
-        )
-        .properties(height=250)
+    city_avg = (
+        filtered.groupby("city")["aqi"]
+        .mean()
+        .reset_index()
+        .rename(columns={"aqi": "avg_aqi"})
     )
 
-    st.altair_chart(heat, width="stretch")
+    city_chart = alt.Chart(city_avg).mark_bar().encode(
+        x=alt.X("city:N", title="City", sort="-y"),
+        y=alt.Y("avg_aqi:Q", title="Average AQI"),
+        color=alt.Color(
+            "avg_aqi:Q",
+            scale=alt.Scale(scheme="greens"),
+            legend=None
+        ),
+        tooltip=["city", "avg_aqi"]
+    ).properties(height=300)
 
-with tab_data:
-    st.dataframe(filtered, hide_index=True, width="stretch")
+    st.altair_chart(city_chart, use_container_width=True)
 
-# 7. EXPANDER
-with st.expander("About this dashboard"):
-    st.write(
-        "Synthetic data for teaching. Change the sidebar filters "
-        "and watch every chart rerun automatically."
-    )
+# ----------------------------------
+# KEY INSIGHTS
+# ----------------------------------
+st.divider()
+
+st.subheader("Key Insights")
+
+city_averages = (
+    filtered.groupby("city")["aqi"].mean()
+)
+
+highest_city = city_averages.idxmax()
+lowest_city = city_averages.idxmin()
+
+st.markdown(f"""
+- The average AQI across selected observations is
+  **{filtered['aqi'].mean():.1f}**.
+
+- **{highest_city}** has the highest average AQI,
+  while **{lowest_city}** has the lowest.
+
+- Average ozone concentration is
+  **{filtered['ozone_ppb'].mean():.1f} ppb**.
+""")
