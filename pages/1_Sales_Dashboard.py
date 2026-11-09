@@ -46,9 +46,9 @@ with st.sidebar:
     )
 
     product_choice = st.multiselect(
-        "Region",
-        options=sorted(df["products"].unique()),
-        default=sorted(df["prodcuts"].unique())
+        "Product",
+        options=sorted(df["product"].unique()),
+        default=sorted(df["product"].unique())
     )
 
     month_range = st.slider(
@@ -65,7 +65,7 @@ with st.sidebar:
 
 mask = (
     df["region"].isin(region_choice)
-    & df["product".isin(product_choice)
+    & df["product"].isin(product_choice)
     & df["month"].dt.month.between(
         month_range[0], month_range[1]
     )
