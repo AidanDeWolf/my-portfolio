@@ -1,4 +1,3 @@
-
 import numpy as np
 import pandas as pd
 import altair as alt
@@ -6,8 +5,8 @@ import streamlit as st
 
 # 1. PAGE CONFIG
 st.set_page_config(
-    page_title="Coffee Sales Dashboard",
-    page_icon="☕",
+    page_title="Colorado Air Quality Dashborad",
+    page_icon="🌎",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -15,67 +14,56 @@ st.set_page_config(
 # 2. LOAD DATA
 @st.cache_data
 def load_data():
-    rng = np.random.default_rng(42)
-    regions = ["North", "South", "East", "West"]
-    products = ["Latte", "Espresso", "Cold Brew", "Mocha", "Tea"]
-    months = pd.date_range("2025-01-01", periods=12, freq="MS")
-
-    rows = []
-    for m in months:
-        for r in regions:
-            for p in products:
-                rows.append({
-                    "month": m,
-                    "region": r,
-                    "product": p,
-                    "sales": int(rng.integers(200, 1200))
-                })
-
-    return pd.DataFrame(rows)
+    df = pd.read_csv("data/colorado_air_quality.csv")
+    df["date"] = pd.to_datetime(df["date"], format="%m/%d/%Y")
+    return df
 
 df = load_data()
 
 # 3. SIDEBAR
 with st.sidebar:
-    st.title("☕ Coffee Dashboard")
+    st.title("Colorado Air Quality")
 
-    region_choice = st.multiselect(
-        "Region",
-        options=sorted(df["region"].unique()),
-        default=sorted(df["region"].unique())
-    )
-
-    product_choice = st.multiselect(
-        "Product",
-        options=sorted(df["product"].unique()),
-        default=sorted(df["product"].unique())
+    city_choice = st.multiselect(
+        "City",
+        options=sorted(df["city"].unique()),
+        default=sorted(df["city"].unique())
     )
 
     month_range = st.slider(
-        "Months",
+        "Month(s)",
         min_value=1,
         max_value=12,
         value=(1, 12)
     )
 
-    theme = st.selectbox(
-        "Color theme",
-        ["blues", "greens", "oranges", "purples"]
+    smoke_choice = st.selectbox(
+        "Wildfire Smoke",
+        ["All", "Yes", "No"]
     )
 
-mask = (
-    df["region"].isin(region_choice)
-    & df["product"].isin(product_choice)
-    & df["month"].dt.month.between(
-        month_range[0], month_range[1]
+    category_choice = st.multiselect(
+        "AQI Category",
+        options=sorted(df["aqi_category"].unique()),
+        default=sorted(df["aqi_category"].unique())
     )
-)
+
+
+mask = (df["city"].isin(city_choice)
+        & df["date"].dt.month.between(month_range[0], month_range[1]
+    )
+        & df["aqi_category"].isin(category_choice)
+    )
+
+if smoke_choice != "All":
+    mask = mask & (df["wildfire_smoke"] == smoke_choice)
 
 filtered = df[mask]
 
 if filtered.empty:
-    st.warning("No data for these filters. Pick at least one region.")
-    st.stop()
+    st.warning("No data matches these filters.")
+    st.stop
+
 
 # 4. KPI ROW
 st.header("Sales Overview")
