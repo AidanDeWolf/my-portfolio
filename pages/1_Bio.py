@@ -53,4 +53,4 @@ easier to understand without distorting the underlying data.
 # Contact
 st.header("Contact")
 
-st.write("Email: aidancdewolf@gmail.com")
+st.write("Email: [aidancdewolf@gmail.com]")
