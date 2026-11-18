@@ -11,6 +11,10 @@ st.write("Welcome to my portfolio!")
 
 st.subheader("My Projects")
 st.page_link(
-    "pages/1_CO_Air_Quality_Dashboard.py",
+    "pages/1_Bio.py",
+    label="Bio"
+)
+st.page_link(
+    "pages/5_CO_Air_Quality_Dashboard.py",
     label="Colorado Air Quality Dashboard"
 )
