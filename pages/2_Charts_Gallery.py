@@ -25,7 +25,7 @@ st.header("1. Pressures vs. Points Allowed")
 fig = px.scatter(
     df,
     x="Pressures",
-    y="oPts",
+    y="opp Points",
     color="Win",
     hover_data=["Team", "Date", "Sacks", "Takeaways"],
     title="Defensive Pressures vs. Points Allowed",
