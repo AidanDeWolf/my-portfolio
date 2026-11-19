@@ -209,33 +209,33 @@ else:
 
 
     # Games by team and result
-team_results = (
-    filtered_df.groupby(["Team", "Result"])
-    .size()
-    .reset_index(name="Games")
-)
-
-fig = px.bar(
-    team_results,
-    x="Games",
-    y="Team",
-    color="Result",
-    orientation="h",
-    color_discrete_map={
-        "Win": "#269B70",
-        "Loss": "#D55E00",
-        "Tie": "#777777"
-    },
-    title="Games by Team and Result",
-    labels={"Games": "Number of Games", "Team": "Team"}
-)
-
-fig.update_layout(
-    barmode="stack",
-    yaxis={"categoryorder": "total ascending"}
-)
-
-st.plotly_chart(fig, width="stretch")
+    team_results = (
+        filtered_df.groupby(["Team", "Result"])
+        .size()
+        .reset_index(name="Games")
+    )
+    
+    fig = px.bar(
+        team_results,
+        x="Games",
+        y="Team",
+        color="Result",
+        orientation="h",
+        color_discrete_map={
+            "Win": "#269B70",
+            "Loss": "#D55E00",
+            "Tie": "#777777"
+        },
+        title="Games by Team and Result",
+        labels={"Games": "Number of Games", "Team": "Team"}
+    )
+    
+    fig.update_layout(
+        barmode="stack",
+        yaxis={"categoryorder": "total ascending"}
+    )
+    
+    st.plotly_chart(fig, width="stretch")
 
     # NARRATIVE
     st.subheader("Insights")
