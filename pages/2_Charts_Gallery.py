@@ -24,7 +24,7 @@ df["Result"] = df["Win"].map({
     1: "Win"
 })
 
-# CHART 1
+# PRESSURES
 st.header("1. Pressures vs. Points Allowed")
 
 fig = px.scatter(
@@ -79,5 +79,50 @@ fig = px.bar(
     },
      text_auto=".1f"
 )
+
+
+# SACKS VS TAKEAWAYS
+st.header("2. Sacks vs. Takeaways")
+
+# Create categories
+df["Sack Group"] = pd.cut(
+    df["Sacks"],
+    bins=[-1, 0, 1, 2, 3, float("inf")],
+    labels=["0", "1", "2", "3", "4+"]
+)
+
+df["Takeaway Group"] = pd.cut(
+    df["Takeaways"],
+    bins=[-1, 0, 1, 2, 3, float("inf")],
+    labels=["0", "1", "2", "3", "4+"]
+)
+
+# Calculate win percentage and sample size
+sack_takeaway_summary = df.groupby(
+    ["Sack Group", "Takeaway Group"], observed=False
+).agg(
+    Win_Percentage=("Win", "mean"),
+    n=("Win", "size")
+).reset_index()
+
+sack_takeaway_summary["Win_Percentage"] *= 100
+
+# Create grouped bar chart
+fig = px.bar(
+    sack_takeaway_summary,
+    x="Sack Group",
+    y="Win_Percentage",
+    color="Takeaway Group",
+    barmode="group",
+    title="Win Percentage by Sacks and Takeaways",
+    labels={
+        "Sack Group": "Sacks",
+        "Takeaway Group": "Takeaways",
+        "Win_Percentage": "Win Percentage (%)"
+    },
+    hover_data=["n"],
+    text_auto=".1f"
+)
+
 
 st.plotly_chart(fig, use_container_width=True)
