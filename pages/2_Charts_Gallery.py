@@ -35,7 +35,7 @@ fig = px.scatter(
     color_discrete_map={
         "Win": "#0072B2",
         "Loss": "#D55E00",
-        "Tie": "#0000000"
+        "Tie": "#000000"
     },
     hover_data=["Team", "Date", "Sacks", "Takeaways"],
     trendline="ols",
@@ -56,20 +56,22 @@ df["Pressure Rate"] = df["Pressures"] / df["oPlays"]
 
 df["Pressure Rate Group"] = pd.cut(
     df["Pressure Rate"],
-    bins=[0, 0.05, 0.10, 0.15, 0.20, 1],
-    labels=["0–5%", "5–10%", "10–15%", "15–20%", "20%+"]
+    bins=[0, 0.05, 0.10, 0.15, 0.20, 0.25, 0.30, 0.35, 1],
+    labels=["0–5%", "5–10%", "10–15%", "15–20%", "20-25%", "25-30%", "30-35%", "35%+"]
 )
 
-win_rates = df.groupby(
-    "Pressure Rate Group", observed=False
-)["Win"].mean().reset_index()
+pressure_summary = df.groupby("Pressure Rate Category").agg(
+    Win_Percentage=("Win", "mean"),
+    n=("Win", "size")
+).reset_index()
 
 win_rates["Win"] *= 100
 
 fig = px.bar(
-    win_rates,
+    pressure_summary,
     x="Pressure Rate Group",
-    y="Win",
+    y="Win_Percentage",
+    text = pressure_summary["n"].apply(lambda n: f"n={n}"),
     title="Win Percentage by Defensive Pressure Rate",
     labels={
         "Pressure Rate Group": "Pressures per Opponent Play",
