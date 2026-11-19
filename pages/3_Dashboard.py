@@ -207,6 +207,36 @@ else:
 
     st.plotly_chart(fig, use_container_width=True)
 
+
+    # Games by team and result
+team_results = (
+    filtered_df.groupby(["Team", "Result"])
+    .size()
+    .reset_index(name="Games")
+)
+
+fig = px.bar(
+    team_results,
+    x="Games",
+    y="Team",
+    color="Result",
+    orientation="h",
+    color_discrete_map={
+        "Win": "#269B70",
+        "Loss": "#D55E00",
+        "Tie": "#777777"
+    },
+    title="Games by Team and Result",
+    labels={"Games": "Number of Games", "Team": "Team"}
+)
+
+fig.update_layout(
+    barmode="stack",
+    yaxis={"categoryorder": "total ascending"}
+)
+
+st.plotly_chart(fig, width="stretch")
+
     # NARRATIVE
     st.subheader("Insights")
 
@@ -220,6 +250,7 @@ else:
     - **Highest win percentage:** {best_team['Team']} leads the filtered teams at {best_team['Win_Percentage']:.1f}% ({int(best_team['Games'])} games).
     - **Lowest win percentage:** {worst_team['Team']} has the lowest filtered win percentage at {worst_team['Win_Percentage']:.1f}% ({int(worst_team['Games'])} games).
     """)
+
 
 # DATA SOURCE AND REFRESH
 st.divider()
