@@ -132,42 +132,28 @@ st.plotly_chart(fig, use_container_width=True)
 # CORRELATION MATRIX
 st.header("3. Defensive Statistics and Winning")
 
-# Calculate correlations with winning
-correlations = df[
+# Calculate correlation matrix
+correlation_matrix = df[
     ["Takeaways", "Sacks", "Pressures", "Def. Yards/Play", "Win"]
-].corr(numeric_only=True)["Win"].drop("Win")
+].corr()
 
-correlation_summary = correlations.rename_axis(
-    "Statistic"
-).reset_index(name="Correlation")
-
-# Sort by strength of relationship
-correlation_summary = correlation_summary.sort_values(
-    "Correlation",
-    key=lambda x: x.abs()
-)
-
-# Create chart
-fig = px.bar(
-    correlation_summary,
-    x="Correlation",
-    y="Statistic",
-    orientation="h",
-    text=correlation_summary["Correlation"].apply(
-        lambda x: f"{x:.2f}"
-    ),
+# Create heatmap
+fig = px.imshow(
+    correlation_matrix,
+    text_auto=".2f",
+    aspect="auto",
+    color_continuous_scale="RdBu_r",
+    zmin=-1,
+    zmax=1,
     title="Correlation Between Defensive Statistics and Winning",
     labels={
-        "Correlation": "Correlation with Winning",
-        "Statistic": "Defensive Statistic"
+        "x": "Statistic",
+        "y": "Statistic",
+        "color": "Correlation (r)"
     }
 )
 
-fig.add_vline(x=0, line_dash="dash")
-fig.update_traces(textposition="outside")
-
 st.plotly_chart(fig, use_container_width=True)
-
 
 # DEFENSIVE EFFICIENCY VS PLAYS FACED
 # CHART 4
