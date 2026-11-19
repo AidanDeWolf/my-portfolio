@@ -55,11 +55,11 @@ Running Locally
 
 Clone the repository:
 
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/AidanDeWolf/my-portfolio
 
 Navigate into the project directory:
 
-cd YOUR_PROJECT_DIRECTORY
+cd my-portfolio
 
 Install dependencies:
 
