@@ -27,7 +27,13 @@ fig = px.scatter(
     x="Pressures",
     y="opp Points",
     color="Win",
+    color_discrete_map={
+        1: "#0072B2",
+        0: "#D55E00"
+        0.5: #000000
+    },
     hover_data=["Team", "Date", "Sacks", "Takeaways"],
+    trendline="ols",
     title="Defensive Pressures vs. Points Allowed",
     labels={
         "Pressures": "Pressures",
