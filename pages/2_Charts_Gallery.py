@@ -18,6 +18,11 @@ relate to game outcomes.
 
 # Load dataset
 df = pd.read_csv("data/2024-2026wk10.csv")
+df["Result"] = df["Win"].map({
+    0: "Loss",
+    0.5: "Tie",
+    1: "Win"
+})
 
 # CHART 1
 st.header("1. Pressures vs. Points Allowed")
@@ -26,11 +31,11 @@ fig = px.scatter(
     df,
     x="Pressures",
     y="opp Points",
-    color="Win",
+    color="Result"
     color_discrete_map={
-        1: "#0072B2",
-        0: "#D55E00"
-        0.5: #000000
+        "Win": "#0072B2",
+        "Loss": "#D55E00",
+        "Tie": "#0000000"
     },
     hover_data=["Team", "Date", "Sacks", "Takeaways"],
     trendline="ols",
