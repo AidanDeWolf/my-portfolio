@@ -48,7 +48,7 @@ fig = px.scatter(
     }
 )
 
-st.plotly_chart(fig, width=True)
+st.plotly_chart(fig, width='stretch')
 
 
 
@@ -79,7 +79,7 @@ fig = px.bar(
     },
      text_auto=".1f"
 )
-st.plotly_chart(fig, width=True)
+st.plotly_chart(fig, width='stretch')
 
 
 # SACKS VS TAKEAWAYS
@@ -127,7 +127,7 @@ fig = px.line(
     }
 )
 
-st.plotly_chart(fig, width=True)
+st.plotly_chart(fig, width='stretch')
 
 # CORRELATION MATRIX
 st.header("3. Defensive Statistics and Winning")
@@ -153,7 +153,7 @@ fig = px.imshow(
     }
 )
 
-st.plotly_chart(fig, width=True)
+st.plotly_chart(fig, width='stretch')
 
 # DEFENSIVE EFFICIENCY VS PLAYS FACED
 # CHART 4
@@ -173,4 +173,4 @@ fig = px.scatter(
     }
 )
 
-st.plotly_chart(fig, width=True)
+st.plotly_chart(fig, width='stretch')
