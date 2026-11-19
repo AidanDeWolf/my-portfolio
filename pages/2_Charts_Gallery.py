@@ -128,3 +128,63 @@ fig = px.line(
 )
 
 st.plotly_chart(fig, use_container_width=True)
+
+# CORRELATION MATRIX
+st.header("3. Defensive Statistics and Winning")
+
+# Calculate correlations with winning
+correlations = df[
+    ["Takeaways", "Sacks", "Pressures", "Def. Yards/Play", "Win"]
+].corr(numeric_only=True)["Win"].drop("Win")
+
+correlation_summary = correlations.rename_axis(
+    "Statistic"
+).reset_index(name="Correlation")
+
+# Sort by strength of relationship
+correlation_summary = correlation_summary.sort_values(
+    "Correlation",
+    key=lambda x: x.abs()
+)
+
+# Create chart
+fig = px.bar(
+    correlation_summary,
+    x="Correlation",
+    y="Statistic",
+    orientation="h",
+    text=correlation_summary["Correlation"].apply(
+        lambda x: f"{x:.2f}"
+    ),
+    title="Correlation Between Defensive Statistics and Winning",
+    labels={
+        "Correlation": "Correlation with Winning",
+        "Statistic": "Defensive Statistic"
+    }
+)
+
+fig.add_vline(x=0, line_dash="dash")
+fig.update_traces(textposition="outside")
+
+st.plotly_chart(fig, use_container_width=True)
+
+
+# DEFENSIVE EFFICIENCY VS PLAYS FACED
+# CHART 4
+st.header("4. Defensive Efficiency vs. Plays Faced")
+
+fig = px.scatter(
+    df,
+    x="Defensive Plays",
+    y="Def. Yards/Play",
+    hover_data=["Team", "Date", "Sacks", "Takeaways"],
+    trendline="ols",
+    trendline_scope="overall",
+    title="Defensive Efficiency by Opponent Plays Faced",
+    labels={
+        "Defensive Plays": "Opponent Offensive Plays",
+        "Def. Yards/Play": "Yards Allowed per Play"
+    }
+)
+
+st.plotly_chart(fig, use_container_width=True)
