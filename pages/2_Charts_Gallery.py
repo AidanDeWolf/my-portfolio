@@ -52,7 +52,7 @@ st.plotly_chart(fig, use_container_width=True)
 
 
 
-df["Pressure Rate"] = df["Pressures"] / df["oPlays"]
+df["Pressure Rate"] = df["Pressures"] / df["opp Plays"]
 
 df["Pressure Rate Group"] = pd.cut(
     df["Pressure Rate"],
