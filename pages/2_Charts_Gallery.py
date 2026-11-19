@@ -76,7 +76,8 @@ fig = px.bar(
     labels={
         "Pressure Rate Group": "Pressures per Opponent Play",
         "Win": "Win Percentage (%)"
-    }
+    },
+     text_auto=".1f"
 )
 
 st.plotly_chart(fig, use_container_width=True)
