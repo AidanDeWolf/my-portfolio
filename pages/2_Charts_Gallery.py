@@ -61,7 +61,7 @@ df["Pressure Rate Group"] = pd.cut(
     labels=["0–5%", "5–10%", "10–15%", "15–20%", "20-25%", "25-30%", "30-35%", "35%+"]
 )
 
-pressure_summary = df.groupby("Pressure Rate Category").agg(
+pressure_summary = df.groupby("Pressure Rate Group").agg(
     Win_Percentage=("Win", "mean"),
     n=("Win", "size")
 ).reset_index()
