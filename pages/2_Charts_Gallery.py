@@ -43,3 +43,34 @@ fig = px.scatter(
 )
 
 st.plotly_chart(fig, use_container_width=True)
+
+
+
+
+df["Pressure Rate"] = df["Pressures"] / df["oPlays"]
+
+df["Pressure Rate Group"] = pd.cut(
+    df["Pressure Rate"],
+    bins=[0, 0.05, 0.10, 0.15, 0.20, 1],
+    labels=["0–5%", "5–10%", "10–15%", "15–20%", "20%+"]
+)
+
+win_rates = df.groupby(
+    "Pressure Rate Group", observed=False
+)["Win"].mean().reset_index()
+
+win_rates["Win"] *= 100
+
+fig = px.bar(
+    win_rates,
+    x="Pressure Rate Group",
+    y="Win",
+    title="Win Percentage by Defensive Pressure Rate",
+    labels={
+        "Pressure Rate Group": "Pressures per Opponent Play",
+        "Win": "Win Percentage (%)"
+    },
+    text_auto=".1f"
+)
+
+st.plotly_chart(fig, use_container_width=True)
