@@ -207,7 +207,8 @@ else:
             "Tie": "#777777"
         },
         title="Games by Team and Result",
-        labels={"Games": "Number of Games", "Team": "Team"}
+        labels={"Games": "Number of Games", "Team": "Team"},
+        category_orders={"Result": ["Win", "Tie", "Loss"]}
     )
     
     team_order = (
@@ -219,7 +220,7 @@ else:
     
     fig.update_layout(
         barmode="stack",
-        yaxis={"categoryorder": "total ascending", "categoryarray": team_order},
+        yaxis={"categoryorder": "array", "categoryarray": team_order},
         height=1200
     )
     
