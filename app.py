@@ -19,7 +19,13 @@ st.page_link(
 st.subheader("EDA Gallery")
 st.page_link(
     "pages/2_Charts_Gallery.py",
-    label="Bio"
+    label="EDA"
+)
+
+st.subheader("Interactive Dashboard")
+st.page_link(
+    "pages/3_Dashboard.py",
+    label="Dashboard"
 )
 
 st.page_link(
