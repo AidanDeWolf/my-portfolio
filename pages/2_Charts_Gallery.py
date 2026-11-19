@@ -37,7 +37,7 @@ fig = px.scatter(
     title="Defensive Pressures vs. Points Allowed",
     labels={
         "Pressures": "Pressures",
-        "oPts": "Points Allowed",
+        "opp Points": "Points Allowed",
         "Win": "Won Game"
     }
 )
