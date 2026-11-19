@@ -14,6 +14,14 @@ st.page_link(
     "pages/1_Bio.py",
     label="Bio"
 )
+
+
+st.subheader("EDA Gallery")
+st.page_link(
+    "pages/2_Charts_Gallery.py",
+    label="Bio"
+)
+
 st.page_link(
     "pages/5_CO_Air_Quality_Dashboard.py",
     label="Colorado Air Quality Dashboard"
