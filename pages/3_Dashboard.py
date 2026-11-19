@@ -143,9 +143,9 @@ else:
         color="Outcome",
         orientation="h",
         color_discrete_map={
-            "Win": "#009E73",
+            "Win": "#D55E00",
             "Tie": "#999999",
-            "Loss": "#D55E00"
+            "Loss": "#009E73"
         },
         text=outcomes.apply(
             lambda row: f"{row['Outcome']}: {row['Percentage']:.1f}%",
@@ -200,9 +200,9 @@ else:
         color="Result",
         orientation="h",
         color_discrete_map={
-            "Win": "#009E73",
+            "Win": "#D55E00",
             "Tie": "#999999",
-            "Loss": "#D55E00"
+            "Loss": "#009E73"
         },
         title="Games by Team and Result",
         labels={"Games": "Number of Games", "Team": "Team"},
