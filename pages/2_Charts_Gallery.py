@@ -58,11 +58,11 @@ st.markdown("""
 - Each point represents one team-game observation.
 - The X-axis shows pressures generated.
 - The Y-axis shows points allowed.
-- Colors distinguish wins, losses, and ties; the trendline shows the overall relationship.
+- Colors distinguish wins, losses, and ties; the trendline shows the overall relationship between pressures and points allowed.
 
 **Observations:**
-- Pressures show a strong relationship with winning.
-- Pressures also show a strong relationship with limiting points allowed.
+- Pressures show a relatively weak relationship with limiting points
+- There are likely countercurrents from being on the  field more which will be explored  in the next chart
 """)
 
 df["Pressure Rate"] = df["Pressures"] / df["Defensive Plays"]
@@ -102,9 +102,8 @@ st.markdown("""
 - Higher bars indicate higher win percentages.
 
 **Observations:**
-- Compare win percentages across pressure-rate categories.
-- Look for whether win percentage generally increases as pressure rate increases.
-- Consider the sample size in each category when comparing results.
+- We can see a very strong relationship between pressure rate and win percentage
+- This graph is more relevant than the previous because it accounts for number of defensive plays
 """)
 
 # SACKS VS TAKEAWAYS
@@ -164,9 +163,9 @@ st.markdown("""
 - Hover over points to see the number of observations.
 
 **Observations:**
-- At two sacks, the win percentage is 68%, compared with 48% for two takeaways.
-- At three sacks, the win percentage is 82%, compared with 58% for three takeaways.
-- Sacks show a higher win percentage than takeaways at these two levels.
+- At two takeaways, the win percentage is 68%, compared with 48% for two sacks.
+- At three takeaways, the win percentage is 82%, compared with 58% for three sacks.
+- Takeaways show a significantly higher win%
 """)
 
 # CORRELATION MATRIX
@@ -208,7 +207,7 @@ st.markdown("""
 - Takeaways have the strongest correlation with winning (r = 0.36).
 - Defensive yards allowed per play have the second-strongest relationship with winning.
 - Pressures (r = 0.30) and sacks (r = 0.29) have relatively similar correlations.
-- Overall, the correlations are weaker than expected, suggesting no single defensive statistic has a particularly strong linear relationship with winning.
+- Overall, the difference between takeaways and the other three was smaller than I expected, with a spread of just 0.07 in absolute value
 """)
 
 # DEFENSIVE EFFICIENCY VS PLAYS FACED
