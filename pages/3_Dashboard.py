@@ -171,10 +171,10 @@ else:
     # WIN PERCENTAGE BY TEAM
     st.subheader("Win Percentage by Team")
 
-    team_summary = filtered_df.groupby("Team").agg(
+    team_summary = (filtered_df.groupby("Team").agg(
         Win_Percentage=("Win", "mean"),
         Games=("Win", "size")
-    ).reset_index()
+    ).reset_index())
 
     team_summary["Win_Percentage"] *= 100
 
