@@ -216,7 +216,7 @@ else:
             Games=("Win", "count")
         )
         .sort_values(
-            ["Win_Percentage", "Games"],
+            ["Games", "Win_Percentage"],
             ascending=[True, True]
         )
         .index.tolist()
