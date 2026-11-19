@@ -16,10 +16,14 @@ st.divider()
 st.header("Professional Summary")
 
 st.write("""
-I'm a Data Science student at Metropolitan State University of Denver
-with an interest in machine learning, statistical analysis, and data
-visualization. I enjoy using data to investigate questions, identify
-patterns, and communicate meaningful insights.
+I'm a Data Science student at Metropolitan State University of Denver with an interest in machine learning,
+statistical analysis, and data visualization. Through my coursework and projects, I've gained experience 
+using Python, R, and SQL to clean and analyze datasets, develop predictive models, and explore relationships 
+between variables. I enjoy approaching real-world questions from a data-driven perspective, using statistical 
+methods and visualizations to identify patterns and communicate meaningful findings. My academic projects have
+allowed me to work with a variety of techniques, including regression, classification, clustering, and machine
+learning algorithms. I'm continuing to develop my technical skills and looking for opportunities to apply data 
+science to practical problems.
 """)
 
 # Highlights
