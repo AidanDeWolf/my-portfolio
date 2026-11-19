@@ -172,8 +172,6 @@ else:
         "The stacked bar displays wins, losses, and ties separately."
     )
 
-    # WIN PERCENTAGE BY TEAM
-    st.subheader("Win Percentage by Team")
 
     team_summary = (filtered_df.groupby("Team").agg(
         Win_Percentage=("Win", "mean"),
@@ -212,9 +210,15 @@ else:
     )
     
     team_order = (
-        filtered_df.groupby("Team")["Win"]
-        .mean()
-        .sort_values()
+        filtered_df.groupby("Team")
+        .agg(
+            Win_Percentage=("Win", "mean"),
+            Games=("Win", "count")
+        )
+        .sort_values(
+            ["Win_Percentage", "Games"],
+            ascending=[True, False]
+        )
         .index.tolist()
     )
     
