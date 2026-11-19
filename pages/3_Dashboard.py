@@ -19,6 +19,11 @@ df["Date"] = pd.to_datetime(df["Date"])
 df["Pressure Rate"] = (
     df["Pressures"] / df["Defensive Plays"].replace(0, pd.NA)
 )
+df["Result"] = df["Win"].map({
+    0: "Loss",
+    0.5: "Tie",
+    1: "Win"
+})
 
 # SIDEBAR FILTERS
 st.sidebar.header("Dashboard Filters")
