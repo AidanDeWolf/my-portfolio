@@ -143,9 +143,9 @@ else:
         color="Outcome",
         orientation="h",
         color_discrete_map={
-            "Win": "#56B4E9",
-            "Tie": "#999999",
-            "Loss": "#D55E00"
+            "Wins": "#56B4E9",
+            "Ties": "#999999",
+            "Losses": "#D55E00"
         },
         text=outcomes.apply(
             lambda row: f"{row['Outcome']}: {row['Percentage']:.1f}%",
