@@ -39,6 +39,7 @@ fig = px.scatter(
     },
     hover_data=["Team", "Date", "Sacks", "Takeaways"],
     trendline="ols",
+    trendline_scope="overall",
     title="Defensive Pressures vs. Points Allowed",
     labels={
         "Pressures": "Pressures",
@@ -52,7 +53,7 @@ st.plotly_chart(fig, use_container_width=True)
 
 
 
-df["Pressure Rate"] = df["Pressures"] / df["opp Plays"]
+df["Pressure Rate"] = df["Pressures"] / df["Defensive Plays"]
 
 df["Pressure Rate Group"] = pd.cut(
     df["Pressure Rate"],
