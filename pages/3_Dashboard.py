@@ -1,4 +1,3 @@
-
 import streamlit as st
 import pandas as pd
 import plotly.express as px
@@ -237,8 +236,10 @@ else:
     
     fig.update_layout(
         barmode="stack",
-        yaxis={"categoryorder": "total ascending"}
+        yaxis={"categoryorder": "total ascending"},
+        height=900
     )
+    
     
     st.plotly_chart(fig, width="stretch")
 
