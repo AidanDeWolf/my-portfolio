@@ -84,45 +84,48 @@ fig = px.bar(
 # SACKS VS TAKEAWAYS
 st.header("2. Sacks vs. Takeaways")
 
-# Create categories
-df["Sack Group"] = pd.cut(
-    df["Sacks"],
-    bins=[-1, 0, 1, 2, 3, float("inf")],
-    labels=["0", "1", "2", "3", "4+"]
-)
-
-df["Takeaway Group"] = pd.cut(
-    df["Takeaways"],
-    bins=[-1, 0, 1, 2, 3, float("inf")],
-    labels=["0", "1", "2", "3", "4+"]
-)
-
-# Calculate win percentage and sample size
-sack_takeaway_summary = df.groupby(
-    ["Sack Group", "Takeaway Group"], observed=False
-).agg(
+# Group sacks
+sack_summary = df.groupby("Sacks").agg(
     Win_Percentage=("Win", "mean"),
     n=("Win", "size")
 ).reset_index()
 
-sack_takeaway_summary["Win_Percentage"] *= 100
+sack_summary["Statistic"] = "Sacks"
+sack_summary["Value"] = sack_summary["Sacks"]
 
-# Create grouped bar chart
-fig = px.bar(
-    sack_takeaway_summary,
-    x="Sack Group",
+# Group takeaways
+takeaway_summary = df.groupby("Takeaways").agg(
+    Win_Percentage=("Win", "mean"),
+    n=("Win", "size")
+).reset_index()
+
+takeaway_summary["Statistic"] = "Takeaways"
+takeaway_summary["Value"] = takeaway_summary["Takeaways"]
+
+# Combine data
+comparison = pd.concat([
+    sack_summary[["Statistic", "Value", "Win_Percentage", "n"]],
+    takeaway_summary[["Statistic", "Value", "Win_Percentage", "n"]]
+])
+
+comparison["Win_Percentage"] *= 100
+
+# Create chart
+fig = px.line(
+    comparison,
+    x="Value",
     y="Win_Percentage",
-    color="Takeaway Group",
-    barmode="group",
-    title="Win Percentage by Sacks and Takeaways",
-    labels={
-        "Sack Group": "Sacks",
-        "Takeaway Group": "Takeaways",
-        "Win_Percentage": "Win Percentage (%)"
-    },
+    color="Statistic",
+    markers=True,
     hover_data=["n"],
-    text_auto=".1f"
+    title="Win Percentage by Sacks vs. Takeaways",
+    labels={
+        "Value": "Number of Sacks / Takeaways",
+        "Win_Percentage": "Win Percentage (%)",
+        "Statistic": "Defensive Statistic"
+    }
 )
 
+st.plotly_chart(fig, use_container_width=True)
 
 st.plotly_chart(fig, use_container_width=True)
