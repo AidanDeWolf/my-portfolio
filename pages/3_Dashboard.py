@@ -215,10 +215,9 @@ else:
             Win_Percentage=("Win", "mean"),
             Games=("Win", "count")
         )
-        .assign(Win_Percentage=lambda x: x["Win_Percentage"].round(4))
         .sort_values(
             ["Win_Percentage", "Games"],
-            ascending=[True, False]
+            ascending=[False, False]
         )
         .index.tolist()
     )
