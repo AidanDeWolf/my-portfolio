@@ -28,6 +28,12 @@ st.page_link(
     label="Dashboard"
 )
 
+st.subheader("Future Work")
+st.page_link(
+    "pages/4_Future.py",
+    label="Future"
+)
+
 st.page_link(
     "pages/5_CO_Air_Quality_Dashboard.py",
     label="Colorado Air Quality Dashboard"
