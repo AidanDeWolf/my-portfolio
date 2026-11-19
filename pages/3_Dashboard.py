@@ -56,7 +56,7 @@ def numeric_filter(label, column, step=1, format=None):
         min_value=minimum,
         max_value=maximum,
         value=(minimum, maximum),
-        step=step,
+        step=float(step),
         format=format
     )
 
