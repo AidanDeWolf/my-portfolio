@@ -43,36 +43,43 @@ Created a Fumbles Recovered stat, using Takeaways and Interceptions to find it
 
 Used existing defensive statistics to examine relationships with opponent points and game outcomes.
 
-Ethics Note
+## Ethics Note
 
 This dataset contains professional NFL team and game statistics rather than personal or sensitive individual-level information.
 
-Requirements
+## Requirements
 
 See requirements.txt for the Python dependencies required to run the application.
 
-Running Locally
+## Running Locally
 
-Clone the repository:
+### Clone the repository:
 
 git clone https://github.com/AidanDeWolf/my-portfolio
 
-Navigate into the project directory:
+### Navigate into the project directory:
 
 cd my-portfolio
 
-Install dependencies:
+### Install dependencies:
 
 pip install -r requirements.txt
 
-Start the Streamlit application:
+### Start the Streamlit application:
 
 streamlit run app.py
 
-Screenshots
+## Screenshots
 
-Screenshots of the application can be added here to preview the Bio, EDA Gallery, and Dashboard pages.
+### Bio Page
+![Bio Page](screenshots/bio_sample.png)
 
-AI Assistance Acknowledgment
+### EDA Gallery
+![EDA Gallery](screenshots/EDA_sample.png)
+
+### Dashboard
+![Dashboard](screenshots/dashboard_sample.png)
+
+## AI Assistance Acknowledgment
 
 ChatGPT was used to assist with Python debugging, Streamlit development, and documentation. All project decisions, data analysis, and final implementation were reviewed by the author.
