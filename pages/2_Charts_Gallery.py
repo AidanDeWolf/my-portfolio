@@ -79,35 +79,29 @@ fig = px.bar(
     },
      text_auto=".1f"
 )
+st.plotly_chart(fig, use_container_width=True)
 
 
 # SACKS VS TAKEAWAYS
 st.header("2. Sacks vs. Takeaways")
 
-# Create categories
-bins = [-1, 0, 1, 2, 3, 4, float("inf")]
-labels = ["0", "1", "2", "3", "4", "5+"]
-
-df["Sack Group"] = pd.cut(df["Sacks"], bins=bins, labels=labels)
-df["Takeaway Group"] = pd.cut(df["Takeaways"], bins=bins, labels=labels)
-
 # Group sacks
-sack_summary = df.groupby("Sack Group", observed=False).agg(
+sack_summary = df.groupby("Sacks").agg(
     Win_Percentage=("Win", "mean"),
     n=("Win", "size")
 ).reset_index()
 
 sack_summary["Statistic"] = "Sacks"
-sack_summary["Value"] = sack_summary["Sack Group"].astype(str)
+sack_summary["Value"] = sack_summary["Sacks"]
 
 # Group takeaways
-takeaway_summary = df.groupby("Takeaway Group", observed=False).agg(
+takeaway_summary = df.groupby("Takeaways").agg(
     Win_Percentage=("Win", "mean"),
     n=("Win", "size")
 ).reset_index()
 
 takeaway_summary["Statistic"] = "Takeaways"
-takeaway_summary["Value"] = takeaway_summary["Takeaway Group"].astype(str)
+takeaway_summary["Value"] = takeaway_summary["Takeaways"]
 
 # Combine data
 comparison = pd.concat([
@@ -125,7 +119,6 @@ fig = px.line(
     color="Statistic",
     markers=True,
     hover_data=["n"],
-    category_orders={"Value": labels},
     title="Win Percentage by Sacks vs. Takeaways",
     labels={
         "Value": "Number of Sacks / Takeaways",
