@@ -31,7 +31,7 @@ fig = px.scatter(
     df,
     x="Pressures",
     y="opp Points",
-    color="Result"
+    color="Result",
     color_discrete_map={
         "Win": "#0072B2",
         "Loss": "#D55E00",
