@@ -187,30 +187,6 @@ else:
         ascending=True
     )
 
-    fig = px.bar(
-        team_summary,
-        x="Win_Percentage",
-        y="Team",
-        orientation="h",
-        text=team_summary["Win_Percentage"].apply(
-            lambda x: f"{x:.1f}%"
-        ),
-        hover_data=["Games"],
-        title="Historical Win Percentage by Team",
-        labels={
-            "Win_Percentage": "Win Percentage (%)",
-            "Team": "NFL Team"
-        }
-    )
-
-    fig.update_layout(
-        xaxis=dict(range=[0, 100])
-    )
-
-    fig.update_traces(textposition="outside")
-
-    st.plotly_chart(fig, use_container_width=True)
-
 
     # Games by team and result
     team_results = (
@@ -234,10 +210,17 @@ else:
         labels={"Games": "Number of Games", "Team": "Team"}
     )
     
+    team_order = (
+        filtered_df.groupby("Team")["Win"]
+        .mean()
+        .sort_values()
+        .index.tolist()
+    )
+    
     fig.update_layout(
         barmode="stack",
-        yaxis={"categoryorder": "total ascending"},
-        height=900
+        yaxis={"categoryorder": "total ascending", "categoryarray": team_order},
+        height=1200
     )
     
     
