@@ -134,7 +134,7 @@ st.header("3. Defensive Statistics and Winning")
 
 # Calculate correlation matrix
 correlation_matrix = df[
-    ["Takeaways", "Sacks", "Pressures", "Def. Yards/Play", "Win"]
+    ["Win", "Takeaways", "Sacks", "Pressures", "Def. Yards/Play"]
 ].corr()
 
 # Create heatmap
