@@ -57,8 +57,8 @@ df["Pressure Rate"] = df["Pressures"] / df["Defensive Plays"]
 
 df["Pressure Rate Group"] = pd.cut(
     df["Pressure Rate"],
-    bins=[0, 0.05, 0.10, 0.15, 0.20, 0.25, 0.30, 0.35, 1],
-    labels=["0–5%", "5–10%", "10–15%", "15–20%", "20-25%", "25-30%", "30-35%", "35%+"]
+    bins=[0, 0.05, 0.10, 0.15, 0.20, 0.25, 1],
+    labels=["0–5%", "5–10%", "10–15%", "15–20%", "20-25%", "25%+"]
 )
 
 pressure_summary = df.groupby("Pressure Rate Group").agg(
@@ -78,7 +78,7 @@ fig = px.bar(
         "Pressure Rate Group": "Pressures per Opponent Play",
         "Win": "Win Percentage (%)"
     },
-    text_auto=".1f"
+    textposition="outside"
 )
 
 st.plotly_chart(fig, use_container_width=True)
