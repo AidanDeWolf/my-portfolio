@@ -66,7 +66,7 @@ pressure_summary = df.groupby("Pressure Rate Group").agg(
     n=("Win", "size")
 ).reset_index()
 
-win_rates["Win"] *= 100
+pressure_summary["Win_Percentage"] *= 100
 
 fig = px.bar(
     pressure_summary,
